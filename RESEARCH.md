@@ -657,3 +657,38 @@ Results pending review.
 
 No physical device or firmware modifications performed.
 
+
+## Phase 3.9 — Validated results
+
+Date: 2026-11-24
+
+Status: COMPLETE
+
+- Recovered 152 command names from each firmware bank.
+- All recovered function pointers passed executable-section validation.
+- Both dispatch tables terminated correctly.
+- Both firmware generations expose identical command names.
+- All recovered command pointers indicate ARM mode.
+- Multiple command aliases share function entry addresses.
+- The crunchprog entry reinforces the crunchgen architecture.
+
+| Property | Bank 0 | Bank 1 |
+|---|---|---|
+| Dispatcher | 0x000084D8 | 0x000084D8 |
+| Dispatch table | 0x0079CC40 | 0x0079B7C0 |
+| Terminator | 0x0079D100 | 0x0079BC80 |
+| Commands | 152 | 152 |
+
+The complete command mapping is documented in COMMAND_MAP.md.
+
+## Phase 3.10 — Ghidra preparation
+
+Status: Scripts generated; import validation pending.
+
+- Generate separate Java labeling scripts for each firmware bank.
+- Consolidate aliases sharing an entry address.
+- Preserve aliases in function comments.
+- Generate a cross-firmware command address map.
+- Prioritize GPIO, I2C, Ethernet and thermal analysis.
+- No physical hardware or firmware modifications performed.
+
