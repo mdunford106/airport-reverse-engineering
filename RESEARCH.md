@@ -692,3 +692,39 @@ Status: Scripts generated; import validation pending.
 - Prioritize GPIO, I2C, Ethernet and thermal analysis.
 - No physical hardware or firmware modifications performed.
 
+
+## Phase 3.10 — Validated results
+
+Date: 2026-11-24
+
+Status: COMPLETE
+
+- 152 command names recovered per firmware bank.
+- 140 unique command entry addresses per bank.
+- 10 groups of commands sharing entry addresses.
+- 45 command entry addresses unchanged.
+- 107 command entry addresses changed.
+- Both firmware generations expose identical command names.
+- Java labeling scripts generated for both banks.
+- COMMAND_MAP.md generated.
+- Address changes do not independently prove logic changes.
+
+### Troubleshooting
+
+Ghidra installation detection incorrectly checked for
+a Homebrew cask instead of a formula.
+
+## Phase 3.11 — Ghidra initialization
+
+Status: IN PROGRESS
+
+Objectives:
+
+- Import primary firmware multicall ELF.
+- Validate ARM architecture and memory layout.
+- Complete initial auto-analysis.
+- Apply recovered command labels.
+- Begin GPIO and thermal reverse engineering.
+
+No modifications to physical hardware or firmware.
+
