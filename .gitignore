@@ -22,3 +22,5 @@ ssh_host_*
 
 # macOS
 .DS_Store
+system-analysis/
+elf-analysis/

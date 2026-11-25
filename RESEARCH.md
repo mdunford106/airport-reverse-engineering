@@ -449,3 +449,107 @@ total 1280
  ANALYSIS COMPLETE
 ========================================
 ```
+
+## Phase 3.5 — Filesystem validation
+
+Date: 2026-11-24
+- Bank 0, offset 005616e0: directory listing succeeded (1355 entries).
+- Bank 0, offset 005636e0: directory listing succeeded (1 entries).
+- Bank 1, offset 005616e0: directory listing succeeded (1354 entries).
+- Bank 1, offset 005636e0: directory listing succeeded (1 entries).
+
+## Phase 3.6 — Revised extraction
+
+Date: 2026-11-24
+
+### Troubleshooting
+
+- Initial Bank 0 startup file extraction succeeded.
+- Sleuth Kit istat failed on character device inode 1068.
+- Reported invalid block address: 38400 (0x9600).
+- Suspected special-device inode interpretation issue.
+- Removed special-device block inspection.
+- Replaced verbose inode output with directory inventory.
+- Added ELF32 little-endian ARM validation.
+- No changes made to physical device or source firmware.
+
+### Results
+
+#### Bank 0
+
+```text
+system-analysis/bank0/multicall.bin: ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), statically linked, for NetBSD 6.0, stripped
+7a1e5fae541f8fd112d98f261b18eb3ac3ac1c8be02e3223660d5b1b7cc2e05b  system-analysis/bank0/multicall.bin
+ 10281308 system-analysis/bank0/multicall.bin
+```
+
+#### Bank 1
+
+```text
+system-analysis/bank1/multicall.bin: ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), statically linked, for NetBSD 6.0, stripped
+3372d0a04afc23ba7d46a1db1f0a8b9c0aa3b1865070ef8d387e71fbe17b89b2  system-analysis/bank1/multicall.bin
+ 10258548 system-analysis/bank1/multicall.bin
+```
+
+
+## Phase 3.6 — Validated extraction results
+
+Date: 2026-11-24
+
+Status: COMPLETE
+
+- Both multicall executables validated as ARM32 LE ELF.
+- Both use ARM EABI4 and target NetBSD 6.0.
+- Both are statically linked and stripped.
+- Entry point: 0x00008180.
+- Both contain 150 multicall directory entries.
+- Bank 0 executable size: 10281308 bytes.
+- Bank 1 executable size: 10258548 bytes.
+- Executable size difference: 22760 bytes.
+
+### SHA256
+
+Bank 0:
+
+7a1e5fae541f8fd112d98f261b18eb3ac3ac1c8be02e3223660d5b1b7cc2e05b
+
+Bank 1:
+
+3372d0a04afc23ba7d46a1db1f0a8b9c0aa3b1865070ef8d387e71fbe17b89b2
+
+### Persistent flash discovery
+
+- Bank 0 disklabel capacity: 5922 sectors.
+- Bank 1 disklabel capacity: 2394 sectors.
+- Sector size: 512 bytes.
+- Stock startup logic can erase and reformat flash2.
+- Secondary firmware boot deferred pending recovery planning.
+- Preserve current persistent storage.
+
+### Hardware interfaces
+
+- Apple GPIO device: /dev/applgpio0
+- Apple fan device: /dev/applfan0
+- I2C device: /dev/iic0
+- Watchdog: /dev/watchdog
+- Ethernet management: esconfig and ether-port
+- Temperature monitoring: sysTemperature
+- Accelerometer management: accelctl
+- GPIO mapping ioctl: MAP_OUT
+- Stock tty01 getty configured for 115200 baud.
+- Physical UART voltage and pinout remain unverified.
+
+## Phase 3.7 — ARM ELF analysis
+
+Method:
+
+- Inspect ELF metadata using LLVM.
+- Map hardware-related strings to virtual addresses.
+- Compare multicall command inventories.
+- Generate offline ARM disassembly.
+- Prepare binaries for Ghidra import.
+
+Analysis generated locally; interpretation pending.
+
+No physical device or firmware modifications performed.
+
