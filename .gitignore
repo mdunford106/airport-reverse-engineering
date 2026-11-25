@@ -1,0 +1,24 @@
+# Firmware binaries
+*.bin
+*.raw
+*.img
+*.partial
+
+# Research output directories
+extractions/
+netbsd-analysis/
+structure-analysis/
+deep-analysis/
+preserved-data/
+filesystem-analysis/
+rootfs-analysis/
+
+# Sensitive information
+*.key
+*.pem
+ACPData.bin
+tcapsulesmb.conf
+ssh_host_*
+
+# macOS
+.DS_Store
