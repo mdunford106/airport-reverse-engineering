@@ -24,3 +24,6 @@ ssh_host_*
 .DS_Store
 system-analysis/
 elf-analysis/
+xref-analysis/
+ghidra-projects/
+dispatch-analysis/

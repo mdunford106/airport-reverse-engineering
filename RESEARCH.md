@@ -553,3 +553,107 @@ Analysis generated locally; interpretation pending.
 
 No physical device or firmware modifications performed.
 
+
+### Phase 3.7 — Validated results
+
+Status: COMPLETE
+
+- Both binaries are fixed-address ARM32 LE ELF executables.
+- Image base: 0x00008000.
+- Entry point: 0x00008180.
+- Both contain four program headers and 18 section headers.
+- No symbol tables or relocations were reported.
+- Both multicall command inventories are identical.
+- Both contain 32 matching hardware-related strings.
+- Bank 0 disassembly: 1986313 lines.
+- Bank 1 disassembly: 1985012 lines.
+
+#### Primary firmware hardware string addresses
+
+| Target | Virtual address |
+|---|---|
+| esconfig | 0x0079C9C8 |
+| ether-port | 0x0079C9DC |
+| accelctl | 0x0079CA18 |
+| /dev/iic0 | 0x0080D38C |
+| /dev/applgpio0 | 0x008436A4 |
+| /dev/applfan0 | 0x008436CC |
+| sysTemperature error | 0x008436E8 |
+| MAP_OUT error | 0x00868E40 |
+| BCM_LED_FUNC_MAP error | 0x0091D9A8 |
+
+Additional hardware utilities identified:
+
+- twiddle-gpio
+- i2cctl
+- envstat
+- esctl
+- drvctl
+- wl
+
+## Phase 3.8 — Hardware cross-references
+
+Method:
+
+- Locate hardware-related strings.
+- Translate file offsets into ELF virtual addresses.
+- Identify embedded string pointers.
+- Index candidate ARM PC-relative literal loads.
+- Extract targeted disassembly.
+- Inspect candidate main routine at 0x000084D8.
+
+Results pending manual validation.
+
+All analysis remains offline and read-only with respect
+to the physical AirPort device.
+
+
+### Phase 3.8 — Cross-reference results
+
+Status: COMPLETE
+
+- Bank 0 indexed literal locations: 105026.
+- Bank 1 indexed literal locations: 104997.
+- Both banks yielded 40 candidate hardware LDR sites.
+- Both banks yielded 40 targeted disassembly snippets.
+- Multicall dispatcher identified at 0x000084D8.
+- Dispatch instruction identified at 0x00008570.
+- Candidate dispatch table entry size: 8 bytes.
+- First word: command name pointer.
+- Second word: function entry pointer.
+- Bank 0 candidate table: 0x0079CC40.
+- Bank 1 candidate table: 0x0079B7C0.
+
+#### Hardware cross-reference candidates
+
+| Interface | Bank 0 | Bank 1 |
+|---|---|---|
+| Fan | 0x00268098 | 0x00267EC4 |
+| Temperature | 0x002681A8 | 0x00267FD4 |
+| GPIO | 0x00267DFC | 0x00267C28 |
+| GPIO manipulation | 0x00309CC0 | 0x003091A8 |
+| MAP_OUT | 0x00309D64 | 0x0030924C |
+| I2C | 0x001FFE3C | 0x001FFC68 |
+| Ethernet | 0x001FC83C | 0x001FC668 |
+| Watchdog | 0x002AA980 | 0x002AA380 |
+| Switch LEDs | 0x0058A9F4 | 0x00589E58 |
+
+These are reference sites, not verified function boundaries.
+
+## Phase 3.9 — Multicall dispatch
+
+Method:
+
+- Parse ELF program and section headers.
+- Translate virtual addresses into file offsets.
+- Decode candidate eight-byte dispatch entries.
+- Validate command name strings.
+- Validate function pointers against executable sections.
+- Identify ARM and Thumb pointer modes.
+- Compare command tables between firmware generations.
+- Generate candidate Ghidra function labels.
+
+Results pending review.
+
+No physical device or firmware modifications performed.
+
