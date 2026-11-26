@@ -1,0 +1,11 @@
+8012a4c0 cpy r12,sp
+8012a4c4 stmdb sp!,{r4,r11,r12,lr,pc}
+8012a4c8 sub r11,r12,#0x4
+8012a4cc sub sp,sp,#0x4
+8012a4d0 cpy r4,r0
+8012a4d4 ldr r1,[0x8012a4ec]
+8012a4d8 ldr r0,[r0,#0x10]
+8012a4dc bl 0x80232498
+8012a4e0 mov r0,#0x0
+8012a4e4 str r0,[r4,#0x10]
+8012a4e8 ldmib sp,{r4,r11,sp,pc}

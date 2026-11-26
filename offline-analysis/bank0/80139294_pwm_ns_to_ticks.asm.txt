@@ -1,0 +1,11 @@
+80139294 cpy r12,sp
+80139298 stmdb sp!,{r4,r5,r11,r12,lr,pc}
+8013929c sub r11,r12,#0x4
+801392a0 ldr r12,[r0,#0x4]
+801392a4 ldr r2,[0x801392c0]
+801392a8 umull r4,r5,r12,r1
+801392ac mov r3,#0x0
+801392b0 cpy r0,r4
+801392b4 cpy r1,r5
+801392b8 bl 0x804ca164
+801392bc ldmia sp,{r4,r5,r11,sp,pc}

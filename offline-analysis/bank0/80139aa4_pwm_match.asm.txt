@@ -1,0 +1,9 @@
+80139aa4 cpy r12,sp
+80139aa8 stmdb sp!,{r11,r12,lr,pc}
+80139aac sub r11,r12,#0x4
+80139ab0 ldr r0,[r1,#0x0]
+80139ab4 ldr r1,[r2,#0xc]
+80139ab8 bl 0x804ca288
+80139abc rsbs r0,r0,#0x1
+80139ac0 movcc r0,#0x0
+80139ac4 ldmia sp,{r11,sp,pc}

@@ -1,0 +1,596 @@
+[
+  {
+    "name": "ContCompute.c",
+    "bank0": "8010e5ac_ContCompute.c",
+    "bank1": "8010e5ac_ContCompute.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "Force_Fan_Duty_Cycle.c",
+    "bank0": "80128bcc_Force_Fan_Duty_Cycle.c",
+    "bank1": "80128bcc_Force_Fan_Duty_Cycle.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "Force_Fan_Init.c",
+    "bank0": "80128c80_Force_Fan_Init.c",
+    "bank1": "80128c80_Force_Fan_Init.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_FanTachISR.c",
+    "bank0": "801295d4_GPIO_FanTachISR.c",
+    "bank1": "801295d4_GPIO_FanTachISR.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_FanTachISR_RPMs.c",
+    "bank0": "80129494_GPIO_FanTachISR_RPMs.c",
+    "bank1": "80129494_GPIO_FanTachISR_RPMs.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_OverCurrentISR.c",
+    "bank0": "80129a90_GPIO_OverCurrentISR.c",
+    "bank1": "80129904_GPIO_OverCurrentISR.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_Report_Activity.c",
+    "bank0": "8012a1d4_GPIO_Report_Activity.c",
+    "bank1": "8012a168_GPIO_Report_Activity.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_Setup.c",
+    "bank0": "80129fec_GPIO_Setup.c",
+    "bank1": "80129f80_GPIO_Setup.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_hdd_powerctl.c",
+    "bank0": "80129834_GPIO_hdd_powerctl.c",
+    "bank1": "801297a0_GPIO_hdd_powerctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_interrupt_SetCallBack.c",
+    "bank0": "8012a214_GPIO_interrupt_SetCallBack.c",
+    "bank1": "8012a1a8_GPIO_interrupt_SetCallBack.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_interrupt_pin.c",
+    "bank0": "8012abb8_GPIO_interrupt_pin.c",
+    "bank1": "8012ab4c_GPIO_interrupt_pin.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_interrupt_pin_disable.c",
+    "bank0": "8012a264_GPIO_interrupt_pin_disable.c",
+    "bank1": "8012a1f8_GPIO_interrupt_pin_disable.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_interrupt_pin_ex.c",
+    "bank0": "8012a8f4_GPIO_interrupt_pin_ex.c",
+    "bank1": "8012a888_GPIO_interrupt_pin_ex.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_invert_input_pin.c",
+    "bank0": "8012948c_GPIO_invert_input_pin.c",
+    "bank1": "8012948c_GPIO_invert_input_pin.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_map_input_pin.c",
+    "bank0": "80129ec8_GPIO_map_input_pin.c",
+    "bank1": "80129d3c_GPIO_map_input_pin.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_map_output_pin.c",
+    "bank0": "8012964c_GPIO_map_output_pin.c",
+    "bank1": "80129e60_GPIO_map_output_pin.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_read.c",
+    "bank0": "80129898_GPIO_read.c",
+    "bank1": "80129804_GPIO_read.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_select_alternate_pin_mux.c",
+    "bank0": "80129e58_GPIO_select_alternate_pin_mux.c",
+    "bank1": "80129ccc_GPIO_select_alternate_pin_mux.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_set_inputPullUpPullDown.c",
+    "bank0": "80129c98_GPIO_set_inputPullUpPullDown.c",
+    "bank1": "80129b0c_GPIO_set_inputPullUpPullDown.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "GPIO_write.c",
+    "bank0": "8012976c_GPIO_write.c",
+    "bank1": "8012964c_GPIO_write.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "Set_Fan_Duty_Cycle.c",
+    "bank0": "8010f734_Set_Fan_Duty_Cycle.c",
+    "bank1": "8010f734_Set_Fan_Duty_Cycle.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "acltm_calculate_virtual_temperatures.c",
+    "bank0": "8010e78c_acltm_calculate_virtual_temperatures.c",
+    "bank1": "8010e78c_acltm_calculate_virtual_temperatures.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "acltm_per_sensor.c",
+    "bank0": "8010f514_acltm_per_sensor.c",
+    "bank1": "8010f514_acltm_per_sensor.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "acltm_run_PI_loops.c",
+    "bank0": "8010efd4_acltm_run_PI_loops.c",
+    "bank1": "8010efd4_acltm_run_PI_loops.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "acltmattach.c",
+    "bank0": "8010e4a4_acltmattach.c",
+    "bank1": "8010e4a4_acltmattach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfan_refresh.c",
+    "bank0": "801287e4_applfan_refresh.c",
+    "bank1": "801287e4_applfan_refresh.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwm_attach.c",
+    "bank0": "8012914c_applfanpwm_attach.c",
+    "bank1": "8012914c_applfanpwm_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwm_detach.c",
+    "bank0": "801290f4_applfanpwm_detach.c",
+    "bank1": "801290f4_applfanpwm_detach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwm_ioctl.c",
+    "bank0": "80128da0_applfanpwm_ioctl.c",
+    "bank1": "80128da0_applfanpwm_ioctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwm_lock.c",
+    "bank0": "80129084_applfanpwm_lock.c",
+    "bank1": "80129084_applfanpwm_lock.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwm_match.c",
+    "bank0": "80129450_applfanpwm_match.c",
+    "bank1": "80129450_applfanpwm_match.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwm_unlock.c",
+    "bank0": "8012904c_applfanpwm_unlock.c",
+    "bank1": "8012904c_applfanpwm_unlock.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwmclose.c",
+    "bank0": "801287dc_applfanpwmclose.c",
+    "bank1": "801287dc_applfanpwmclose.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwmioctl.c",
+    "bank0": "80128fd4_applfanpwmioctl.c",
+    "bank1": "80128fd4_applfanpwmioctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "applfanpwmopen.c",
+    "bank0": "80128f9c_applfanpwmopen.c",
+    "bank1": "80128f9c_applfanpwmopen.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "bcm53xx_bootstrap.c",
+    "bank0": "80131ef8_bcm53xx_bootstrap.c",
+    "bank1": "80131db4_bcm53xx_bootstrap.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "bcm53xx_device_register.c",
+    "bank0": "80131aec_bcm53xx_device_register.c",
+    "bank1": "80131a80_bcm53xx_device_register.c",
+    "normalized_text_equal": false
+  },
+  {
+    "name": "bcm53xx_pax2_power_gate.c",
+    "bank0": "80131e38_bcm53xx_pax2_power_gate.c",
+    "bank1": "missing",
+    "normalized_text_equal": false
+  },
+  {
+    "name": "bcmcca_mainbus_attach.c",
+    "bank0": "80132dec_bcmcca_mainbus_attach.c",
+    "bank1": "80132ca8_bcmcca_mainbus_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "bcmcca_print.c",
+    "bank0": "80132d54_bcmcca_print.c",
+    "bank1": "80132c10_bcmcca_print.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "bcmccb_mainbus_attach.c",
+    "bank0": "80133124_bcmccb_mainbus_attach.c",
+    "bank1": "80132fe0_bcmccb_mainbus_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "bcmpax_configure.c",
+    "bank0": "80137fe8_bcmpax_configure.c",
+    "bank1": "missing",
+    "normalized_text_equal": false
+  },
+  {
+    "name": "bcmpax_power_gate.c",
+    "bank0": "801378fc_bcmpax_power_gate.c",
+    "bank1": "missing",
+    "normalized_text_equal": false
+  },
+  {
+    "name": "bcmpax_resume.c",
+    "bank0": "80138564_bcmpax_resume.c",
+    "bank1": "missing",
+    "normalized_text_equal": false
+  },
+  {
+    "name": "bcmpax_suspend.c",
+    "bank0": "80137d18_bcmpax_suspend.c",
+    "bank1": "missing",
+    "normalized_text_equal": false
+  },
+  {
+    "name": "cltm_check_load.c",
+    "bank0": "8010eef8_cltm_check_load.c",
+    "bank1": "8010eef8_cltm_check_load.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_deregister_radio.c",
+    "bank0": "8010f754_cltm_deregister_radio.c",
+    "bank1": "8010f754_cltm_deregister_radio.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_register_radio.c",
+    "bank0": "8010f80c_cltm_register_radio.c",
+    "bank1": "8010f80c_cltm_register_radio.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_setfreq.c",
+    "bank0": "8010e3bc_cltm_setfreq.c",
+    "bank1": "8010e3bc_cltm_setfreq.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_stats_reset_sysctl.c",
+    "bank0": "8010e12c_cltm_stats_reset_sysctl.c",
+    "bank1": "8010e12c_cltm_stats_reset_sysctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_stats_sysctl.c",
+    "bank0": "8010e058_cltm_stats_sysctl.c",
+    "bank1": "8010e058_cltm_stats_sysctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_verify_fan_override.c",
+    "bank0": "8010e1fc_cltm_verify_fan_override.c",
+    "bank1": "8010e1fc_cltm_verify_fan_override.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltm_verify_radio_override.c",
+    "bank0": "8010e2c4_cltm_verify_radio_override.c",
+    "bank1": "8010e2c4_cltm_verify_radio_override.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "cltmthread.c",
+    "bank0": "8010f8d0_cltmthread.c",
+    "bank1": "8010f8d0_cltmthread.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "emc141x_attach.c",
+    "bank0": "80182818_emc141x_attach.c",
+    "bank1": "801824b8_emc141x_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "emc141x_match.c",
+    "bank0": "80182ac0_emc141x_match.c",
+    "bank1": "80182760_emc141x_match.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "emc141x_refresh.c",
+    "bank0": "80182670_emc141x_refresh.c",
+    "bank1": "80182310_emc141x_refresh.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_add_event.c",
+    "bank0": "8012ad1c_gpio_add_event.c",
+    "bank1": "8012acb0_gpio_add_event.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_attach.c",
+    "bank0": "8012a5ac_gpio_attach.c",
+    "bank1": "8012a540_gpio_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_close.c",
+    "bank0": "8012a4c0_gpio_close.c",
+    "bank1": "8012a454_gpio_close.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_get_next_event.c",
+    "bank0": "8012a4f0_gpio_get_next_event.c",
+    "bank1": "8012a484_gpio_get_next_event.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_ioctl.c",
+    "bank0": "8012b0fc_gpio_ioctl.c",
+    "bank1": "8012b090_gpio_ioctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_match.c",
+    "bank0": "8012a6ec_gpio_match.c",
+    "bank1": "8012a680_gpio_match.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_open.c",
+    "bank0": "8012a728_gpio_open.c",
+    "bank1": "8012a6bc_gpio_open.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_platform_ioctl.c",
+    "bank0": "8012a238_gpio_platform_ioctl.c",
+    "bank1": "8012a1cc_gpio_platform_ioctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_print.c",
+    "bank0": "8012a26c_gpio_print.c",
+    "bank1": "8012a200_gpio_print.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_read.c",
+    "bank0": "8012a87c_gpio_read.c",
+    "bank1": "8012a810_gpio_read.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_submatch.c",
+    "bank0": "8012a660_gpio_submatch.c",
+    "bank1": "8012a5f4_gpio_submatch.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpio_write.c",
+    "bank0": "8012a7f4_gpio_write.c",
+    "bank1": "8012a788_gpio_write.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpiocca_attach.c",
+    "bank0": "8012a304_gpiocca_attach.c",
+    "bank1": "8012a298_gpiocca_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpiocca_intr.c",
+    "bank0": "8012aea0_gpiocca_intr.c",
+    "bank1": "8012ae34_gpiocca_intr.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "gpiotimer.c",
+    "bank0": "8012abc4_gpiotimer.c",
+    "bank1": "8012ab58_gpiotimer.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_clear_set_bit.c",
+    "bank0": "801285ec_iproc_pwmc_clear_set_bit.c",
+    "bank1": "801285ec_iproc_pwmc_clear_set_bit.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_clear_set_bit.c",
+    "bank0": "80139124_iproc_pwmc_clear_set_bit.c",
+    "bank1": "80138db4_iproc_pwmc_clear_set_bit.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_config.c",
+    "bank0": "80128968_iproc_pwmc_config.c",
+    "bank1": "80128968_iproc_pwmc_config.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_config_duty_ticks.c",
+    "bank0": "8012886c_iproc_pwmc_config_duty_ticks.c",
+    "bank1": "8012886c_iproc_pwmc_config_duty_ticks.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_config_duty_ticks.c",
+    "bank0": "8013931c_iproc_pwmc_config_duty_ticks.c",
+    "bank1": "80138fac_iproc_pwmc_config_duty_ticks.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_set_field.c",
+    "bank0": "8012868c_iproc_pwmc_set_field.c",
+    "bank1": "8012868c_iproc_pwmc_set_field.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_set_field.c",
+    "bank0": "801391c4_iproc_pwmc_set_field.c",
+    "bank1": "80138e54_iproc_pwmc_set_field.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_start.c",
+    "bank0": "801286ec_iproc_pwmc_start.c",
+    "bank1": "801286ec_iproc_pwmc_start.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_start.c",
+    "bank0": "80139224_iproc_pwmc_start.c",
+    "bank1": "80138eb4_iproc_pwmc_start.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_stop.c",
+    "bank0": "80128724_iproc_pwmc_stop.c",
+    "bank1": "80128724_iproc_pwmc_stop.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "iproc_pwmc_stop.c",
+    "bank0": "8013925c_iproc_pwmc_stop.c",
+    "bank1": "80138eec_iproc_pwmc_stop.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_attach.c",
+    "bank0": "801399b8_pwm_attach.c",
+    "bank1": "80139648_pwm_attach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_detach.c",
+    "bank0": "80139960_pwm_detach.c",
+    "bank1": "801395f0_pwm_detach.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_ioctl.c",
+    "bank0": "80139418_pwm_ioctl.c",
+    "bank1": "801390a8_pwm_ioctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_lock.c",
+    "bank0": "80139878_pwm_lock.c",
+    "bank1": "80139508_pwm_lock.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_match.c",
+    "bank0": "80139aa4_pwm_match.c",
+    "bank1": "80139734_pwm_match.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_ns_to_ticks.c",
+    "bank0": "8012875c_pwm_ns_to_ticks.c",
+    "bank1": "8012875c_pwm_ns_to_ticks.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_ns_to_ticks.c",
+    "bank0": "80139294_pwm_ns_to_ticks.c",
+    "bank1": "80138f24_pwm_ns_to_ticks.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_ticks_to_ns.c",
+    "bank0": "8012878c_pwm_ticks_to_ns.c",
+    "bank1": "8012878c_pwm_ticks_to_ns.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_ticks_to_ns.c",
+    "bank0": "801392c4_pwm_ticks_to_ns.c",
+    "bank1": "80138f54_pwm_ticks_to_ns.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "pwm_unlock.c",
+    "bank0": "80139840_pwm_unlock.c",
+    "bank1": "801394d0_pwm_unlock.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "reset_cltm_stats.c",
+    "bank0": "8010e504_reset_cltm_stats.c",
+    "bank1": "8010e504_reset_cltm_stats.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "sysctl_cltm_setup.c",
+    "bank0": "8010d6dc_sysctl_cltm_setup.c",
+    "bank1": "8010d6dc_sysctl_cltm_setup.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "sysmon_envsys_find_40.c",
+    "bank0": "8030d6d4_sysmon_envsys_find_40.c",
+    "bank1": "8030d2b8_sysmon_envsys_find_40.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "sysmonioctl.c",
+    "bank0": "8030c964_sysmonioctl.c",
+    "bank1": "8030c548_sysmonioctl.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "sysmonioctl_envsys.c",
+    "bank0": "8030e11c_sysmonioctl_envsys.c",
+    "bank1": "8030dd00_sysmonioctl_envsys.c",
+    "normalized_text_equal": true
+  },
+  {
+    "name": "usbovercurrenttimer.c",
+    "bank0": "80129ae0_usbovercurrenttimer.c",
+    "bank1": "80129954_usbovercurrenttimer.c",
+    "normalized_text_equal": true
+  }
+]

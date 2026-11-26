@@ -1,0 +1,255 @@
+007922c4 eor r0,r1,r0
+007922c8 eor r1,r0,r1
+007922cc eor r0,r1,r0
+007922d0 cmp r0,#0x1
+007922d4 bcc 0x00792274
+007922d8 beq 0x007922b8
+007922dc ands r12,r0,#0x80000000
+007922e0 rsbmi r0,r0,#0x0
+007922e4 ands r2,r1,#0x80000000
+007922e8 eor r12,r12,r2
+007922ec rsbmi r1,r1,#0x0
+007922f0 orr r12,r2,r12, lsr #0x1
+007922f4 mov r2,#0x1
+007922f8 mov r3,#0x0
+007922fc movs r1,r1
+00792300 bpl 0x00792400
+00792304 tst r1,r0
+00792308 bmi 0x0079266c
+0079230c tst r1,r0, lsl #0x1
+00792310 bmi 0x00792660
+00792314 tst r1,r0, lsl #0x2
+00792318 bmi 0x00792654
+0079231c tst r1,r0, lsl #0x3
+00792320 bmi 0x00792648
+00792324 tst r1,r0, lsl #0x4
+00792328 bmi 0x0079263c
+0079232c tst r1,r0, lsl #0x5
+00792330 bmi 0x00792630
+00792334 tst r1,r0, lsl #0x6
+00792338 bmi 0x00792624
+0079233c tst r1,r0, lsl #0x7
+00792340 bmi 0x00792618
+00792344 tst r1,r0, lsl #0x8
+00792348 bmi 0x0079260c
+0079234c tst r1,r0, lsl #0x9
+00792350 bmi 0x00792600
+00792354 tst r1,r0, lsl #0xa
+00792358 bmi 0x007925f4
+0079235c tst r1,r0, lsl #0xb
+00792360 bmi 0x007925e8
+00792364 tst r1,r0, lsl #0xc
+00792368 bmi 0x007925dc
+0079236c tst r1,r0, lsl #0xd
+00792370 bmi 0x007925d0
+00792374 tst r1,r0, lsl #0xe
+00792378 bmi 0x007925c4
+0079237c tst r1,r0, lsl #0xf
+00792380 bmi 0x007925b8
+00792384 tst r1,r0, lsl #0x10
+00792388 bmi 0x007925ac
+0079238c tst r1,r0, lsl #0x11
+00792390 bmi 0x007925a0
+00792394 tst r1,r0, lsl #0x12
+00792398 bmi 0x00792594
+0079239c tst r1,r0, lsl #0x13
+007923a0 bmi 0x00792588
+007923a4 tst r1,r0, lsl #0x14
+007923a8 bmi 0x0079257c
+007923ac tst r1,r0, lsl #0x15
+007923b0 bmi 0x00792570
+007923b4 tst r1,r0, lsl #0x16
+007923b8 bmi 0x00792564
+007923bc tst r1,r0, lsl #0x17
+007923c0 bmi 0x00792558
+007923c4 tst r1,r0, lsl #0x18
+007923c8 bmi 0x0079254c
+007923cc tst r1,r0, lsl #0x19
+007923d0 bmi 0x00792540
+007923d4 tst r1,r0, lsl #0x1a
+007923d8 bmi 0x00792534
+007923dc tst r1,r0, lsl #0x1b
+007923e0 bmi 0x00792528
+007923e4 tst r1,r0, lsl #0x1c
+007923e8 bmi 0x0079251c
+007923ec tst r1,r0, lsl #0x1d
+007923f0 bmi 0x00792510
+007923f4 tst r1,r0, lsl #0x1e
+007923f8 bmi 0x00792504
+007923fc b 0x007924f8
+00792400 cmp r1,r0
+00792404 bcc 0x00792678
+00792408 cmp r1,r0, lsl #0x1
+0079240c bcc 0x0079266c
+00792410 cmp r1,r0, lsl #0x2
+00792414 bcc 0x00792660
+00792418 cmp r1,r0, lsl #0x3
+0079241c bcc 0x00792654
+00792420 cmp r1,r0, lsl #0x4
+00792424 bcc 0x00792648
+00792428 cmp r1,r0, lsl #0x5
+0079242c bcc 0x0079263c
+00792430 cmp r1,r0, lsl #0x6
+00792434 bcc 0x00792630
+00792438 cmp r1,r0, lsl #0x7
+0079243c bcc 0x00792624
+00792440 cmp r1,r0, lsl #0x8
+00792444 bcc 0x00792618
+00792448 cmp r1,r0, lsl #0x9
+0079244c bcc 0x0079260c
+00792450 cmp r1,r0, lsl #0xa
+00792454 bcc 0x00792600
+00792458 cmp r1,r0, lsl #0xb
+0079245c bcc 0x007925f4
+00792460 cmp r1,r0, lsl #0xc
+00792464 bcc 0x007925e8
+00792468 cmp r1,r0, lsl #0xd
+0079246c bcc 0x007925dc
+00792470 cmp r1,r0, lsl #0xe
+00792474 bcc 0x007925d0
+00792478 cmp r1,r0, lsl #0xf
+0079247c bcc 0x007925c4
+00792480 cmp r1,r0, lsl #0x10
+00792484 bcc 0x007925b8
+00792488 cmp r1,r0, lsl #0x11
+0079248c bcc 0x007925ac
+00792490 cmp r1,r0, lsl #0x12
+00792494 bcc 0x007925a0
+00792498 cmp r1,r0, lsl #0x13
+0079249c bcc 0x00792594
+007924a0 cmp r1,r0, lsl #0x14
+007924a4 bcc 0x00792588
+007924a8 cmp r1,r0, lsl #0x15
+007924ac bcc 0x0079257c
+007924b0 cmp r1,r0, lsl #0x16
+007924b4 bcc 0x00792570
+007924b8 cmp r1,r0, lsl #0x17
+007924bc bcc 0x00792564
+007924c0 cmp r1,r0, lsl #0x18
+007924c4 bcc 0x00792558
+007924c8 cmp r1,r0, lsl #0x19
+007924cc bcc 0x0079254c
+007924d0 cmp r1,r0, lsl #0x1a
+007924d4 bcc 0x00792540
+007924d8 cmp r1,r0, lsl #0x1b
+007924dc bcc 0x00792534
+007924e0 cmp r1,r0, lsl #0x1c
+007924e4 bcc 0x00792528
+007924e8 cmp r1,r0, lsl #0x1d
+007924ec bcc 0x0079251c
+007924f0 cmp r1,r0, lsl #0x1e
+007924f4 bcc 0x00792510
+007924f8 cmp r1,r0, lsl #0x1f
+007924fc subcs r1,r1,r0, lsl #0x1f
+00792500 addcs r3,r3,r2, lsl #0x1f
+00792504 cmp r1,r0, lsl #0x1e
+00792508 subcs r1,r1,r0, lsl #0x1e
+0079250c addcs r3,r3,r2, lsl #0x1e
+00792510 cmp r1,r0, lsl #0x1d
+00792514 subcs r1,r1,r0, lsl #0x1d
+00792518 addcs r3,r3,r2, lsl #0x1d
+0079251c cmp r1,r0, lsl #0x1c
+00792520 subcs r1,r1,r0, lsl #0x1c
+00792524 addcs r3,r3,r2, lsl #0x1c
+00792528 cmp r1,r0, lsl #0x1b
+0079252c subcs r1,r1,r0, lsl #0x1b
+00792530 addcs r3,r3,r2, lsl #0x1b
+00792534 cmp r1,r0, lsl #0x1a
+00792538 subcs r1,r1,r0, lsl #0x1a
+0079253c addcs r3,r3,r2, lsl #0x1a
+00792540 cmp r1,r0, lsl #0x19
+00792544 subcs r1,r1,r0, lsl #0x19
+00792548 addcs r3,r3,r2, lsl #0x19
+0079254c cmp r1,r0, lsl #0x18
+00792550 subcs r1,r1,r0, lsl #0x18
+00792554 addcs r3,r3,r2, lsl #0x18
+00792558 cmp r1,r0, lsl #0x17
+0079255c subcs r1,r1,r0, lsl #0x17
+00792560 addcs r3,r3,r2, lsl #0x17
+00792564 cmp r1,r0, lsl #0x16
+00792568 subcs r1,r1,r0, lsl #0x16
+0079256c addcs r3,r3,r2, lsl #0x16
+00792570 cmp r1,r0, lsl #0x15
+00792574 subcs r1,r1,r0, lsl #0x15
+00792578 addcs r3,r3,r2, lsl #0x15
+0079257c cmp r1,r0, lsl #0x14
+00792580 subcs r1,r1,r0, lsl #0x14
+00792584 addcs r3,r3,r2, lsl #0x14
+00792588 cmp r1,r0, lsl #0x13
+0079258c subcs r1,r1,r0, lsl #0x13
+00792590 addcs r3,r3,r2, lsl #0x13
+00792594 cmp r1,r0, lsl #0x12
+00792598 subcs r1,r1,r0, lsl #0x12
+0079259c addcs r3,r3,r2, lsl #0x12
+007925a0 cmp r1,r0, lsl #0x11
+007925a4 subcs r1,r1,r0, lsl #0x11
+007925a8 addcs r3,r3,r2, lsl #0x11
+007925ac cmp r1,r0, lsl #0x10
+007925b0 subcs r1,r1,r0, lsl #0x10
+007925b4 addcs r3,r3,r2, lsl #0x10
+007925b8 cmp r1,r0, lsl #0xf
+007925bc subcs r1,r1,r0, lsl #0xf
+007925c0 addcs r3,r3,r2, lsl #0xf
+007925c4 cmp r1,r0, lsl #0xe
+007925c8 subcs r1,r1,r0, lsl #0xe
+007925cc addcs r3,r3,r2, lsl #0xe
+007925d0 cmp r1,r0, lsl #0xd
+007925d4 subcs r1,r1,r0, lsl #0xd
+007925d8 addcs r3,r3,r2, lsl #0xd
+007925dc cmp r1,r0, lsl #0xc
+007925e0 subcs r1,r1,r0, lsl #0xc
+007925e4 addcs r3,r3,r2, lsl #0xc
+007925e8 cmp r1,r0, lsl #0xb
+007925ec subcs r1,r1,r0, lsl #0xb
+007925f0 addcs r3,r3,r2, lsl #0xb
+007925f4 cmp r1,r0, lsl #0xa
+007925f8 subcs r1,r1,r0, lsl #0xa
+007925fc addcs r3,r3,r2, lsl #0xa
+00792600 cmp r1,r0, lsl #0x9
+00792604 subcs r1,r1,r0, lsl #0x9
+00792608 addcs r3,r3,r2, lsl #0x9
+0079260c cmp r1,r0, lsl #0x8
+00792610 subcs r1,r1,r0, lsl #0x8
+00792614 addcs r3,r3,r2, lsl #0x8
+00792618 cmp r1,r0, lsl #0x7
+0079261c subcs r1,r1,r0, lsl #0x7
+00792620 addcs r3,r3,r2, lsl #0x7
+00792624 cmp r1,r0, lsl #0x6
+00792628 subcs r1,r1,r0, lsl #0x6
+0079262c addcs r3,r3,r2, lsl #0x6
+00792630 cmp r1,r0, lsl #0x5
+00792634 subcs r1,r1,r0, lsl #0x5
+00792638 addcs r3,r3,r2, lsl #0x5
+0079263c cmp r1,r0, lsl #0x4
+00792640 subcs r1,r1,r0, lsl #0x4
+00792644 addcs r3,r3,r2, lsl #0x4
+00792648 cmp r1,r0, lsl #0x3
+0079264c subcs r1,r1,r0, lsl #0x3
+00792650 addcs r3,r3,r2, lsl #0x3
+00792654 cmp r1,r0, lsl #0x2
+00792658 subcs r1,r1,r0, lsl #0x2
+0079265c addcs r3,r3,r2, lsl #0x2
+00792660 cmp r1,r0, lsl #0x1
+00792664 subcs r1,r1,r0, lsl #0x1
+00792668 addcs r3,r3,r2, lsl #0x1
+0079266c cmp r1,r0
+00792670 subcs r1,r1,r0
+00792674 addcs r3,r3,r2
+00792678 tst r12,#0x20000000
+0079267c bne 0x0079269c
+00792680 cpy r0,r3
+00792684 cmp r12,#0x0
+00792688 rsbmi r1,r1,#0x0
+0079268c movs r12,r12, lsl #0x1
+00792690 bicmi r0,r0,#0x80000000
+00792694 rsbmi r0,r0,#0x0
+00792698 bx lr
+0079269c tst r12,#0x10000000
+007926a0 mov r1,r1, lsl #0x1
+007926a4 orrne r1,r1,#0x1
+007926a8 mov r3,r3, lsl #0x1
+007926ac cmp r1,r0
+007926b0 subcs r1,r1,r0
+007926b4 addcs r3,r3,r2
+007926b8 cpy r0,r3
+007926bc bx lr

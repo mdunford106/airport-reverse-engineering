@@ -28,3 +28,11 @@ xref-analysis/
 ghidra-projects/
 dispatch-analysis/
 ghidra-analysis/
+
+# Reproducible offline analysis scratch and reruns
+.work/
+offline-analysis/runs/
+__pycache__/
+*.pyc
+
+analysis-work/

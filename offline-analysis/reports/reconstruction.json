@@ -1,0 +1,26 @@
+[
+  {
+    "bank": 0,
+    "source": "${AIRPORT_FIRMWARE_DIR}/netbsd-analysis/netbsd-flash0.bin",
+    "source_sha256": "88204bdeaef30658c7e50d32d9dfc70e88c434940a56afdcdbace8e998f558bd",
+    "analysis_elf": "${ANALYSIS_WORK_DIR}/bank0-analysis-only.elf",
+    "analysis_sha256": "bdebf8d8ca8a120e50595a55b1f6249d6c88a61e9844eac92b0a0466fd11c80d",
+    "embedded_metadata_offset": "0x497e9c",
+    "load_base": "0x80100000",
+    "raw_bytes_preserved": true,
+    "symbols": 18241,
+    "note": "Synthetic ELF for static analysis only. Original raw bytes unchanged; unavailable debug/comment sections omitted."
+  },
+  {
+    "bank": 1,
+    "source": "${AIRPORT_FIRMWARE_DIR}/netbsd-analysis/netbsd-flash1.bin",
+    "source_sha256": "daf950b241576ae06ce625ba852489b070f40c3ebbf71dc074d767ebd81dd4ba",
+    "analysis_elf": "${ANALYSIS_WORK_DIR}/bank1-analysis-only.elf",
+    "analysis_sha256": "d5b51f0fde90156e0db8352def898733624ee6aade8f0e275a2598d147c76d4d",
+    "embedded_metadata_offset": "0x497e9c",
+    "load_base": "0x80100000",
+    "raw_bytes_preserved": true,
+    "symbols": 18233,
+    "note": "Synthetic ELF for static analysis only. Original raw bytes unchanged; unavailable debug/comment sections omitted."
+  }
+]

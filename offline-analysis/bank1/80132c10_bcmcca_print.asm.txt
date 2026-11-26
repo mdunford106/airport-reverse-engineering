@@ -1,0 +1,10 @@
+80132c10 cpy r12,sp
+80132c14 stmdb sp!,{r11,r12,lr,pc}
+80132c18 ldr r1,[r0,#0x10]
+80132c1c sub r11,r12,#0x4
+80132c20 cmn r1,#0x1
+80132c24 ldr r0,[0x80132c38]
+80132c28 beq 0x80132c30
+80132c2c bl 0x802f9bac
+80132c30 mov r0,#0x0
+80132c34 ldmia sp,{r11,sp,pc}

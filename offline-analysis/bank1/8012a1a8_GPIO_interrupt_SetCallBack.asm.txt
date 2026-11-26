@@ -1,0 +1,8 @@
+8012a1a8 mov r12,r0, lsl #0x4
+8012a1ac ldr r3,[0x8012a1c8]
+8012a1b0 mov r0,r0, lsl #0x2
+8012a1b4 add r0,r0,r12
+8012a1b8 add r0,r0,r3
+8012a1bc stmib r0,{r1,r2}
+8012a1c0 mov r0,#0x0
+8012a1c4 bx lr

@@ -1,0 +1,13 @@
+{
+  "bank0_kernel_exports": 99,
+  "bank1_kernel_exports": 94,
+  "additional_userspace_exports": 7,
+  "common_normalized_equal": 93,
+  "common_normalized_different": 1,
+  "bank0_only_selected": 5,
+  "firmware_executed": false,
+  "hardware_accessed": false,
+  "firmware_inputs_modified": false,
+  "original_gui_project_modified": false,
+  "retained_userspace_exports": 15
+}

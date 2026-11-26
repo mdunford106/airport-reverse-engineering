@@ -1,0 +1,8 @@
+{
+  "counts": {
+    "different_bytes": 6950,
+    "identical_bytes": 4897,
+    "bank0_only": 5
+  },
+  "note": "Different bytes can result solely from changed addresses or literals. Duplicate symbol names paired by ascending address, not guaranteed identity."
+}

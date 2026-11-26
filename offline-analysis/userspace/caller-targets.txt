@@ -1,0 +1,18 @@
+Program: multicall.bin language=ARM:LE:32:v8
+Reference 00269678 instruction=bl 0x00268080
+Candidate prologue seed: 0026963c
+Containing function: 0026963c FUN_0026963c
+Incoming: From: 0026932c To: 0026963c Type: PARAM Op: 0 ANALYSIS
+Decompilation completed: true
+Reference 00274158 instruction=bl 0x00268178
+Containing function: 00274140 FUN_00274140
+Incoming: From: 00273328 To: 00274140 Type: PARAM Op: 0 ANALYSIS
+Decompilation completed: true
+Reference 00269374 instruction=ldr r2,[0x269450]
+Containing function: 00269174 FUN_00269174
+Incoming: From: 00298044 To: 00269174 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+Decompilation completed: true
+Reference 007922c4 instruction=eor r0,r1,r0
+Containing function: 007922c4 FUN_007922c4
+Incoming: From: 0078ac98 To: 007922c4 Type: UNCONDITIONAL_JUMP Op: 0 DEFAULT
+Decompilation completed: true

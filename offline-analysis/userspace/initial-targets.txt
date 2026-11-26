@@ -1,0 +1,18 @@
+Program: multicall.bin language=ARM:LE:32:v8
+Reference 00268098 instruction=ldr r0,[0x268160]
+Containing function: 00268080 FUN_00268080
+Incoming: From: 00269678 To: 00268080 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+Decompilation completed: true
+Reference 002681a8 instruction=ldr r0,[0x26825c]
+Containing function: 00268178 FUN_00268178
+Incoming: From: 00274158 To: 00268178 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+Decompilation completed: true
+Reference 00267dfc instruction=ldr r0,[0x267f54]
+Explicit function seed at disassembly-verified prologue 00267dec
+Containing function: 00267dec gpio_status_candidate
+Incoming: From: 00269374 To: 00267dec Type: PARAM Op: 0 ANALYSIS
+Decompilation completed: true
+Reference 00309c2c instruction=cpy r12,sp
+Containing function: 00309c2c cmd_twiddle_gpio
+Incoming: From: 0079ce3c To: 00309c2c Type: DATA Op: 0 DEFAULT
+Decompilation completed: true

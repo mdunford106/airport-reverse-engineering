@@ -1,0 +1,14 @@
+8012a168 ldr r3,[0x8012a1a0]
+8012a16c ldr r2,[r3,#0x0]
+8012a170 ldr r1,[0x8012a1a4]
+8012a174 cmp r2,#0x0
+8012a178 bxeq lr
+8012a17c ldr r3,[r1,#0x0]
+8012a180 cmp r3,#0x0
+8012a184 addeq r3,r3,#0x1
+8012a188 streq r3,[r1,#0x0]
+8012a18c ldr r3,[r1,#0x0]
+8012a190 cmp r3,#0x3
+8012a194 subeq r3,r3,#0x2
+8012a198 streq r3,[r1,#0x0]
+8012a19c bx lr

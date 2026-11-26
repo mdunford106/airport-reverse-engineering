@@ -1,0 +1,408 @@
+[
+  {
+    "name": "g_disabled",
+    "address": "0x80593d24",
+    "hex_bytes": "00000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ts",
+    "address": "0x80593d34",
+    "hex_bytes": "0a000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0xa",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "g_override_fan",
+    "address": "0x80593d40",
+    "hex_bytes": "ffffffff",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0xffffffff",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "min_fan_duty_cycle",
+    "address": "0x80593d84",
+    "hex_bytes": "39000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x39",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "applfan_pwm_period",
+    "address": "0x80593eb0",
+    "hex_bytes": "c8000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0xc8",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "gpio_fileops",
+    "address": "0x804cdf54",
+    "hex_bytes": "7ca81280f4a71280fcb012801c4c22802c4c2280584c2280c0a41280344c2280000000000000000000000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x8012a87c",
+        "symbols": [
+          "gpio_read"
+        ]
+      },
+      {
+        "offset": 4,
+        "value": "0x8012a7f4",
+        "symbols": [
+          "gpio_write"
+        ]
+      },
+      {
+        "offset": 8,
+        "value": "0x8012b0fc",
+        "symbols": [
+          "gpio_ioctl"
+        ]
+      },
+      {
+        "offset": 12,
+        "value": "0x80224c1c",
+        "symbols": [
+          "fnullop_fcntl"
+        ]
+      },
+      {
+        "offset": 16,
+        "value": "0x80224c2c",
+        "symbols": [
+          "fnullop_poll"
+        ]
+      },
+      {
+        "offset": 20,
+        "value": "0x80224c58",
+        "symbols": [
+          "fbadop_stat"
+        ]
+      },
+      {
+        "offset": 24,
+        "value": "0x8012a4c0",
+        "symbols": [
+          "gpio_close"
+        ]
+      },
+      {
+        "offset": 28,
+        "value": "0x80224c34",
+        "symbols": [
+          "fnullop_kqfilter"
+        ]
+      },
+      {
+        "offset": 32,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "offset": 36,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "offset": 40,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EMC141X_TEMP_REGS",
+    "address": "0x8053e928",
+    "hex_bytes": "0001232a",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x2a230100",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "EMC141X_TEMP_LOW_REGS",
+    "address": "0x8053e92c",
+    "hex_bytes": "2910242b",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x2b241029",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "emc141x_compats",
+    "address": "0x805950c0",
+    "hex_bytes": "3c85568048855680548556804c85568000000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x8056853c",
+        "symbols": []
+      },
+      {
+        "offset": 4,
+        "value": "0x80568548",
+        "symbols": []
+      },
+      {
+        "offset": 8,
+        "value": "0x80568554",
+        "symbols": []
+      },
+      {
+        "offset": 12,
+        "value": "0x8056854c",
+        "symbols": []
+      },
+      {
+        "offset": 16,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "applfan_cdevsw",
+    "address": "0x804cdde4",
+    "hex_bytes": "9c8f1280dc8712804451248044512480d48f12804451248000000000809d308044512480847e228000010000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x80128f9c",
+        "symbols": [
+          "applfanpwmopen"
+        ]
+      },
+      {
+        "offset": 4,
+        "value": "0x801287dc",
+        "symbols": [
+          "applfanpwmclose"
+        ]
+      },
+      {
+        "offset": 8,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 12,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 16,
+        "value": "0x80128fd4",
+        "symbols": [
+          "applfanpwmioctl"
+        ]
+      },
+      {
+        "offset": 20,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "offset": 28,
+        "value": "0x80309d80",
+        "symbols": [
+          "seltrue"
+        ]
+      },
+      {
+        "offset": 32,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 36,
+        "value": "0x80227e84",
+        "symbols": [
+          "seltrue_kqfilter"
+        ]
+      },
+      {
+        "offset": 40,
+        "value": "0x100",
+        "symbols": []
+      }
+    ]
+  },
+  {
+    "name": "applgpio_cdevsw",
+    "address": "0x804cdee8",
+    "hex_bytes": "28a71280445124804451248044512480445124804451248000000000809d308044512480847e228000000000",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0x8012a728",
+        "symbols": [
+          "gpio_open"
+        ]
+      },
+      {
+        "offset": 4,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 8,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 12,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 16,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 20,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "offset": 28,
+        "value": "0x80309d80",
+        "symbols": [
+          "seltrue"
+        ]
+      },
+      {
+        "offset": 32,
+        "value": "0x80245144",
+        "symbols": [
+          "enodev"
+        ]
+      },
+      {
+        "offset": 36,
+        "value": "0x80227e84",
+        "symbols": [
+          "seltrue_kqfilter"
+        ]
+      },
+      {
+        "offset": 40,
+        "value": "0x0",
+        "symbols": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "name": "GPIO_Board_Revision",
+    "address": "0x80593efc",
+    "hex_bytes": "ffffffff",
+    "words": [
+      {
+        "offset": 0,
+        "value": "0xffffffff",
+        "symbols": []
+      }
+    ]
+  }
+]
