@@ -1,0 +1,3 @@
+bank0-analysis-only.elf ARM:LE:32:v8
+8012bc04_arm32_kernel_vm_init completed=true
+801313c8_bcm53xx_memprobe completed=true
