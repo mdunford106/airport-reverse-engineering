@@ -1,0 +1,25 @@
+80129e58 cpy r12,sp
+80129e5c stmdb sp!,{r4,r5,r6,r7,r11,r12,lr,pc}
+80129e60 ldr r5,[0x80129ebc]
+80129e64 ldr r7,[0x80129ec0]
+80129e68 ldr r3,[r5,#0x0]
+80129e6c ldr r6,[0x80129ec4]
+80129e70 sub r11,r12,#0x4
+80129e74 cpy r4,r0
+80129e78 ldr r1,[r7,#0x0]
+80129e7c cpy r2,r6
+80129e80 ldr r0,[r3,#0x0]
+80129e84 mov lr,pc
+80129e88 ldr pc,[r3,#0x2c]
+80129e8c mov r2,#0x1
+80129e90 mov r2,r2, lsl r4
+80129e94 ldr r12,[r5,#0x0]
+80129e98 mvn r2,r2
+80129e9c and r3,r0,r2
+80129ea0 ldr r1,[r7,#0x0]
+80129ea4 ldr r0,[r12,#0x0]
+80129ea8 cpy r2,r6
+80129eac mov lr,pc
+80129eb0 ldr pc,[r12,#0x5c]
+80129eb4 mov r0,#0x0
+80129eb8 ldmia sp,{r4,r5,r6,r7,r11,sp,pc}

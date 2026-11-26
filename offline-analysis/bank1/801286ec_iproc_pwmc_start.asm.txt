@@ -1,0 +1,14 @@
+801286ec cpy r12,sp
+801286f0 stmdb sp!,{r4,r11,r12,lr,pc}
+801286f4 mov r3,r1, lsl #0x2
+801286f8 sub r11,r12,#0x4
+801286fc sub sp,sp,#0x4
+80128700 add r3,r3,r0
+80128704 ldr r4,[r3,#0xc]
+80128708 cpy r2,r1
+8012870c mov r3,#0x1
+80128710 mov r1,#0x0
+80128714 bl 0x801285ec
+80128718 mov r3,#0x1
+8012871c str r3,[r4,#0x14]
+80128720 ldmib sp,{r4,r11,sp,pc}

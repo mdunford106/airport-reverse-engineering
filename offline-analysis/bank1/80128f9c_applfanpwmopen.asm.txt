@@ -1,0 +1,13 @@
+80128f9c mov r1,r0, lsr #0x14
+80128fa0 cpy r12,sp
+80128fa4 and r0,r0,#0xff
+80128fa8 mov r1,r1, lsl #0x14
+80128fac stmdb sp!,{r11,r12,lr,pc}
+80128fb0 orr r1,r0,r1, lsr #0xc
+80128fb4 sub r11,r12,#0x4
+80128fb8 ldr r0,[0x80128fd0]
+80128fbc bl 0x802e8b8c
+80128fc0 cmp r0,#0x0
+80128fc4 moveq r0,#0x6
+80128fc8 movne r0,#0x0
+80128fcc ldmia sp,{r11,sp,pc}

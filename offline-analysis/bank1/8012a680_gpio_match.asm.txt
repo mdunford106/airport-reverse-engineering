@@ -1,0 +1,14 @@
+8012a680 cpy r12,sp
+8012a684 stmdb sp!,{r11,r12,lr,pc}
+8012a688 sub r11,r12,#0x4
+8012a68c ldr r0,[r1,#0x0]
+8012a690 ldr r1,[r2,#0xc]
+8012a694 bl 0x804c9e08
+8012a698 cmp r0,#0x0
+8012a69c mov r0,#0x0
+8012a6a0 ldmiane sp,{r11,sp,pc}
+8012a6a4 ldr r3,[0x8012a6b8]
+8012a6a8 ldr r2,[r3,#0x0]
+8012a6ac rsbs r0,r2,#0x1
+8012a6b0 movcc r0,#0x0
+8012a6b4 ldmia sp,{r11,sp,pc}

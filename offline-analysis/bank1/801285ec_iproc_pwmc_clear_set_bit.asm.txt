@@ -1,0 +1,40 @@
+801285ec cpy r12,sp
+801285f0 stmdb sp!,{r4,r5,r6,r7,r11,r12,lr,pc}
+801285f4 sub r11,r12,#0x4
+801285f8 sub sp,sp,#0x8
+801285fc ldr r12,[r0,#0x4]
+80128600 cpy r5,r1
+80128604 cpy r4,r2
+80128608 ldr r1,[r0,#0x8]
+8012860c cpy r2,r5
+80128610 cpy r7,r0
+80128614 ldr r0,[r12,#0x0]
+80128618 cpy r6,r3
+8012861c mov lr,pc
+80128620 ldr pc,[r12,#0x2c]
+80128624 and r2,r4,#0x1f
+80128628 mov r3,#0x1
+8012862c mov r12,r3, lsl r2
+80128630 sub lr,r11,#0x1c
+80128634 mov r4,r4, asr #0x5
+80128638 str r0,[lr,#-0x4]!
+8012863c mov r4,r4, lsl #0x2
+80128640 ldr r3,[lr,r4]
+80128644 mvn r1,r12
+80128648 and r3,r3,r1
+8012864c cmp r6,#0x1
+80128650 cpy r2,r5
+80128654 str r3,[lr,r4]
+80128658 bne 0x8012866c
+8012865c ldr r3,[lr,r4]
+80128660 tst r12,r3
+80128664 orr r1,r12,r3
+80128668 streq r1,[lr,r4]
+8012866c ldr r12,[r7,#0x4]
+80128670 ldr r1,[r7,#0x8]
+80128674 ldr r3,[r11,#-0x20]
+80128678 ldr r0,[r12,#0x0]
+8012867c mov lr,pc
+80128680 ldr pc,[r12,#0x5c]
+80128684 sub sp,r11,#0x1c
+80128688 ldmia sp,{r4,r5,r6,r7,r11,sp,pc}

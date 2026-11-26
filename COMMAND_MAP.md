@@ -156,3 +156,41 @@ Recovered from both firmware banks.
 | `wl` | `0x000657A0` | `0x000657A0` | +0 |
 | `wpa_supplicant` | `0x001FB7C8` | `0x001FB5F4` | +468 |
 | `xinstall` | `0x00366980` | `0x00365F10` | +2672 |
+
+## Bank 0 internal hardware helpers — validated 2026-11-25
+
+These are internal functions, not additional multicall dispatch commands.
+
+| Subject | Reference | Containing function | Evidence |
+|---|---|---|---|
+| Fan | `0x00268098` | `0x00268080` | `/dev/applfan0`; five ioctl calls |
+| Temperature | `0x002681a8` | `0x00268178` | `/dev/sysmon`; ioctl `0xc0204502` |
+| GPIO status | `0x00267dfc` | `0x00267dec` | Eight-byte read; extracts bit 6 |
+
+Offline Ghidra exports validated all three. GPIO was explicitly defined at its verified
+prologue in the separate headless project. Bank 1 equivalents were not analyzed in this run.
+See RESEARCH.md Phase 3.12 local offline batch validation for artifacts and limitations.
+
+
+## Validated kernel entry points — offline pass 2026-11-25
+
+These entries are kernel functions, not multicall command names. Evidence is in `offline-analysis/`.
+
+| Symbol | Bank 0 | Bank 1 |
+|---|---|---|
+| `applfanpwm_ioctl` | `0x80128da0` | `0x80128da0` |
+| `Force_Fan_Duty_Cycle` | `0x80128bcc` | `0x80128bcc` |
+| `Force_Fan_Init` | `0x80128c80` | `0x80128c80` |
+| `GPIO_read` | `0x80129898` | `0x80129804` |
+| `GPIO_write` | `0x8012976c` | `0x8012964c` |
+| `GPIO_hdd_powerctl` | `0x80129834` | `0x801297a0` |
+| `GPIO_FanTachISR` | `0x801295d4` | `0x801295d4` |
+| `gpio_ioctl` | `0x8012b0fc` | `0x8012b090` |
+| `sysmonioctl_envsys` | `0x8030e11c` | `0x8030dd00` |
+| `emc141x_refresh` | `0x80182670` | `0x80182310` |
+| `cltmthread` | `0x8010f8d0` | `0x8010f8d0` |
+| `bcm53xx_device_register` | `0x80131aec` | `0x80131a80` |
+| `bcm53xx_pax2_power_gate` | `0x80131e38` | `absent from recovered symbols` |
+| `bcm53xx_bootstrap` | `0x80131ef8` | `0x80131db4` |
+
+The complete selected index is offline-analysis/reports/selected-kernel-functions.csv. offline-analysis/FINDINGS.md documents the recovered local ABI and userspace properties.

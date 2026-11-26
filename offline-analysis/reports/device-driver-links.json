@@ -1,0 +1,416 @@
+[
+  {
+    "bank": 0,
+    "path": "/dev/applgpio0",
+    "inode": 1068,
+    "inode_file_offset": "0x28600",
+    "mode": "0o20600",
+    "raw_device_number": "0x9600",
+    "major": 150,
+    "minor": 0,
+    "cdevsw_symbol": "applgpio_cdevsw",
+    "cdevsw_address": "0x804cdee8",
+    "operations": [
+      {
+        "offset": 0,
+        "value": "0x8012a728",
+        "symbol": "gpio_open"
+      },
+      {
+        "offset": 4,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 8,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 12,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 16,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 20,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbol": null
+      },
+      {
+        "offset": 28,
+        "value": "0x80309d80",
+        "symbol": "seltrue"
+      },
+      {
+        "offset": 32,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 36,
+        "value": "0x80227e84",
+        "symbol": "seltrue_kqfilter"
+      },
+      {
+        "offset": 40,
+        "value": "0x0",
+        "symbol": null
+      }
+    ]
+  },
+  {
+    "bank": 0,
+    "path": "/dev/applfan0",
+    "inode": 1069,
+    "inode_file_offset": "0x28680",
+    "mode": "0o20600",
+    "raw_device_number": "0xd300",
+    "major": 211,
+    "minor": 0,
+    "cdevsw_symbol": "applfan_cdevsw",
+    "cdevsw_address": "0x804cdde4",
+    "operations": [
+      {
+        "offset": 0,
+        "value": "0x80128f9c",
+        "symbol": "applfanpwmopen"
+      },
+      {
+        "offset": 4,
+        "value": "0x801287dc",
+        "symbol": "applfanpwmclose"
+      },
+      {
+        "offset": 8,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 12,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 16,
+        "value": "0x80128fd4",
+        "symbol": "applfanpwmioctl"
+      },
+      {
+        "offset": 20,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbol": null
+      },
+      {
+        "offset": 28,
+        "value": "0x80309d80",
+        "symbol": "seltrue"
+      },
+      {
+        "offset": 32,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 36,
+        "value": "0x80227e84",
+        "symbol": "seltrue_kqfilter"
+      },
+      {
+        "offset": 40,
+        "value": "0x100",
+        "symbol": null
+      }
+    ]
+  },
+  {
+    "bank": 0,
+    "path": "/dev/sysmon",
+    "inode": 181,
+    "inode_file_offset": "0xca80",
+    "mode": "0o20644",
+    "raw_device_number": "0x6500",
+    "major": 101,
+    "minor": 0,
+    "cdevsw_symbol": "sysmon_cdevsw",
+    "cdevsw_address": "0x80549688",
+    "operations": [
+      {
+        "offset": 0,
+        "value": "0x8030ca20",
+        "symbol": "sysmonopen"
+      },
+      {
+        "offset": 4,
+        "value": "0x8030c9c8",
+        "symbol": "sysmonclose"
+      },
+      {
+        "offset": 8,
+        "value": "0x8030c938",
+        "symbol": "sysmonread"
+      },
+      {
+        "offset": 12,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 16,
+        "value": "0x8030c964",
+        "symbol": "sysmonioctl"
+      },
+      {
+        "offset": 20,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbol": null
+      },
+      {
+        "offset": 28,
+        "value": "0x8030c90c",
+        "symbol": "sysmonpoll"
+      },
+      {
+        "offset": 32,
+        "value": "0x80245144",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 36,
+        "value": "0x8030c8e8",
+        "symbol": "sysmonkqfilter"
+      },
+      {
+        "offset": 40,
+        "value": "0x100",
+        "symbol": null
+      }
+    ]
+  },
+  {
+    "bank": 1,
+    "path": "/dev/applgpio0",
+    "inode": 1068,
+    "inode_file_offset": "0x28600",
+    "mode": "0o20600",
+    "raw_device_number": "0x9600",
+    "major": 150,
+    "minor": 0,
+    "cdevsw_symbol": "applgpio_cdevsw",
+    "cdevsw_address": "0x804cda68",
+    "operations": [
+      {
+        "offset": 0,
+        "value": "0x8012a6bc",
+        "symbol": "gpio_open"
+      },
+      {
+        "offset": 4,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 8,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 12,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 16,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 20,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbol": null
+      },
+      {
+        "offset": 28,
+        "value": "0x80309964",
+        "symbol": "seltrue"
+      },
+      {
+        "offset": 32,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 36,
+        "value": "0x80227a84",
+        "symbol": "seltrue_kqfilter"
+      },
+      {
+        "offset": 40,
+        "value": "0x0",
+        "symbol": null
+      }
+    ]
+  },
+  {
+    "bank": 1,
+    "path": "/dev/applfan0",
+    "inode": 1069,
+    "inode_file_offset": "0x28680",
+    "mode": "0o20600",
+    "raw_device_number": "0xd300",
+    "major": 211,
+    "minor": 0,
+    "cdevsw_symbol": "applfan_cdevsw",
+    "cdevsw_address": "0x804cd964",
+    "operations": [
+      {
+        "offset": 0,
+        "value": "0x80128f9c",
+        "symbol": "applfanpwmopen"
+      },
+      {
+        "offset": 4,
+        "value": "0x801287dc",
+        "symbol": "applfanpwmclose"
+      },
+      {
+        "offset": 8,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 12,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 16,
+        "value": "0x80128fd4",
+        "symbol": "applfanpwmioctl"
+      },
+      {
+        "offset": 20,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbol": null
+      },
+      {
+        "offset": 28,
+        "value": "0x80309964",
+        "symbol": "seltrue"
+      },
+      {
+        "offset": 32,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 36,
+        "value": "0x80227a84",
+        "symbol": "seltrue_kqfilter"
+      },
+      {
+        "offset": 40,
+        "value": "0x100",
+        "symbol": null
+      }
+    ]
+  },
+  {
+    "bank": 1,
+    "path": "/dev/sysmon",
+    "inode": 181,
+    "inode_file_offset": "0xca80",
+    "mode": "0o20644",
+    "raw_device_number": "0x6500",
+    "major": 101,
+    "minor": 0,
+    "cdevsw_symbol": "sysmon_cdevsw",
+    "cdevsw_address": "0x805491f8",
+    "operations": [
+      {
+        "offset": 0,
+        "value": "0x8030c604",
+        "symbol": "sysmonopen"
+      },
+      {
+        "offset": 4,
+        "value": "0x8030c5ac",
+        "symbol": "sysmonclose"
+      },
+      {
+        "offset": 8,
+        "value": "0x8030c51c",
+        "symbol": "sysmonread"
+      },
+      {
+        "offset": 12,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 16,
+        "value": "0x8030c548",
+        "symbol": "sysmonioctl"
+      },
+      {
+        "offset": 20,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 24,
+        "value": "0x0",
+        "symbol": null
+      },
+      {
+        "offset": 28,
+        "value": "0x8030c4f0",
+        "symbol": "sysmonpoll"
+      },
+      {
+        "offset": 32,
+        "value": "0x80244d44",
+        "symbol": "enodev"
+      },
+      {
+        "offset": 36,
+        "value": "0x8030c4cc",
+        "symbol": "sysmonkqfilter"
+      },
+      {
+        "offset": 40,
+        "value": "0x100",
+        "symbol": null
+      }
+    ]
+  }
+]

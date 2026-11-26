@@ -1,0 +1,3 @@
+8012abb8 mov r2,#0x3
+8012abbc mvn r3,#0x0
+8012abc0 b 0x8012a8f4

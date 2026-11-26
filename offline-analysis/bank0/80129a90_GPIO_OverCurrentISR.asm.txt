@@ -1,0 +1,16 @@
+80129a90 cpy r12,sp
+80129a94 stmdb sp!,{r11,r12,lr,pc}
+80129a98 sub r11,r12,#0x4
+80129a9c bl 0x80129898
+80129aa0 ldr r3,[0x80129ad0]
+80129aa4 ldr r12,[0x80129ad4]
+80129aa8 ldr r1,[r3,#0x0]
+80129aac ldr r0,[0x80129ad8]
+80129ab0 add r1,r1,r1, lsr #0x1f
+80129ab4 ldr r2,[0x80129adc]
+80129ab8 mov lr,#0x1
+80129abc mov r1,r1, asr #0x1
+80129ac0 mov r3,#0x0
+80129ac4 strb lr,[r12,#0x0]
+80129ac8 ldmia sp,{r11,sp,lr}
+80129acc b 0x8024f94c

@@ -1,0 +1,752 @@
+[
+  {
+    "bank": 0,
+    "locator_table_address": "0x804ce270",
+    "entries": [
+      {
+        "name": "bcmpwm",
+        "relative_offset": "0x2000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18002000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "applfan",
+        "relative_offset": "0x2000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18002000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "applgpio",
+        "relative_offset": "0x1000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18001000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmmdio",
+        "relative_offset": "0x3000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18003000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmrng",
+        "relative_offset": "0x4000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18004000",
+        "interrupt_metadata": [
+          1,
+          126,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmtmr",
+        "relative_offset": "0x5000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18005000",
+        "interrupt_metadata": [
+          2,
+          122,
+          123,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmtmr",
+        "relative_offset": "0x6000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18006000",
+        "interrupt_metadata": [
+          2,
+          124,
+          125,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmsw",
+        "relative_offset": "0x7000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18007000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmcom",
+        "relative_offset": "0x8000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18008000",
+        "interrupt_metadata": [
+          1,
+          118,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmi2c",
+        "relative_offset": "0x9000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18009000",
+        "interrupt_metadata": [
+          1,
+          121,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmcru",
+        "relative_offset": "0xb000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x1800b000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmdmu",
+        "relative_offset": "0xc000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x1800c000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmddr",
+        "relative_offset": "0x10000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18010000",
+        "interrupt_metadata": [
+          1,
+          78,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmqspi",
+        "relative_offset": "0x29000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18029000",
+        "interrupt_metadata": [
+          1,
+          104,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmeth",
+        "relative_offset": "0x24000",
+        "size": "0x1000",
+        "port": 0,
+        "physical_base_from_bootstrap": "0x18024000",
+        "interrupt_metadata": [
+          1,
+          179,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmeth",
+        "relative_offset": "0x25000",
+        "size": "0x1000",
+        "port": 1,
+        "physical_base_from_bootstrap": "0x18025000",
+        "interrupt_metadata": [
+          1,
+          180,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmeth",
+        "relative_offset": "0x26000",
+        "size": "0x1000",
+        "port": 2,
+        "physical_base_from_bootstrap": "0x18026000",
+        "interrupt_metadata": [
+          1,
+          181,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmctf",
+        "relative_offset": "0x27c00",
+        "size": "0x400",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18027c00",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmpax",
+        "relative_offset": "0x12000",
+        "size": "0x1000",
+        "port": 0,
+        "physical_base_from_bootstrap": "0x18012000",
+        "interrupt_metadata": [
+          6,
+          159,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmpax",
+        "relative_offset": "0x13000",
+        "size": "0x1000",
+        "port": 1,
+        "physical_base_from_bootstrap": "0x18013000",
+        "interrupt_metadata": [
+          6,
+          165,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmpax",
+        "relative_offset": "0x14000",
+        "size": "0x1000",
+        "port": 2,
+        "physical_base_from_bootstrap": "0x18014000",
+        "interrupt_metadata": [
+          6,
+          171,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "sdhc",
+        "relative_offset": "0x20000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18020000",
+        "interrupt_metadata": [
+          1,
+          177,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmusb",
+        "relative_offset": "0x21000",
+        "size": "0x2000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18021000",
+        "interrupt_metadata": [
+          1,
+          111,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "note": "Compiled locator candidates, not a measured inventory of populated devices. Physical base derived from bcm53xx_bootstrap and CCB subregion setup. Interrupt metadata is left raw."
+  },
+  {
+    "bank": 1,
+    "locator_table_address": "0x804cddf0",
+    "entries": [
+      {
+        "name": "bcmpwm",
+        "relative_offset": "0x2000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18002000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "applfan",
+        "relative_offset": "0x2000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18002000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "applgpio",
+        "relative_offset": "0x1000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18001000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmmdio",
+        "relative_offset": "0x3000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18003000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmrng",
+        "relative_offset": "0x4000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18004000",
+        "interrupt_metadata": [
+          1,
+          126,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmtmr",
+        "relative_offset": "0x5000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18005000",
+        "interrupt_metadata": [
+          2,
+          122,
+          123,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmtmr",
+        "relative_offset": "0x6000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18006000",
+        "interrupt_metadata": [
+          2,
+          124,
+          125,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmsw",
+        "relative_offset": "0x7000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18007000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmcom",
+        "relative_offset": "0x8000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18008000",
+        "interrupt_metadata": [
+          1,
+          118,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmi2c",
+        "relative_offset": "0x9000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18009000",
+        "interrupt_metadata": [
+          1,
+          121,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmcru",
+        "relative_offset": "0xb000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x1800b000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmdmu",
+        "relative_offset": "0xc000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x1800c000",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmddr",
+        "relative_offset": "0x10000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18010000",
+        "interrupt_metadata": [
+          1,
+          78,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmqspi",
+        "relative_offset": "0x29000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18029000",
+        "interrupt_metadata": [
+          1,
+          104,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmeth",
+        "relative_offset": "0x24000",
+        "size": "0x1000",
+        "port": 0,
+        "physical_base_from_bootstrap": "0x18024000",
+        "interrupt_metadata": [
+          1,
+          179,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmeth",
+        "relative_offset": "0x25000",
+        "size": "0x1000",
+        "port": 1,
+        "physical_base_from_bootstrap": "0x18025000",
+        "interrupt_metadata": [
+          1,
+          180,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmeth",
+        "relative_offset": "0x26000",
+        "size": "0x1000",
+        "port": 2,
+        "physical_base_from_bootstrap": "0x18026000",
+        "interrupt_metadata": [
+          1,
+          181,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmctf",
+        "relative_offset": "0x27c00",
+        "size": "0x400",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18027c00",
+        "interrupt_metadata": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmpax",
+        "relative_offset": "0x12000",
+        "size": "0x1000",
+        "port": 0,
+        "physical_base_from_bootstrap": "0x18012000",
+        "interrupt_metadata": [
+          6,
+          159,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmpax",
+        "relative_offset": "0x13000",
+        "size": "0x1000",
+        "port": 1,
+        "physical_base_from_bootstrap": "0x18013000",
+        "interrupt_metadata": [
+          6,
+          165,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmpax",
+        "relative_offset": "0x14000",
+        "size": "0x1000",
+        "port": 2,
+        "physical_base_from_bootstrap": "0x18014000",
+        "interrupt_metadata": [
+          6,
+          171,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "sdhc",
+        "relative_offset": "0x20000",
+        "size": "0x1000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18020000",
+        "interrupt_metadata": [
+          1,
+          177,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bcmusb",
+        "relative_offset": "0x21000",
+        "size": "0x2000",
+        "port": -1,
+        "physical_base_from_bootstrap": "0x18021000",
+        "interrupt_metadata": [
+          1,
+          111,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "note": "Compiled locator candidates, not a measured inventory of populated devices. Physical base derived from bcm53xx_bootstrap and CCB subregion setup. Interrupt metadata is left raw."
+  }
+]

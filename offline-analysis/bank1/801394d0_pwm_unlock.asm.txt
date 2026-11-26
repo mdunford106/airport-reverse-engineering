@@ -1,0 +1,14 @@
+801394d0 cpy r12,sp
+801394d4 stmdb sp!,{r4,r5,r11,r12,lr,pc}
+801394d8 add r5,r0,#0x1c
+801394dc cpy r4,r0
+801394e0 sub r11,r12,#0x4
+801394e4 cpy r0,r5
+801394e8 bl 0x8025dfa8
+801394ec mov r3,#0x0
+801394f0 add r0,r4,#0x20
+801394f4 str r3,[r4,#0x2c]
+801394f8 bl 0x80223514
+801394fc cpy r0,r5
+80139500 ldmia sp,{r4,r5,r11,sp,lr}
+80139504 b 0x8025dfd8

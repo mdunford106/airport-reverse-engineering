@@ -1,0 +1,3695 @@
+{
+  "80128724_iproc_pwmc_stop.c": [],
+  "80128c80_Force_Fan_Init.c": [
+    {
+      "literal_address": "0x80128d90",
+      "value": "0x80593eac",
+      "signed": -2141634900,
+      "symbol_names": [
+        "applfan_sc_copy"
+      ]
+    },
+    {
+      "literal_address": "0x80128d94",
+      "value": "0x80593efc",
+      "signed": -2141634820,
+      "symbol_names": [
+        "GPIO_Board_Revision"
+      ]
+    },
+    {
+      "literal_address": "0x80128d98",
+      "value": "0x80593eb0",
+      "signed": -2141634896,
+      "symbol_names": [
+        "applfan_pwm_period"
+      ]
+    },
+    {
+      "literal_address": "0x80128d9c",
+      "value": "0x80808081",
+      "signed": -2139062143,
+      "symbol_names": []
+    }
+  ],
+  "8012ab58_gpiotimer.c": [
+    {
+      "literal_address": "0x8012ac98",
+      "value": "0x80592410",
+      "signed": -2141641712,
+      "symbol_names": [
+        "hz"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x8012ac9c",
+      "value": "0x66666667",
+      "signed": 1717986919,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012aca0",
+      "value": "0x816ac4a8",
+      "signed": -2123709272,
+      "symbol_names": [
+        "gpiotimer_callout"
+      ]
+    },
+    {
+      "literal_address": "0x8012aca4",
+      "value": "0x8012ab58",
+      "signed": -2146260136,
+      "symbol_names": [
+        "gpiotimer"
+      ]
+    },
+    {
+      "literal_address": "0x8012aca8",
+      "value": "0x80593f34",
+      "signed": -2141634764,
+      "symbol_names": [
+        "GPIO_Blink_Activity_Enabled"
+      ]
+    },
+    {
+      "literal_address": "0x8012acac",
+      "value": "0x80593f38",
+      "signed": -2141634760,
+      "symbol_names": [
+        "GPIO_Timer_State"
+      ]
+    }
+  ],
+  "8012a484_gpio_get_next_event.c": [
+    {
+      "literal_address": "0x8012a530",
+      "value": "0x80593f40",
+      "signed": -2141634752,
+      "symbol_names": [
+        "gpio_nevents"
+      ]
+    },
+    {
+      "literal_address": "0x8012a534",
+      "value": "0x80593f44",
+      "signed": -2141634748,
+      "symbol_names": [
+        "gpio_events"
+      ]
+    },
+    {
+      "literal_address": "0x8012a538",
+      "value": "0x805617a4",
+      "signed": -2141841500,
+      "symbol_names": [],
+      "string": "gpio_get_next_event: gpio_nevents got out of sync! %d\n"
+    },
+    {
+      "literal_address": "0x8012a53c",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    }
+  ],
+  "80129e60_GPIO_map_output_pin.c": [
+    {
+      "literal_address": "0x80129f74",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x80129f78",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x80129f7c",
+      "value": "0xc1c0",
+      "signed": 49600,
+      "symbol_names": []
+    }
+  ],
+  "80128f9c_applfanpwmopen.c": [
+    {
+      "literal_address": "0x80128fd0",
+      "value": "0x80591a3c",
+      "signed": -2141644228,
+      "symbol_names": [
+        "applfan_cd"
+      ]
+    }
+  ],
+  "80129804_GPIO_read.c": [
+    {
+      "literal_address": "0x80129874",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x80129878",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x8012987c",
+      "value": "0x22050",
+      "signed": 139344,
+      "symbol_names": []
+    }
+  ],
+  "8012a810_gpio_read.c": [],
+  "80131db4_bcm53xx_bootstrap.c": [
+    {
+      "literal_address": "0x8013255c",
+      "value": "0x805943f0",
+      "signed": -2141633552,
+      "symbol_names": [
+        "bcm53xx_ioreg_bst"
+      ]
+    },
+    {
+      "literal_address": "0x80132560",
+      "value": "0x8169b17c",
+      "signed": -2123779716,
+      "symbol_names": [
+        "com_base"
+      ]
+    },
+    {
+      "literal_address": "0x80132564",
+      "value": "0x816ad1ac",
+      "signed": -2123705940,
+      "symbol_names": [
+        "bcm53xx_ioreg_bsh"
+      ]
+    },
+    {
+      "literal_address": "0x80132568",
+      "value": "0x805944e8",
+      "signed": -2141633304,
+      "symbol_names": [
+        "bcm53xx_earlycons"
+      ]
+    },
+    {
+      "literal_address": "0x8013256c",
+      "value": "0x816ad3b8",
+      "signed": -2123705416,
+      "symbol_names": [
+        "cn_tab"
+      ]
+    },
+    {
+      "literal_address": "0x80132570",
+      "value": "0x805943f4",
+      "signed": -2141633548,
+      "symbol_names": [
+        "bcm53xx_armcore_bst"
+      ]
+    },
+    {
+      "literal_address": "0x80132574",
+      "value": "0x816ad1b0",
+      "signed": -2123705936,
+      "symbol_names": [
+        "bcm53xx_armcore_bsh"
+      ]
+    },
+    {
+      "literal_address": "0x80132578",
+      "value": "0x8169b124",
+      "signed": -2123779804,
+      "symbol_names": [
+        "cpu_softc"
+      ]
+    },
+    {
+      "literal_address": "0x8013257c",
+      "value": "0x804cdddc",
+      "signed": -2142446116,
+      "symbol_names": [
+        "clkgate_regs.10946"
+      ]
+    },
+    {
+      "literal_address": "0x80132580",
+      "value": "0xc104",
+      "signed": 49412,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80132584",
+      "value": "0xc108",
+      "signed": 49416,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80132588",
+      "value": "0xc154",
+      "signed": 49492,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8013258c",
+      "value": "0xc158",
+      "signed": 49496,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80132590",
+      "value": "0xc15c",
+      "signed": 49500,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80132594",
+      "value": "0xc164",
+      "signed": 49508,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80132598",
+      "value": "0x10810",
+      "signed": 67600,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8013259c",
+      "value": "0x1081c",
+      "signed": 67612,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325a0",
+      "value": "0xc04",
+      "signed": 3076,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325a4",
+      "value": "0xbebc200",
+      "signed": 200000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325a8",
+      "value": "0x17d7840",
+      "signed": 25000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325ac",
+      "value": "0x3ff00000",
+      "signed": 1072693248,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325b0",
+      "value": "0xffc",
+      "signed": 4092,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325b4",
+      "value": "0x7270e000",
+      "signed": 1920000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325b8",
+      "value": "0xc180",
+      "signed": 49536,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325bc",
+      "value": "0xea68",
+      "signed": 60008,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325c0",
+      "value": "0x3ffc000",
+      "signed": 67092480,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325c4",
+      "value": "0x80562278",
+      "signed": -2141838728,
+      "symbol_names": [],
+      "string": "<rdar://problem/13699516> %p 0x%08x 0x%08x: 0x%08x -> 0x%08x\n"
+    },
+    {
+      "literal_address": "0x801325c8",
+      "value": "0x3ff00",
+      "signed": 261888,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801325cc",
+      "value": "0x80562244",
+      "signed": -2141838780,
+      "symbol_names": [],
+      "string": "%s: failed to map BCM53xx %s registers: %d"
+    },
+    {
+      "literal_address": "0x801325d0",
+      "value": "0x804cddc8",
+      "signed": -2142446136,
+      "symbol_names": [
+        "__func__.10969"
+      ],
+      "string": "bcm53xx_bootstrap"
+    },
+    {
+      "literal_address": "0x801325d4",
+      "value": "0x8056ff10",
+      "signed": -2141782256,
+      "symbol_names": [],
+      "string": "io"
+    },
+    {
+      "literal_address": "0x801325d8",
+      "value": "0x80562270",
+      "signed": -2141838736,
+      "symbol_names": [],
+      "string": "armcore"
+    }
+  ],
+  "8010e78c_acltm_calculate_virtual_temperatures.c": [
+    {
+      "literal_address": "0x8010eebc",
+      "value": "0x80593d34",
+      "signed": -2141635276,
+      "symbol_names": [
+        "Ts"
+      ],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x8010eec0",
+      "value": "0x1047f02f",
+      "signed": 273149999,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010eec4",
+      "value": "0x1047f030",
+      "signed": 273150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010eec8",
+      "value": "0xefb80fd0",
+      "signed": -273150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010eecc",
+      "value": "0x4325c53f",
+      "signed": 1126548799,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010eed0",
+      "value": "0x80593d28",
+      "signed": -2141635288,
+      "symbol_names": [
+        "verbose"
+      ]
+    },
+    {
+      "literal_address": "0x8010eed4",
+      "value": "0x8055fc54",
+      "signed": -2141848492,
+      "symbol_names": [],
+      "string": "CLTM: %s.value_cur = %d\n"
+    },
+    {
+      "literal_address": "0x8010eed8",
+      "value": "0x80593d6c",
+      "signed": -2141635220,
+      "symbol_names": [
+        "g_over_temperature"
+      ]
+    },
+    {
+      "literal_address": "0x8010eedc",
+      "value": "0x18fff",
+      "signed": 102399,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010eee0",
+      "value": "0x8055fc70",
+      "signed": -2141848464,
+      "symbol_names": [],
+      "string": "CLTM:  vT_hdd.value_pmC = %d\n"
+    },
+    {
+      "literal_address": "0x8010eee4",
+      "value": "0x8055fc90",
+      "signed": -2141848432,
+      "symbol_names": [],
+      "string": "CLTM:  vT_2G_radio.value_pmC = %d\n"
+    },
+    {
+      "literal_address": "0x8010eee8",
+      "value": "0x8055fcb4",
+      "signed": -2141848396,
+      "symbol_names": [],
+      "string": "CLTM:  vT_5G_radio.value_pmC = %d\n"
+    },
+    {
+      "literal_address": "0x8010eeec",
+      "value": "0x8055fcd8",
+      "signed": -2141848360,
+      "symbol_names": [],
+      "string": "CLTM:  vT_skin_top.value_pmC = %d\n"
+    },
+    {
+      "literal_address": "0x8010eef0",
+      "value": "0x8055fcfc",
+      "signed": -2141848324,
+      "symbol_names": [],
+      "string": "CLTM:  vT_skin_side3.value_pmC = %d\n"
+    },
+    {
+      "literal_address": "0x8010eef4",
+      "value": "0x8055fd24",
+      "signed": -2141848284,
+      "symbol_names": [],
+      "string": "CLTM:  vT_skin_side4.value_pmC = %d\n"
+    }
+  ],
+  "80128da0_applfanpwm_ioctl.c": [
+    {
+      "literal_address": "0x80128f7c",
+      "value": "0x40045003",
+      "signed": 1074024451,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128f80",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x80128f84",
+      "value": "0x8056162c",
+      "signed": -2141841876,
+      "symbol_names": [],
+      "string": "%s: device is not active\n"
+    },
+    {
+      "literal_address": "0x80128f88",
+      "value": "0xc0145005",
+      "signed": -1072410619,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128f8c",
+      "value": "0xc0145007",
+      "signed": -1072410617,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128f90",
+      "value": "0x51eb851f",
+      "signed": 1374389535,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128f94",
+      "value": "0x10624dd3",
+      "signed": 274877907,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128f98",
+      "value": "0x80593e7c",
+      "signed": -2141634948,
+      "symbol_names": [
+        "Forced_Fan_Duty_Cycle"
+      ]
+    }
+  ],
+  "8012914c_applfanpwm_attach.c": [
+    {
+      "literal_address": "0x801293fc",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x80129400",
+      "value": "0x80561648",
+      "signed": -2141841848,
+      "symbol_names": [],
+      "string": ": Apple PWM Fan Driver for BCM5301x\n"
+    },
+    {
+      "literal_address": "0x80129404",
+      "value": "0x1028",
+      "signed": 4136,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80129408",
+      "value": "0x80561670",
+      "signed": -2141841808,
+      "symbol_names": [],
+      "string": "pwmctl"
+    },
+    {
+      "literal_address": "0x8012940c",
+      "value": "0xf4240",
+      "signed": 1000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80129410",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    },
+    {
+      "literal_address": "0x80129414",
+      "value": "0x816abdd0",
+      "signed": -2123711024,
+      "symbol_names": [
+        "applfan_sc_sensor"
+      ]
+    },
+    {
+      "literal_address": "0x80129418",
+      "value": "0x816abd00",
+      "signed": -2123711232,
+      "symbol_names": [
+        "applfan_sc_hdd_sensor"
+      ]
+    },
+    {
+      "literal_address": "0x8012941c",
+      "value": "0x816abd64",
+      "signed": -2123711132,
+      "symbol_names": [
+        "applfan_sc_fan_dcy"
+      ]
+    },
+    {
+      "literal_address": "0x80129420",
+      "value": "0x8055ff3c",
+      "signed": -2141847748,
+      "symbol_names": [],
+      "string": "Fan_rpm"
+    },
+    {
+      "literal_address": "0x80129424",
+      "value": "0x8055fef4",
+      "signed": -2141847820,
+      "symbol_names": [],
+      "string": "T_hdd"
+    },
+    {
+      "literal_address": "0x80129428",
+      "value": "0x8055ff34",
+      "signed": -2141847756,
+      "symbol_names": [],
+      "string": "Fan_dcy"
+    },
+    {
+      "literal_address": "0x8012942c",
+      "value": "0x816abdc8",
+      "signed": -2123711032,
+      "symbol_names": [
+        "applfan_sc_sme"
+      ]
+    },
+    {
+      "literal_address": "0x80129430",
+      "value": "0x80561678",
+      "signed": -2141841800,
+      "symbol_names": [],
+      "string": "unable to attach Fan_rpm at sysmon\n"
+    },
+    {
+      "literal_address": "0x80129434",
+      "value": "0x801287e4",
+      "signed": -2146269212,
+      "symbol_names": [
+        "applfan_refresh"
+      ]
+    },
+    {
+      "literal_address": "0x80129438",
+      "value": "0x805616e4",
+      "signed": -2141841692,
+      "symbol_names": [],
+      "string": "unable to register with sysmon\n"
+    },
+    {
+      "literal_address": "0x8012943c",
+      "value": "0x8056169c",
+      "signed": -2141841764,
+      "symbol_names": [],
+      "string": "unable to attach T_hdd at sysmon\n"
+    },
+    {
+      "literal_address": "0x80129440",
+      "value": "0x805616c0",
+      "signed": -2141841728,
+      "symbol_names": [],
+      "string": "unable to attach Fan_dcy at sysmon\n"
+    },
+    {
+      "literal_address": "0x80129444",
+      "value": "0x51eb851f",
+      "signed": 1374389535,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80129448",
+      "value": "0x80593e7c",
+      "signed": -2141634948,
+      "symbol_names": [
+        "Forced_Fan_Duty_Cycle"
+      ]
+    },
+    {
+      "literal_address": "0x8012944c",
+      "value": "0x80593eac",
+      "signed": -2141634900,
+      "symbol_names": [
+        "applfan_sc_copy"
+      ]
+    }
+  ],
+  "8010f754_cltm_deregister_radio.c": [
+    {
+      "literal_address": "0x8010f7f8",
+      "value": "0x816abc80",
+      "signed": -2123711360,
+      "symbol_names": [
+        "g_cltm_Radios"
+      ]
+    },
+    {
+      "literal_address": "0x8010f7fc",
+      "value": "0x80593d28",
+      "signed": -2141635288,
+      "symbol_names": [
+        "verbose"
+      ]
+    },
+    {
+      "literal_address": "0x8010f800",
+      "value": "0x8055fe44",
+      "signed": -2141847996,
+      "symbol_names": [],
+      "string": "CLTM: radio with cookie %p no longer registered\n"
+    },
+    {
+      "literal_address": "0x8010f804",
+      "value": "0x8055fe18",
+      "signed": -2141848040,
+      "symbol_names": [],
+      "string": "CLTM: deregistering radio %d\n"
+    },
+    {
+      "literal_address": "0x8010f808",
+      "value": "0x8055fe38",
+      "signed": -2141848008,
+      "symbol_names": [],
+      "string": "(disabled)"
+    }
+  ],
+  "8012a1a8_GPIO_interrupt_SetCallBack.c": [
+    {
+      "literal_address": "0x8012a1c8",
+      "value": "0x816ac4d0",
+      "signed": -2123709232,
+      "symbol_names": [
+        "GPIO_Interrupts"
+      ]
+    }
+  ],
+  "8012875c_pwm_ns_to_ticks.c": [
+    {
+      "literal_address": "0x80128788",
+      "value": "0x3b9aca00",
+      "signed": 1000000000,
+      "symbol_names": []
+    }
+  ],
+  "80129084_applfanpwm_lock.c": [],
+  "8012a788_gpio_write.c": [],
+  "80182760_emc141x_match.c": [
+    {
+      "literal_address": "0x801827e4",
+      "value": "0x805950c0",
+      "signed": -2141630272,
+      "symbol_names": [
+        "emc141x_compats"
+      ]
+    },
+    {
+      "literal_address": "0x801827e8",
+      "value": "0x80567fe4",
+      "signed": -2141814812,
+      "symbol_names": [],
+      "string": ": EMC1413/EMC1414 compatible match\n"
+    },
+    {
+      "literal_address": "0x801827ec",
+      "value": "0x80567fb4",
+      "signed": -2141814860,
+      "symbol_names": [],
+      "string": ": EMC1413/EMC1414 indirect match to addr %d\n"
+    }
+  ],
+  "8010f514_acltm_per_sensor.c": [
+    {
+      "literal_address": "0x8010f720",
+      "value": "0x1047f02f",
+      "signed": 273149999,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010f724",
+      "value": "0x80593d64",
+      "signed": -2141635228,
+      "symbol_names": [
+        "g_bad_sensors"
+      ]
+    },
+    {
+      "literal_address": "0x8010f728",
+      "value": "0x80593d78",
+      "signed": -2141635208,
+      "symbol_names": [
+        "last_fan_duty_cycle"
+      ],
+      "string": "?"
+    },
+    {
+      "literal_address": "0x8010f72c",
+      "value": "0x80593d68",
+      "signed": -2141635224,
+      "symbol_names": [
+        "g_bad_fan"
+      ]
+    },
+    {
+      "literal_address": "0x8010f730",
+      "value": "0x8055fe0c",
+      "signed": -2141848052,
+      "symbol_names": [],
+      "string": "P_system"
+    }
+  ],
+  "8012a1f8_GPIO_interrupt_pin_disable.c": [],
+  "80132fe0_bcmccb_mainbus_attach.c": [
+    {
+      "literal_address": "0x8013310c",
+      "value": "0x8169b180",
+      "signed": -2123779712,
+      "symbol_names": [
+        "bcmccb_sc"
+      ]
+    },
+    {
+      "literal_address": "0x80133110",
+      "value": "0x805943f0",
+      "signed": -2141633552,
+      "symbol_names": [
+        "bcm53xx_ioreg_bst"
+      ]
+    },
+    {
+      "literal_address": "0x80133114",
+      "value": "0x816ad1ac",
+      "signed": -2123705940,
+      "symbol_names": [
+        "bcm53xx_ioreg_bsh"
+      ]
+    },
+    {
+      "literal_address": "0x80133118",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x8013311c",
+      "value": "0x804cddf0",
+      "signed": -2142446096,
+      "symbol_names": [
+        "bcmccb_locators"
+      ]
+    },
+    {
+      "literal_address": "0x80133120",
+      "value": "0x804ce1e4",
+      "signed": -2142445084,
+      "symbol_names": [
+        "__func__.10314"
+      ],
+      "string": "bcmeth_rx_buf_alloc"
+    },
+    {
+      "literal_address": "0x80133124",
+      "value": "0x80594418",
+      "signed": -2141633512,
+      "symbol_names": [
+        "bcm53xx_dma_tag"
+      ]
+    },
+    {
+      "literal_address": "0x80133128",
+      "value": "0x8055f208",
+      "signed": -2141851128,
+      "symbol_names": [],
+      "string": "bcmccb"
+    },
+    {
+      "literal_address": "0x8013312c",
+      "value": "0x80133134",
+      "signed": -2146225868,
+      "symbol_names": [
+        "bcmccb_find"
+      ]
+    },
+    {
+      "literal_address": "0x80133130",
+      "value": "0x80132fb4",
+      "signed": -2146226252,
+      "symbol_names": [
+        "bcmccb_print"
+      ]
+    }
+  ],
+  "8012878c_pwm_ticks_to_ns.c": [
+    {
+      "literal_address": "0x801287d8",
+      "value": "0x3b9aca00",
+      "signed": 1000000000,
+      "symbol_names": []
+    }
+  ],
+  "801286ec_iproc_pwmc_start.c": [],
+  "8010e504_reset_cltm_stats.c": [
+    {
+      "literal_address": "0x8010e5a4",
+      "value": "0x4c8",
+      "signed": 1224,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010e5a8",
+      "value": "0x80593d2c",
+      "signed": -2141635284,
+      "symbol_names": [
+        "g_reset_stats"
+      ]
+    }
+  ],
+  "80128bcc_Force_Fan_Duty_Cycle.c": [
+    {
+      "literal_address": "0x80128c70",
+      "value": "0x80593eac",
+      "signed": -2141634900,
+      "symbol_names": [
+        "applfan_sc_copy"
+      ]
+    },
+    {
+      "literal_address": "0x80128c74",
+      "value": "0x80593eb0",
+      "signed": -2141634896,
+      "symbol_names": [
+        "applfan_pwm_period"
+      ]
+    },
+    {
+      "literal_address": "0x80128c78",
+      "value": "0x80593e7c",
+      "signed": -2141634948,
+      "symbol_names": [
+        "Forced_Fan_Duty_Cycle"
+      ]
+    },
+    {
+      "literal_address": "0x80128c7c",
+      "value": "0x80808081",
+      "signed": -2139062143,
+      "symbol_names": []
+    }
+  ],
+  "80129954_usbovercurrenttimer.c": [
+    {
+      "literal_address": "0x80129af4",
+      "value": "0x80593ec0",
+      "signed": -2141634880,
+      "symbol_names": [
+        "scheduledByGPIO_OverCurrentISR"
+      ]
+    },
+    {
+      "literal_address": "0x80129af8",
+      "value": "0x80593ec4",
+      "signed": -2141634876,
+      "symbol_names": [
+        "retries.8928"
+      ]
+    },
+    {
+      "literal_address": "0x80129afc",
+      "value": "0x816b4cb0",
+      "signed": -2123674448,
+      "symbol_names": [
+        "device_klist"
+      ]
+    },
+    {
+      "literal_address": "0x80129b00",
+      "value": "0x80592410",
+      "signed": -2141641712,
+      "symbol_names": [
+        "hz"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x80129b04",
+      "value": "0x816ac480",
+      "signed": -2123709312,
+      "symbol_names": [
+        "usbovercurrenttimer_callout"
+      ]
+    },
+    {
+      "literal_address": "0x80129b08",
+      "value": "0x80129954",
+      "signed": -2146264748,
+      "symbol_names": [
+        "usbovercurrenttimer"
+      ]
+    }
+  ],
+  "80129b0c_GPIO_set_inputPullUpPullDown.c": [
+    {
+      "literal_address": "0x80129cbc",
+      "value": "0xc1dc",
+      "signed": 49628,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80129cc0",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x80129cc4",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x80129cc8",
+      "value": "0xc1e0",
+      "signed": 49632,
+      "symbol_names": []
+    }
+  ],
+  "801285ec_iproc_pwmc_clear_set_bit.c": [],
+  "80129494_GPIO_FanTachISR_RPMs.c": [
+    {
+      "literal_address": "0x801295c0",
+      "value": "0x80593ebc",
+      "signed": -2141634884,
+      "symbol_names": [
+        "GPIO_FanTach_last"
+      ],
+      "string": "c"
+    },
+    {
+      "literal_address": "0x801295c4",
+      "value": "0x816abe38",
+      "signed": -2123710920,
+      "symbol_names": [
+        "GPIO_FanTachTimes"
+      ]
+    },
+    {
+      "literal_address": "0x801295c8",
+      "value": "0x80593eb8",
+      "signed": -2141634888,
+      "symbol_names": [
+        "GPIO_FanTach_next"
+      ]
+    },
+    {
+      "literal_address": "0x801295cc",
+      "value": "0xf4240",
+      "signed": 1000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801295d0",
+      "value": "0x2dc6c0",
+      "signed": 3000000,
+      "symbol_names": []
+    }
+  ],
+  "8012904c_applfanpwm_unlock.c": [],
+  "801287dc_applfanpwmclose.c": [],
+  "8012a5f4_gpio_submatch.c": [
+    {
+      "literal_address": "0x8012a67c",
+      "value": "0x8012a200",
+      "signed": -2146262528,
+      "symbol_names": [
+        "gpio_print"
+      ]
+    }
+  ],
+  "8012a454_gpio_close.c": [
+    {
+      "literal_address": "0x8012a480",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    }
+  ],
+  "8012a888_GPIO_interrupt_pin_ex.c": [
+    {
+      "literal_address": "0x8012ab34",
+      "value": "0x80593f50",
+      "signed": -2141634736,
+      "symbol_names": [
+        "GPIO_toggle_interrupt"
+      ]
+    },
+    {
+      "literal_address": "0x8012ab38",
+      "value": "0x80593f3c",
+      "signed": -2141634756,
+      "symbol_names": [
+        "GPIO_toggle_event_interrupt"
+      ]
+    },
+    {
+      "literal_address": "0x8012ab3c",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x8012ab40",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x8012ab44",
+      "value": "0x816ac4d0",
+      "signed": -2123709232,
+      "symbol_names": [
+        "GPIO_Interrupts"
+      ]
+    },
+    {
+      "literal_address": "0x8012ab48",
+      "value": "0x8056182c",
+      "signed": -2141841364,
+      "symbol_names": [],
+      "string": "GPIO_interrupt_pin_ex: flipping pin %d.\n"
+    }
+  ],
+  "801394d0_pwm_unlock.c": [],
+  "80138f24_pwm_ns_to_ticks.c": [
+    {
+      "literal_address": "0x80138f50",
+      "value": "0x3b9aca00",
+      "signed": 1000000000,
+      "symbol_names": []
+    }
+  ],
+  "8012a680_gpio_match.c": [
+    {
+      "literal_address": "0x8012a6b8",
+      "value": "0x80593f4c",
+      "signed": -2141634740,
+      "symbol_names": [
+        "GPIO_already_initialized"
+      ]
+    }
+  ],
+  "8010e5ac_ContCompute.c": [
+    {
+      "literal_address": "0x8010e774",
+      "value": "0x80593d88",
+      "signed": -2141635192,
+      "symbol_names": [
+        "g_reset"
+      ]
+    },
+    {
+      "literal_address": "0x8010e778",
+      "value": "0x80593d34",
+      "signed": -2141635276,
+      "symbol_names": [
+        "Ts"
+      ],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x8010e77c",
+      "value": "0x51eb851f",
+      "signed": 1374389535,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010e780",
+      "value": "0x80593d28",
+      "signed": -2141635288,
+      "symbol_names": [
+        "verbose"
+      ]
+    },
+    {
+      "literal_address": "0x8010e784",
+      "value": "0x8055fc08",
+      "signed": -2141848568,
+      "symbol_names": [],
+      "string": "CLTM: %s calc = %d, errVal = %d, Cp = %d, Ci = %d\n"
+    },
+    {
+      "literal_address": "0x8010e788",
+      "value": "0x8055fc3c",
+      "signed": -2141848516,
+      "symbol_names": [],
+      "string": "CLTM: %s.output = %d\n"
+    }
+  ],
+  "8030c548_sysmonioctl.c": [],
+  "80182310_emc141x_refresh.c": [
+    {
+      "literal_address": "0x8018249c",
+      "value": "0x8053e4a8",
+      "signed": -2141985624,
+      "symbol_names": [
+        "EMC141X_TEMP_REGS"
+      ]
+    },
+    {
+      "literal_address": "0x801824a0",
+      "value": "0xf4240",
+      "signed": 1000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801824a4",
+      "value": "0x1047f030",
+      "signed": 273150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801824a8",
+      "value": "0x8053e4ac",
+      "signed": -2141985620,
+      "symbol_names": [
+        "EMC141X_TEMP_LOW_REGS"
+      ]
+    },
+    {
+      "literal_address": "0x801824ac",
+      "value": "0x8a6d030",
+      "signed": 145150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801824b0",
+      "value": "0x805950bc",
+      "signed": -2141630276,
+      "symbol_names": [
+        "diode_fault_reg"
+      ]
+    },
+    {
+      "literal_address": "0x801824b4",
+      "value": "0x8d496f0",
+      "signed": 148150000,
+      "symbol_names": []
+    }
+  ],
+  "801395f0_pwm_detach.c": [
+    {
+      "literal_address": "0x80139644",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    }
+  ],
+  "80128fd4_applfanpwmioctl.c": [
+    {
+      "literal_address": "0x80129048",
+      "value": "0x80591a3c",
+      "signed": -2141644228,
+      "symbol_names": [
+        "applfan_cd"
+      ]
+    }
+  ],
+  "8012964c_GPIO_write.c": [
+    {
+      "literal_address": "0x801296b4",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x801296b8",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    }
+  ],
+  "8010e4a4_acltmattach.c": [
+    {
+      "literal_address": "0x8010e4f8",
+      "value": "0x8055fbd4",
+      "signed": -2141848620,
+      "symbol_names": [],
+      "string": "acltmdaemon"
+    },
+    {
+      "literal_address": "0x8010e4fc",
+      "value": "0x8010f8d0",
+      "signed": -2146371376,
+      "symbol_names": [
+        "cltmthread"
+      ]
+    },
+    {
+      "literal_address": "0x8010e500",
+      "value": "0x8055fbe0",
+      "signed": -2141848608,
+      "symbol_names": [],
+      "string": "acltmattach: kthread_create error %d"
+    }
+  ],
+  "8010f80c_cltm_register_radio.c": [
+    {
+      "literal_address": "0x8010f8c0",
+      "value": "0x816abc80",
+      "signed": -2123711360,
+      "symbol_names": [
+        "g_cltm_Radios"
+      ]
+    },
+    {
+      "literal_address": "0x8010f8c4",
+      "value": "0x80593d28",
+      "signed": -2141635288,
+      "symbol_names": [
+        "verbose"
+      ]
+    },
+    {
+      "literal_address": "0x8010f8c8",
+      "value": "0x8055fe78",
+      "signed": -2141847944,
+      "symbol_names": [],
+      "string": "CLTM: registering radio %d - %s (cookie %p)\n"
+    },
+    {
+      "literal_address": "0x8010f8cc",
+      "value": "0x8055fea8",
+      "signed": -2141847896,
+      "symbol_names": [],
+      "string": "CLTM: registering radio %d - %s\n"
+    }
+  ],
+  "80139508_pwm_lock.c": [],
+  "8012a6bc_gpio_open.c": [
+    {
+      "literal_address": "0x8012a778",
+      "value": "0x80591b1c",
+      "signed": -2141644004,
+      "symbol_names": [
+        "applgpio_cd"
+      ]
+    },
+    {
+      "literal_address": "0x8012a77c",
+      "value": "0x80561804",
+      "signed": -2141841404,
+      "symbol_names": [],
+      "string": "gpio_open: gpio device_lookup failed!\n"
+    },
+    {
+      "literal_address": "0x8012a780",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    },
+    {
+      "literal_address": "0x8012a784",
+      "value": "0x804cdad4",
+      "signed": -2142446892,
+      "symbol_names": [
+        "gpio_fileops"
+      ]
+    }
+  ],
+  "80128968_iproc_pwmc_config.c": [
+    {
+      "literal_address": "0x80128bc0",
+      "value": "0x80008001",
+      "signed": -2147450879,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128bc4",
+      "value": "0x804cd990",
+      "signed": -2142447216,
+      "symbol_names": [
+        "pwm_chan_pre_scaler_info"
+      ]
+    },
+    {
+      "literal_address": "0x80128bc8",
+      "value": "0x804cd9c0",
+      "signed": -2142447168,
+      "symbol_names": [
+        "pwm_chan_period_cnt_info"
+      ]
+    }
+  ],
+  "8010efd4_acltm_run_PI_loops.c": [
+    {
+      "literal_address": "0x8010f4d4",
+      "value": "0x80593d5c",
+      "signed": -2141635236,
+      "symbol_names": [
+        "g_fan_loop_5G_radio_target"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4d8",
+      "value": "0x80593d84",
+      "signed": -2141635196,
+      "symbol_names": [
+        "min_fan_duty_cycle"
+      ],
+      "string": "9"
+    },
+    {
+      "literal_address": "0x8010f4dc",
+      "value": "0x80593d74",
+      "signed": -2141635212,
+      "symbol_names": [
+        "desired_fan_duty_cycle"
+      ],
+      "string": "?"
+    },
+    {
+      "literal_address": "0x8010f4e0",
+      "value": "0x80593d7c",
+      "signed": -2141635204,
+      "symbol_names": [
+        "desired_radio_throttle"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x8010f4e4",
+      "value": "0x80593d60",
+      "signed": -2141635232,
+      "symbol_names": [
+        "g_radio_loop_5G_radio_target"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4e8",
+      "value": "0x80593d28",
+      "signed": -2141635288,
+      "symbol_names": [
+        "verbose"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4ec",
+      "value": "0x80593d2c",
+      "signed": -2141635284,
+      "symbol_names": [
+        "g_reset_stats"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4f0",
+      "value": "0x80593d6c",
+      "signed": -2141635220,
+      "symbol_names": [
+        "g_over_temperature"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4f4",
+      "value": "0x80593d64",
+      "signed": -2141635228,
+      "symbol_names": [
+        "g_bad_sensors"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4f8",
+      "value": "0x80593d68",
+      "signed": -2141635224,
+      "symbol_names": [
+        "g_bad_fan"
+      ]
+    },
+    {
+      "literal_address": "0x8010f4fc",
+      "value": "0xa78",
+      "signed": 2680,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010f500",
+      "value": "0xefb80fd0",
+      "signed": -273150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010f504",
+      "value": "0x4325c53f",
+      "signed": 1126548799,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010f508",
+      "value": "0x5c8",
+      "signed": 1480,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010f50c",
+      "value": "0x8055fd88",
+      "signed": -2141848184,
+      "symbol_names": [],
+      "string": "CLTM: acltm_run_PI_loops setting fan desired_fan_duty_cycle to %d\n"
+    },
+    {
+      "literal_address": "0x8010f510",
+      "value": "0x8055fdcc",
+      "signed": -2141848116,
+      "symbol_names": [],
+      "string": "CLTM: acltm_run_PI_loops setting desired_radio_throttle to %d\n"
+    }
+  ],
+  "80138eb4_iproc_pwmc_start.c": [],
+  "8010f734_Set_Fan_Duty_Cycle.c": [
+    {
+      "literal_address": "0x8010f750",
+      "value": "0x80593d78",
+      "signed": -2141635208,
+      "symbol_names": [
+        "last_fan_duty_cycle"
+      ],
+      "string": "?"
+    }
+  ],
+  "8010eef8_cltm_check_load.c": [
+    {
+      "literal_address": "0x8010efc8",
+      "value": "0x816abc80",
+      "signed": -2123711360,
+      "symbol_names": [
+        "g_cltm_Radios"
+      ]
+    },
+    {
+      "literal_address": "0x8010efcc",
+      "value": "0x8055fd6c",
+      "signed": -2141848212,
+      "symbol_names": [],
+      "string": "CLTM: Using 5GHz radio %s\n"
+    },
+    {
+      "literal_address": "0x8010efd0",
+      "value": "0x8055fd4c",
+      "signed": -2141848244,
+      "symbol_names": [],
+      "string": "CLTM: Using 2.4GHz radio %s\n"
+    }
+  ],
+  "8012a540_gpio_attach.c": [
+    {
+      "literal_address": "0x8012a5dc",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x8012a5e0",
+      "value": "0x805617dc",
+      "signed": -2141841444,
+      "symbol_names": [],
+      "string": ": Failed to map GPIO-CCB\n"
+    },
+    {
+      "literal_address": "0x8012a5e4",
+      "value": "0x805617f8",
+      "signed": -2141841416,
+      "symbol_names": [],
+      "string": ": GPIO-CCB\n"
+    },
+    {
+      "literal_address": "0x8012a5e8",
+      "value": "0x80593f4c",
+      "signed": -2141634740,
+      "symbol_names": [
+        "GPIO_already_initialized"
+      ]
+    },
+    {
+      "literal_address": "0x8012a5ec",
+      "value": "0x8012a5f4",
+      "signed": -2146261516,
+      "symbol_names": [
+        "gpio_submatch"
+      ]
+    },
+    {
+      "literal_address": "0x8012a5f0",
+      "value": "0x8055ee34",
+      "signed": -2141852108,
+      "symbol_names": [],
+      "string": "applgpio"
+    }
+  ],
+  "80138e54_iproc_pwmc_set_field.c": [],
+  "8012b090_gpio_ioctl.c": [
+    {
+      "literal_address": "0x8012b4dc",
+      "value": "0xc0284703",
+      "signed": -1071102205,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012b4e0",
+      "value": "0xc0284708",
+      "signed": -1071102200,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012b4e4",
+      "value": "0xc0284701",
+      "signed": -1071102207,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012b4e8",
+      "value": "0xc028470a",
+      "signed": -1071102198,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012b4ec",
+      "value": "0x80593efc",
+      "signed": -2141634820,
+      "symbol_names": [
+        "GPIO_Board_Revision"
+      ]
+    },
+    {
+      "literal_address": "0x8012b4f0",
+      "value": "0x80593f00",
+      "signed": -2141634816,
+      "symbol_names": [
+        "GPIO_Bootloader_Output_Enable"
+      ]
+    },
+    {
+      "literal_address": "0x8012b4f4",
+      "value": "0x805618b4",
+      "signed": -2141841228,
+      "symbol_names": [],
+      "string": "bootloader saw Reset button!\n"
+    },
+    {
+      "literal_address": "0x8012b4f8",
+      "value": "0x80593f34",
+      "signed": -2141634764,
+      "symbol_names": [
+        "GPIO_Blink_Activity_Enabled"
+      ]
+    },
+    {
+      "literal_address": "0x8012b4fc",
+      "value": "0x116",
+      "signed": 278,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012b500",
+      "value": "0x805618ac",
+      "signed": -2141841236,
+      "symbol_names": [],
+      "string": "gpioevt"
+    },
+    {
+      "literal_address": "0x8012b504",
+      "value": "0x80593f44",
+      "signed": -2141634748,
+      "symbol_names": [
+        "gpio_events"
+      ]
+    }
+  ],
+  "8030d2b8_sysmon_envsys_find_40.c": [
+    {
+      "literal_address": "0x8030d334",
+      "value": "0x816b4d08",
+      "signed": -2123674360,
+      "symbol_names": [
+        "sme_global_mtx"
+      ]
+    },
+    {
+      "literal_address": "0x8030d338",
+      "value": "0x816b4d0c",
+      "signed": -2123674356,
+      "symbol_names": [
+        "sysmon_envsys_list"
+      ]
+    }
+  ],
+  "80132c10_bcmcca_print.c": [
+    {
+      "literal_address": "0x80132c38",
+      "value": "0x80561c38",
+      "signed": -2141840328,
+      "symbol_names": [],
+      "string": " channel %d"
+    }
+  ],
+  "8030dd00_sysmonioctl_envsys.c": [
+    {
+      "literal_address": "0x8030e4c4",
+      "value": "0xc0084502",
+      "signed": -1073199870,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8030e4c8",
+      "value": "0xc0204502",
+      "signed": -1071627006,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8030e4cc",
+      "value": "0xc0384504",
+      "signed": -1070054140,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8030e4d0",
+      "value": "0xc0084500",
+      "signed": -1073199872,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8030e4d4",
+      "value": "0x8057d950",
+      "signed": -2141726384,
+      "symbol_names": [],
+      "string": "envsys-remove-props"
+    },
+    {
+      "literal_address": "0x8030e4d8",
+      "value": "0x8057d964",
+      "signed": -2141726364,
+      "symbol_names": [],
+      "string": "acpi"
+    },
+    {
+      "literal_address": "0x8030e4dc",
+      "value": "0x8056207c",
+      "signed": -2141839236,
+      "symbol_names": [],
+      "string": "%s %s"
+    },
+    {
+      "literal_address": "0x8030e4e0",
+      "value": "0x816b4d08",
+      "signed": -2123674360,
+      "symbol_names": [
+        "sme_global_mtx"
+      ]
+    },
+    {
+      "literal_address": "0x8030e4e4",
+      "value": "0x816b4d0c",
+      "signed": -2123674356,
+      "symbol_names": [
+        "sysmon_envsys_list"
+      ]
+    },
+    {
+      "literal_address": "0x8030e4e8",
+      "value": "0x816b4d04",
+      "signed": -2123674364,
+      "symbol_names": [
+        "sme_propd"
+      ]
+    },
+    {
+      "literal_address": "0x8030e4ec",
+      "value": "0x8057d8e8",
+      "signed": -2141726488,
+      "symbol_names": [],
+      "string": "sensor%d"
+    },
+    {
+      "literal_address": "0x8030e4f0",
+      "value": "0x8057d7c0",
+      "signed": -2141726784,
+      "symbol_names": [],
+      "string": "critical-capacity"
+    },
+    {
+      "literal_address": "0x8030e4f4",
+      "value": "0x8057d7d4",
+      "signed": -2141726764,
+      "symbol_names": [],
+      "string": "warning-capacity"
+    },
+    {
+      "literal_address": "0x8030e4f8",
+      "value": "0x8057d7e8",
+      "signed": -2141726744,
+      "symbol_names": [],
+      "string": "high-capacity"
+    },
+    {
+      "literal_address": "0x8030e4fc",
+      "value": "0x8057d7f8",
+      "signed": -2141726728,
+      "symbol_names": [],
+      "string": "maximum-capacity"
+    },
+    {
+      "literal_address": "0x8030e500",
+      "value": "0x8057d81c",
+      "signed": -2141726692,
+      "symbol_names": [],
+      "string": "warning-max"
+    },
+    {
+      "literal_address": "0x8030e504",
+      "value": "0x8057d838",
+      "signed": -2141726664,
+      "symbol_names": [],
+      "string": "warning-min"
+    },
+    {
+      "literal_address": "0x8030e508",
+      "value": "0x8057d80c",
+      "signed": -2141726708,
+      "symbol_names": [],
+      "string": "critical-max"
+    },
+    {
+      "literal_address": "0x8030e50c",
+      "value": "0x8057d828",
+      "signed": -2141726680,
+      "symbol_names": [],
+      "string": "critical-min"
+    },
+    {
+      "literal_address": "0x8030e510",
+      "value": "0x8057d7b8",
+      "signed": -2141726792,
+      "symbol_names": [],
+      "string": "rfact"
+    },
+    {
+      "literal_address": "0x8030e514",
+      "value": "0x8057d7ac",
+      "signed": -2141726804,
+      "symbol_names": [],
+      "string": "description"
+    },
+    {
+      "literal_address": "0x8030e518",
+      "value": "0x61726179",
+      "signed": 1634886009,
+      "symbol_names": []
+    }
+  ],
+  "8010e3bc_cltm_setfreq.c": [
+    {
+      "literal_address": "0x8010e49c",
+      "value": "0x80593d70",
+      "signed": -2141635216,
+      "symbol_names": [
+        "gCltm"
+      ]
+    },
+    {
+      "literal_address": "0x8010e4a0",
+      "value": "0x80593d34",
+      "signed": -2141635276,
+      "symbol_names": [
+        "Ts"
+      ],
+      "string": "\n"
+    }
+  ],
+  "801295d4_GPIO_FanTachISR.c": [
+    {
+      "literal_address": "0x8012963c",
+      "value": "0x80593eb8",
+      "signed": -2141634888,
+      "symbol_names": [
+        "GPIO_FanTach_next"
+      ]
+    },
+    {
+      "literal_address": "0x80129640",
+      "value": "0x80593ebc",
+      "signed": -2141634884,
+      "symbol_names": [
+        "GPIO_FanTach_last"
+      ],
+      "string": "c"
+    },
+    {
+      "literal_address": "0x80129644",
+      "value": "0x816abe38",
+      "signed": -2123710920,
+      "symbol_names": [
+        "GPIO_FanTachTimes"
+      ]
+    },
+    {
+      "literal_address": "0x80129648",
+      "value": "0x51eb851f",
+      "signed": 1374389535,
+      "symbol_names": []
+    }
+  ],
+  "80129f80_GPIO_Setup.c": [
+    {
+      "literal_address": "0x8012a14c",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x8012a150",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x8012a154",
+      "value": "0x80593f00",
+      "signed": -2141634816,
+      "symbol_names": [
+        "GPIO_Bootloader_Output_Enable"
+      ]
+    },
+    {
+      "literal_address": "0x8012a158",
+      "value": "0x800004",
+      "signed": 8388612,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012a15c",
+      "value": "0x800044",
+      "signed": 8388676,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012a160",
+      "value": "0x80593efc",
+      "signed": -2141634820,
+      "symbol_names": [
+        "GPIO_Board_Revision"
+      ]
+    },
+    {
+      "literal_address": "0x8012a164",
+      "value": "0x801295d4",
+      "signed": -2146265644,
+      "symbol_names": [
+        "GPIO_FanTachISR"
+      ]
+    }
+  ],
+  "8012948c_GPIO_invert_input_pin.c": [],
+  "80139734_pwm_match.c": [],
+  "8012886c_iproc_pwmc_config_duty_ticks.c": [
+    {
+      "literal_address": "0x80128960",
+      "value": "0x804cd990",
+      "signed": -2142447216,
+      "symbol_names": [
+        "pwm_chan_pre_scaler_info"
+      ]
+    },
+    {
+      "literal_address": "0x80128964",
+      "value": "0x804cd9f0",
+      "signed": -2142447120,
+      "symbol_names": [
+        "pwm_chan_duty_cycle_info"
+      ]
+    }
+  ],
+  "8012ae34_gpiocca_intr.c": [
+    {
+      "literal_address": "0x8012b080",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x8012b084",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x8012b088",
+      "value": "0x816ac69c",
+      "signed": -2123708772,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012b08c",
+      "value": "0x80593f3c",
+      "signed": -2141634756,
+      "symbol_names": [
+        "GPIO_toggle_event_interrupt"
+      ]
+    }
+  ],
+  "80138fac_iproc_pwmc_config_duty_ticks.c": [
+    {
+      "literal_address": "0x801390a0",
+      "value": "0x804ce740",
+      "signed": -2142443712,
+      "symbol_names": [
+        "pwm_chan_pre_scaler_info"
+      ]
+    },
+    {
+      "literal_address": "0x801390a4",
+      "value": "0x804ce7a0",
+      "signed": -2142443616,
+      "symbol_names": [
+        "pwm_chan_duty_cycle_info"
+      ]
+    }
+  ],
+  "8012acb0_gpio_add_event.c": [
+    {
+      "literal_address": "0x8012ae1c",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    },
+    {
+      "literal_address": "0x8012ae20",
+      "value": "0x80593f40",
+      "signed": -2141634752,
+      "symbol_names": [
+        "gpio_nevents"
+      ]
+    },
+    {
+      "literal_address": "0x8012ae24",
+      "value": "0x80593f44",
+      "signed": -2141634748,
+      "symbol_names": [
+        "gpio_events"
+      ]
+    },
+    {
+      "literal_address": "0x8012ae28",
+      "value": "0x816b4cb0",
+      "signed": -2123674448,
+      "symbol_names": [
+        "device_klist"
+      ]
+    },
+    {
+      "literal_address": "0x8012ae2c",
+      "value": "0x80561888",
+      "signed": -2141841272,
+      "symbol_names": [],
+      "string": "gpio_add_event: event making room\n"
+    },
+    {
+      "literal_address": "0x8012ae30",
+      "value": "0x80561858",
+      "signed": -2141841320,
+      "symbol_names": [],
+      "string": "gpio_add_event: malloc failed...event dropped\n"
+    }
+  ],
+  "8012a168_GPIO_Report_Activity.c": [
+    {
+      "literal_address": "0x8012a1a0",
+      "value": "0x80593f34",
+      "signed": -2141634764,
+      "symbol_names": [
+        "GPIO_Blink_Activity_Enabled"
+      ]
+    },
+    {
+      "literal_address": "0x8012a1a4",
+      "value": "0x80593f38",
+      "signed": -2141634760,
+      "symbol_names": [
+        "GPIO_Timer_State"
+      ]
+    }
+  ],
+  "801287e4_applfan_refresh.c": [
+    {
+      "literal_address": "0x80128864",
+      "value": "0x1047f030",
+      "signed": 273150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80128868",
+      "value": "0x80593e7c",
+      "signed": -2141634948,
+      "symbol_names": [
+        "Forced_Fan_Duty_Cycle"
+      ]
+    }
+  ],
+  "801390a8_pwm_ioctl.c": [
+    {
+      "literal_address": "0x80139478",
+      "value": "0x40045003",
+      "signed": 1074024451,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8013947c",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x80139480",
+      "value": "0x8056162c",
+      "signed": -2141841876,
+      "symbol_names": [],
+      "string": "%s: device is not active\n"
+    },
+    {
+      "literal_address": "0x80139484",
+      "value": "0xc0145005",
+      "signed": -1072410619,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80139488",
+      "value": "0xc0145007",
+      "signed": -1072410617,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8013948c",
+      "value": "0x80008001",
+      "signed": -2147450879,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80139490",
+      "value": "0x804ce740",
+      "signed": -2142443712,
+      "symbol_names": [
+        "pwm_chan_pre_scaler_info"
+      ]
+    },
+    {
+      "literal_address": "0x80139494",
+      "value": "0x804ce770",
+      "signed": -2142443664,
+      "symbol_names": [
+        "pwm_chan_period_cnt_info"
+      ]
+    }
+  ],
+  "80129ccc_GPIO_select_alternate_pin_mux.c": [
+    {
+      "literal_address": "0x80129d30",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x80129d34",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x80129d38",
+      "value": "0xc1c0",
+      "signed": 49600,
+      "symbol_names": []
+    }
+  ],
+  "8012a200_gpio_print.c": [
+    {
+      "literal_address": "0x8012a288",
+      "value": "0x8056173c",
+      "signed": -2141841604,
+      "symbol_names": [],
+      "string": " pins: [%d"
+    },
+    {
+      "literal_address": "0x8012a28c",
+      "value": "0x80561748",
+      "signed": -2141841592,
+      "symbol_names": [],
+      "string": ", %d"
+    },
+    {
+      "literal_address": "0x8012a290",
+      "value": "0x80570974",
+      "signed": -2141779596,
+      "symbol_names": [],
+      "string": "]"
+    },
+    {
+      "literal_address": "0x8012a294",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    }
+  ],
+  "801297a0_GPIO_hdd_powerctl.c": [
+    {
+      "literal_address": "0x801297f8",
+      "value": "0x80561728",
+      "signed": -2141841624,
+      "symbol_names": [],
+      "string": "GPIO hd power %s\n"
+    },
+    {
+      "literal_address": "0x801297fc",
+      "value": "0x805644d8",
+      "signed": -2141829928,
+      "symbol_names": [],
+      "string": "down"
+    },
+    {
+      "literal_address": "0x80129800",
+      "value": "0x805644d0",
+      "signed": -2141829936,
+      "symbol_names": [],
+      "string": "up"
+    }
+  ],
+  "8010e1fc_cltm_verify_fan_override.c": [
+    {
+      "literal_address": "0x8010e2c0",
+      "value": "0x80593d40",
+      "signed": -2141635264,
+      "symbol_names": [
+        "g_override_fan"
+      ]
+    }
+  ],
+  "80132ca8_bcmcca_mainbus_attach.c": [
+    {
+      "literal_address": "0x80132e98",
+      "value": "0x80594570",
+      "signed": -2141633168,
+      "symbol_names": [
+        "bcmcca_sc"
+      ]
+    },
+    {
+      "literal_address": "0x80132e9c",
+      "value": "0x805943f0",
+      "signed": -2141633552,
+      "symbol_names": [
+        "bcm53xx_ioreg_bst"
+      ]
+    },
+    {
+      "literal_address": "0x80132ea0",
+      "value": "0x816ad1ac",
+      "signed": -2123705940,
+      "symbol_names": [
+        "bcm53xx_ioreg_bsh"
+      ]
+    },
+    {
+      "literal_address": "0x80132ea4",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x80132ea8",
+      "value": "0x80562300",
+      "signed": -2141838592,
+      "symbol_names": [],
+      "string": ": BCM%u (Rev %c%u)\n"
+    },
+    {
+      "literal_address": "0x80132eac",
+      "value": "0x80132ebc",
+      "signed": -2146226500,
+      "symbol_names": [
+        "bcmcca_intr"
+      ]
+    },
+    {
+      "literal_address": "0x80132eb0",
+      "value": "0x80562334",
+      "signed": -2141838540,
+      "symbol_names": [],
+      "string": "interrupting at irq %d\n"
+    },
+    {
+      "literal_address": "0x80132eb4",
+      "value": "0x80132c10",
+      "signed": -2146227184,
+      "symbol_names": [
+        "bcmcca_print"
+      ]
+    },
+    {
+      "literal_address": "0x80132eb8",
+      "value": "0x80562314",
+      "signed": -2141838572,
+      "symbol_names": [],
+      "string": "failed to establish CCA intr\n"
+    }
+  ],
+  "80138eec_iproc_pwmc_stop.c": [],
+  "80129d3c_GPIO_map_input_pin.c": [
+    {
+      "literal_address": "0x80129e54",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x80129e58",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x80129e5c",
+      "value": "0xc1c0",
+      "signed": 49600,
+      "symbol_names": []
+    }
+  ],
+  "8012a1cc_gpio_platform_ioctl.c": [
+    {
+      "literal_address": "0x8012a1e0",
+      "value": "0xdeadbeef",
+      "signed": -559038737,
+      "symbol_names": [
+        "_KERNEL_OPT_TPCONS",
+        "_KERNEL_OPT_MEMORY_RBFLAGS",
+        "_KERNEL_OPT_IPX"
+      ]
+    }
+  ],
+  "8010e2c4_cltm_verify_radio_override.c": [
+    {
+      "literal_address": "0x8010e3b0",
+      "value": "0x8055fad8",
+      "signed": -2141848872,
+      "symbol_names": [],
+      "string": "override24"
+    },
+    {
+      "literal_address": "0x8010e3b4",
+      "value": "0x80593d38",
+      "signed": -2141635272,
+      "symbol_names": [
+        "g_override24"
+      ]
+    },
+    {
+      "literal_address": "0x8010e3b8",
+      "value": "0x80593d3c",
+      "signed": -2141635268,
+      "symbol_names": [
+        "g_override5"
+      ]
+    }
+  ],
+  "80129904_GPIO_OverCurrentISR.c": [
+    {
+      "literal_address": "0x80129944",
+      "value": "0x80592410",
+      "signed": -2141641712,
+      "symbol_names": [
+        "hz"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x80129948",
+      "value": "0x80593ec0",
+      "signed": -2141634880,
+      "symbol_names": [
+        "scheduledByGPIO_OverCurrentISR"
+      ]
+    },
+    {
+      "literal_address": "0x8012994c",
+      "value": "0x816ac480",
+      "signed": -2123709312,
+      "symbol_names": [
+        "usbovercurrenttimer_callout"
+      ]
+    },
+    {
+      "literal_address": "0x80129950",
+      "value": "0x80129954",
+      "signed": -2146264748,
+      "symbol_names": [
+        "usbovercurrenttimer"
+      ]
+    }
+  ],
+  "8010f8d0_cltmthread.c": [
+    {
+      "literal_address": "0x801106f4",
+      "value": "0x8055fecc",
+      "signed": -2141847860,
+      "symbol_names": [],
+      "string": "ACLTM: Initializing\n"
+    },
+    {
+      "literal_address": "0x801106f8",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    },
+    {
+      "literal_address": "0x801106fc",
+      "value": "0x8055fee4",
+      "signed": -2141847836,
+      "symbol_names": [],
+      "string": "uninitialized"
+    },
+    {
+      "literal_address": "0x80110700",
+      "value": "0x8055fef4",
+      "signed": -2141847820,
+      "symbol_names": [],
+      "string": "T_hdd"
+    },
+    {
+      "literal_address": "0x80110704",
+      "value": "0x8055fefc",
+      "signed": -2141847812,
+      "symbol_names": [],
+      "string": "T_internal"
+    },
+    {
+      "literal_address": "0x80110708",
+      "value": "0x8055ff08",
+      "signed": -2141847800,
+      "symbol_names": [],
+      "string": "T_external1"
+    },
+    {
+      "literal_address": "0x8011070c",
+      "value": "0x8055ff14",
+      "signed": -2141847788,
+      "symbol_names": [],
+      "string": "T_external2"
+    },
+    {
+      "literal_address": "0x80110710",
+      "value": "0x8055ff20",
+      "signed": -2141847776,
+      "symbol_names": [],
+      "string": "T_external3"
+    },
+    {
+      "literal_address": "0x80110714",
+      "value": "0x8055ff2c",
+      "signed": -2141847764,
+      "symbol_names": [],
+      "string": "unused"
+    },
+    {
+      "literal_address": "0x80110718",
+      "value": "0x1211b3b0",
+      "signed": 303150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8011071c",
+      "value": "0x8055ff34",
+      "signed": -2141847756,
+      "symbol_names": [],
+      "string": "Fan_dcy"
+    },
+    {
+      "literal_address": "0x80110720",
+      "value": "0x8055ff3c",
+      "signed": -2141847748,
+      "symbol_names": [],
+      "string": "Fan_rpm"
+    },
+    {
+      "literal_address": "0x80110724",
+      "value": "0x8055ff44",
+      "signed": -2141847740,
+      "symbol_names": [],
+      "string": "vT_hdd"
+    },
+    {
+      "literal_address": "0x80110728",
+      "value": "0x8055ff4c",
+      "signed": -2141847732,
+      "symbol_names": [],
+      "string": "vT_2G_radio"
+    },
+    {
+      "literal_address": "0x8011072c",
+      "value": "0xfffffdee",
+      "signed": -530,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110730",
+      "value": "0x1047f030",
+      "signed": 273150000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110734",
+      "value": "0x66f",
+      "signed": 1647,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110738",
+      "value": "0x2f7e",
+      "signed": 12158,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8011073c",
+      "value": "0x8055ff58",
+      "signed": -2141847720,
+      "symbol_names": [],
+      "string": "vT_5G_radio"
+    },
+    {
+      "literal_address": "0x80110740",
+      "value": "0x145",
+      "signed": 325,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110744",
+      "value": "0x35e",
+      "signed": 862,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110748",
+      "value": "0x8055ff64",
+      "signed": -2141847708,
+      "symbol_names": [],
+      "string": "vT_skin_top"
+    },
+    {
+      "literal_address": "0x8011074c",
+      "value": "0xfffffe49",
+      "signed": -439,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110750",
+      "value": "0xfaa",
+      "signed": 4010,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110754",
+      "value": "0x8055ff70",
+      "signed": -2141847696,
+      "symbol_names": [],
+      "string": "vT_skin_side3"
+    },
+    {
+      "literal_address": "0x80110758",
+      "value": "0x507",
+      "signed": 1287,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8011075c",
+      "value": "0x171",
+      "signed": 369,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110760",
+      "value": "0x8055ff80",
+      "signed": -2141847680,
+      "symbol_names": [],
+      "string": "vT_skin_side4"
+    },
+    {
+      "literal_address": "0x80110764",
+      "value": "0x8055ff90",
+      "signed": -2141847664,
+      "symbol_names": [],
+      "string": "Fan_HDD_loop"
+    },
+    {
+      "literal_address": "0x80110768",
+      "value": "0x8055ffa0",
+      "signed": -2141847648,
+      "symbol_names": [],
+      "string": "Fan_2G_radio_loop"
+    },
+    {
+      "literal_address": "0x8011076c",
+      "value": "0x498",
+      "signed": 1176,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110770",
+      "value": "0x8055ffb4",
+      "signed": -2141847628,
+      "symbol_names": [],
+      "string": "Fan_5G_radio_loop"
+    },
+    {
+      "literal_address": "0x80110774",
+      "value": "0x48b",
+      "signed": 1163,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110778",
+      "value": "0x926",
+      "signed": 2342,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8011077c",
+      "value": "0x8055ffc8",
+      "signed": -2141847608,
+      "symbol_names": [],
+      "string": "Fan_skin_top_loop"
+    },
+    {
+      "literal_address": "0x80110780",
+      "value": "0x805",
+      "signed": 2053,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110784",
+      "value": "0x8055ffdc",
+      "signed": -2141847588,
+      "symbol_names": [],
+      "string": "Fan_skin_side3_loop"
+    },
+    {
+      "literal_address": "0x80110788",
+      "value": "0x8f1",
+      "signed": 2289,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8011078c",
+      "value": "0x8055fff0",
+      "signed": -2141847568,
+      "symbol_names": [],
+      "string": "Fan_skin_side4_loop"
+    },
+    {
+      "literal_address": "0x80110790",
+      "value": "0x84a",
+      "signed": 2122,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80110794",
+      "value": "0x80560004",
+      "signed": -2141847548,
+      "symbol_names": [],
+      "string": "Radio_HDD_loop"
+    },
+    {
+      "literal_address": "0x80110798",
+      "value": "0x80560014",
+      "signed": -2141847532,
+      "symbol_names": [],
+      "string": "Radio_2G_radio_loop"
+    },
+    {
+      "literal_address": "0x8011079c",
+      "value": "0x131",
+      "signed": 305,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801107a0",
+      "value": "0x80560028",
+      "signed": -2141847512,
+      "symbol_names": [],
+      "string": "Radio_5G_radio_loop"
+    },
+    {
+      "literal_address": "0x801107a4",
+      "value": "0x8056003c",
+      "signed": -2141847492,
+      "symbol_names": [],
+      "string": "Radio_skin_top_loop"
+    },
+    {
+      "literal_address": "0x801107a8",
+      "value": "0x3eb",
+      "signed": 1003,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801107ac",
+      "value": "0x80560050",
+      "signed": -2141847472,
+      "symbol_names": [],
+      "string": "Radio_skin_side3_loop"
+    },
+    {
+      "literal_address": "0x801107b0",
+      "value": "0x46b",
+      "signed": 1131,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801107b4",
+      "value": "0x80560068",
+      "signed": -2141847448,
+      "symbol_names": [],
+      "string": "Radio_skin_side4_loop"
+    },
+    {
+      "literal_address": "0x801107b8",
+      "value": "0x427",
+      "signed": 1063,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x801107bc",
+      "value": "0x8010f514",
+      "signed": -2146372332,
+      "symbol_names": [
+        "acltm_per_sensor"
+      ]
+    },
+    {
+      "literal_address": "0x801107c0",
+      "value": "0x80593d24",
+      "signed": -2141635292,
+      "symbol_names": [
+        "g_disabled"
+      ]
+    },
+    {
+      "literal_address": "0x801107c4",
+      "value": "0x80593d74",
+      "signed": -2141635212,
+      "symbol_names": [
+        "desired_fan_duty_cycle"
+      ],
+      "string": "?"
+    },
+    {
+      "literal_address": "0x801107c8",
+      "value": "0x80560080",
+      "signed": -2141847424,
+      "symbol_names": [],
+      "string": "CLTM: Error calling Force_Fan_Init\n"
+    },
+    {
+      "literal_address": "0x801107cc",
+      "value": "0x80593d78",
+      "signed": -2141635208,
+      "symbol_names": [
+        "last_fan_duty_cycle"
+      ],
+      "string": "?"
+    },
+    {
+      "literal_address": "0x801107d0",
+      "value": "0x80593d70",
+      "signed": -2141635216,
+      "symbol_names": [
+        "gCltm"
+      ]
+    },
+    {
+      "literal_address": "0x801107d4",
+      "value": "0x80592410",
+      "signed": -2141641712,
+      "symbol_names": [
+        "hz"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x801107d8",
+      "value": "0x80593d34",
+      "signed": -2141635276,
+      "symbol_names": [
+        "Ts"
+      ],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x801107dc",
+      "value": "0x8055fab0",
+      "signed": -2141848912,
+      "symbol_names": [],
+      "string": "cltm"
+    },
+    {
+      "literal_address": "0x801107e0",
+      "value": "0x80593d28",
+      "signed": -2141635288,
+      "symbol_names": [
+        "verbose"
+      ]
+    },
+    {
+      "literal_address": "0x801107e4",
+      "value": "0x80593d84",
+      "signed": -2141635196,
+      "symbol_names": [
+        "min_fan_duty_cycle"
+      ],
+      "string": "9"
+    },
+    {
+      "literal_address": "0x801107e8",
+      "value": "0x80593d64",
+      "signed": -2141635228,
+      "symbol_names": [
+        "g_bad_sensors"
+      ]
+    },
+    {
+      "literal_address": "0x801107ec",
+      "value": "0x80593d6c",
+      "signed": -2141635220,
+      "symbol_names": [
+        "g_over_temperature"
+      ]
+    },
+    {
+      "literal_address": "0x801107f0",
+      "value": "0x80593d68",
+      "signed": -2141635224,
+      "symbol_names": [
+        "g_bad_fan"
+      ]
+    },
+    {
+      "literal_address": "0x801107f4",
+      "value": "0x80593d40",
+      "signed": -2141635264,
+      "symbol_names": [
+        "g_override_fan"
+      ]
+    },
+    {
+      "literal_address": "0x801107f8",
+      "value": "0x80593d7c",
+      "signed": -2141635204,
+      "symbol_names": [
+        "desired_radio_throttle"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x801107fc",
+      "value": "0x80593d80",
+      "signed": -2141635200,
+      "symbol_names": [
+        "g_disabled_already"
+      ]
+    },
+    {
+      "literal_address": "0x80110800",
+      "value": "0x805600e8",
+      "signed": -2141847320,
+      "symbol_names": [],
+      "string": "CLTM: entering disabled mode.\n"
+    },
+    {
+      "literal_address": "0x80110804",
+      "value": "0x816b4cb0",
+      "signed": -2123674448,
+      "symbol_names": [
+        "device_klist"
+      ]
+    },
+    {
+      "literal_address": "0x80110808",
+      "value": "0x80560108",
+      "signed": -2141847288,
+      "symbol_names": [],
+      "string": "CLTM: Changed power on %s to %d%%\n"
+    },
+    {
+      "literal_address": "0x8011080c",
+      "value": "0x80593d38",
+      "signed": -2141635272,
+      "symbol_names": [
+        "g_override24"
+      ]
+    },
+    {
+      "literal_address": "0x80110810",
+      "value": "0x80593d3c",
+      "signed": -2141635268,
+      "symbol_names": [
+        "g_override5"
+      ]
+    },
+    {
+      "literal_address": "0x80110814",
+      "value": "0x805600a4",
+      "signed": -2141847388,
+      "symbol_names": [],
+      "string": "CLTM:    current time = %d\n"
+    },
+    {
+      "literal_address": "0x80110818",
+      "value": "0x805600c0",
+      "signed": -2141847360,
+      "symbol_names": [],
+      "string": "CLTM: only found %d sensors, expect 5\n"
+    },
+    {
+      "literal_address": "0x8011081c",
+      "value": "0x79e",
+      "signed": 1950,
+      "symbol_names": []
+    }
+  ],
+  "80131a80_bcm53xx_device_register.c": [
+    {
+      "literal_address": "0x80131ce8",
+      "value": "0x8055f1d4",
+      "signed": -2141851180,
+      "symbol_names": [],
+      "string": "armperiph"
+    },
+    {
+      "literal_address": "0x80131cec",
+      "value": "0x8055f298",
+      "signed": -2141850984,
+      "symbol_names": [],
+      "string": "mainbus"
+    },
+    {
+      "literal_address": "0x80131cf0",
+      "value": "0x8055f1f0",
+      "signed": -2141851152,
+      "symbol_names": [],
+      "string": "a9tmr"
+    },
+    {
+      "literal_address": "0x80131cf4",
+      "value": "0x8169b124",
+      "signed": -2123779804,
+      "symbol_names": [
+        "cpu_softc"
+      ]
+    },
+    {
+      "literal_address": "0x80131cf8",
+      "value": "0x8055f6c8",
+      "signed": -2141849912,
+      "symbol_names": [],
+      "string": "frequency"
+    },
+    {
+      "literal_address": "0x80131cfc",
+      "value": "0x8055f1f8",
+      "signed": -2141851144,
+      "symbol_names": [],
+      "string": "a9wdt"
+    },
+    {
+      "literal_address": "0x80131d00",
+      "value": "0x8055f230",
+      "signed": -2141851088,
+      "symbol_names": [],
+      "string": "bcmeth"
+    },
+    {
+      "literal_address": "0x80131d04",
+      "value": "0x8055f228",
+      "signed": -2141851096,
+      "symbol_names": [],
+      "string": "bcmmdio"
+    },
+    {
+      "literal_address": "0x80131d08",
+      "value": "0x816ad1b4",
+      "signed": -2123705932,
+      "symbol_names": [
+        "bcm53xx_mdio_dev"
+      ]
+    },
+    {
+      "literal_address": "0x80131d0c",
+      "value": "0x8055ee48",
+      "signed": -2141852088,
+      "symbol_names": [],
+      "string": "accel"
+    },
+    {
+      "literal_address": "0x80131d10",
+      "value": "0x8055ef70",
+      "signed": -2141851792,
+      "symbol_names": [],
+      "string": "wd"
+    },
+    {
+      "literal_address": "0x80131d14",
+      "value": "0x801297a0",
+      "signed": -2146265184,
+      "symbol_names": [
+        "GPIO_hdd_powerctl"
+      ]
+    },
+    {
+      "literal_address": "0x80131d18",
+      "value": "0x805621b0",
+      "signed": -2141838928,
+      "symbol_names": [],
+      "string": "powergating"
+    },
+    {
+      "literal_address": "0x80131d1c",
+      "value": "0x805944e0",
+      "signed": -2141633312,
+      "symbol_names": [
+        "accel_dev.11007"
+      ]
+    },
+    {
+      "literal_address": "0x80131d20",
+      "value": "0x8010ce24",
+      "signed": -2146382300,
+      "symbol_names": [
+        "accel_enable_interrupt"
+      ]
+    },
+    {
+      "literal_address": "0x80131d24",
+      "value": "0x805621f4",
+      "signed": -2141838860,
+      "symbol_names": [],
+      "string": "accelerometer"
+    },
+    {
+      "literal_address": "0x80131d28",
+      "value": "0x805943f4",
+      "signed": -2141633548,
+      "symbol_names": [
+        "bcm53xx_armcore_bst"
+      ]
+    },
+    {
+      "literal_address": "0x80131d2c",
+      "value": "0x80562170",
+      "signed": -2141838992,
+      "symbol_names": [],
+      "string": "mac-address"
+    },
+    {
+      "literal_address": "0x80131d30",
+      "value": "0x8056217c",
+      "signed": -2141838980,
+      "symbol_names": [],
+      "string": "WARNING: Unable to set mac-address property for %s\n"
+    },
+    {
+      "literal_address": "0x80131d34",
+      "value": "0x80562204",
+      "signed": -2141838844,
+      "symbol_names": [],
+      "string": "WARNING: Unable to set accelerometer gating property for %s\n"
+    },
+    {
+      "literal_address": "0x80131d38",
+      "value": "0x805621bc",
+      "signed": -2141838916,
+      "symbol_names": [],
+      "string": "WARNING: Unable to set power gating property for %s\n"
+    }
+  ],
+  "8012868c_iproc_pwmc_set_field.c": [],
+  "8010e058_cltm_stats_sysctl.c": [
+    {
+      "literal_address": "0x8010e11c",
+      "value": "0x80593d70",
+      "signed": -2141635216,
+      "symbol_names": [
+        "gCltm"
+      ]
+    },
+    {
+      "literal_address": "0x8010e120",
+      "value": "0x4c8",
+      "signed": 1224,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8010e124",
+      "value": "0x80593d30",
+      "signed": -2141635280,
+      "symbol_names": [
+        "g_clear_stats_on_read"
+      ]
+    },
+    {
+      "literal_address": "0x8010e128",
+      "value": "0x80593d2c",
+      "signed": -2141635284,
+      "symbol_names": [
+        "g_reset_stats"
+      ]
+    }
+  ],
+  "80138db4_iproc_pwmc_clear_set_bit.c": [],
+  "8012a298_gpiocca_attach.c": [
+    {
+      "literal_address": "0x8012a410",
+      "value": "0x80593f04",
+      "signed": -2141634812,
+      "symbol_names": [
+        "already_mapped"
+      ]
+    },
+    {
+      "literal_address": "0x8012a414",
+      "value": "0x80561750",
+      "signed": -2141841584,
+      "symbol_names": [],
+      "string": ": Can't map CCA GPIOs\n"
+    },
+    {
+      "literal_address": "0x8012a418",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x8012a41c",
+      "value": "0x80561768",
+      "signed": -2141841560,
+      "symbol_names": [],
+      "string": ": CCA GPIOs\n"
+    },
+    {
+      "literal_address": "0x8012a420",
+      "value": "0x8012ae34",
+      "signed": -2146259404,
+      "symbol_names": [
+        "gpiocca_intr"
+      ]
+    },
+    {
+      "literal_address": "0x8012a424",
+      "value": "0x8169aff0",
+      "signed": -2123780112,
+      "symbol_names": [
+        "gpiocca_softc"
+      ]
+    },
+    {
+      "literal_address": "0x8012a428",
+      "value": "0x816ac478",
+      "signed": -2123709320,
+      "symbol_names": [
+        "GPIO_bust"
+      ]
+    },
+    {
+      "literal_address": "0x8012a42c",
+      "value": "0x80593eb4",
+      "signed": -2141634892,
+      "symbol_names": [
+        "GPIO_bush"
+      ]
+    },
+    {
+      "literal_address": "0x8012a430",
+      "value": "0x804cda94",
+      "signed": -2142446956,
+      "symbol_names": [
+        "C.44.9589"
+      ]
+    },
+    {
+      "literal_address": "0x8012a434",
+      "value": "0x816ac4a8",
+      "signed": -2123709272,
+      "symbol_names": [
+        "gpiotimer_callout"
+      ]
+    },
+    {
+      "literal_address": "0x8012a438",
+      "value": "0x80592410",
+      "signed": -2141641712,
+      "symbol_names": [
+        "hz"
+      ],
+      "string": "d"
+    },
+    {
+      "literal_address": "0x8012a43c",
+      "value": "0x8012ab58",
+      "signed": -2146260136,
+      "symbol_names": [
+        "gpiotimer"
+      ]
+    },
+    {
+      "literal_address": "0x8012a440",
+      "value": "0x66666667",
+      "signed": 1717986919,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x8012a444",
+      "value": "0x816ac480",
+      "signed": -2123709312,
+      "symbol_names": [
+        "usbovercurrenttimer_callout"
+      ]
+    },
+    {
+      "literal_address": "0x8012a448",
+      "value": "0x80593efc",
+      "signed": -2141634820,
+      "symbol_names": [
+        "GPIO_Board_Revision"
+      ]
+    },
+    {
+      "literal_address": "0x8012a44c",
+      "value": "0x80561778",
+      "signed": -2141841544,
+      "symbol_names": [],
+      "string": "Board-Revision: %s\n"
+    },
+    {
+      "literal_address": "0x8012a450",
+      "value": "0x8056178c",
+      "signed": -2141841524,
+      "symbol_names": [],
+      "string": "Board-Revision: REV-%d\n"
+    }
+  ],
+  "8012ab4c_GPIO_interrupt_pin.c": [],
+  "80139648_pwm_attach.c": [
+    {
+      "literal_address": "0x80139720",
+      "value": "0x80561ac0",
+      "signed": -2141840704,
+      "symbol_names": [],
+      "string": "\n"
+    },
+    {
+      "literal_address": "0x80139724",
+      "value": "0x1028",
+      "signed": 4136,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80139728",
+      "value": "0x80561670",
+      "signed": -2141841808,
+      "symbol_names": [],
+      "string": "pwmctl"
+    },
+    {
+      "literal_address": "0x8013972c",
+      "value": "0xf4240",
+      "signed": 1000000,
+      "symbol_names": []
+    },
+    {
+      "literal_address": "0x80139730",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    }
+  ],
+  "8010e12c_cltm_stats_reset_sysctl.c": [
+    {
+      "literal_address": "0x8010e1f4",
+      "value": "0x80593d70",
+      "signed": -2141635216,
+      "symbol_names": [
+        "gCltm"
+      ]
+    },
+    {
+      "literal_address": "0x8010e1f8",
+      "value": "0x80593d2c",
+      "signed": -2141635284,
+      "symbol_names": [
+        "g_reset_stats"
+      ]
+    }
+  ],
+  "80138f54_pwm_ticks_to_ns.c": [
+    {
+      "literal_address": "0x80138fa0",
+      "value": "0x3b9aca00",
+      "signed": 1000000000,
+      "symbol_names": []
+    }
+  ],
+  "8010d6dc_sysctl_cltm_setup.c": [
+    {
+      "literal_address": "0x8010df9c",
+      "value": "0x8055faa8",
+      "signed": -2141848920,
+      "symbol_names": [],
+      "string": "kern"
+    },
+    {
+      "literal_address": "0x8010dfa0",
+      "value": "0x8055fab0",
+      "signed": -2141848912,
+      "symbol_names": [],
+      "string": "cltm"
+    },
+    {
+      "literal_address": "0x8010dfa4",
+      "value": "0x80564f04",
+      "signed": -2141827324,
+      "symbol_names": [],
+      "string": "disabled"
+    },
+    {
+      "literal_address": "0x8010dfac",
+      "value": "0x8057b2d4",
+      "signed": -2141736236,
+      "symbol_names": [],
+      "string": "verbose"
+    },
+    {
+      "literal_address": "0x8010dfb4",
+      "value": "0x8056ef04",
+      "signed": -2141786364,
+      "symbol_names": [],
+      "string": "stats"
+    },
+    {
+      "literal_address": "0x8010dfb8",
+      "value": "0x8010e058",
+      "signed": -2146377640,
+      "symbol_names": [
+        "cltm_stats_sysctl"
+      ]
+    },
+    {
+      "literal_address": "0x8010dfc0",
+      "value": "0x8055fab8",
+      "signed": -2141848904,
+      "symbol_names": [],
+      "string": "reset_stats"
+    },
+    {
+      "literal_address": "0x8010dfc4",
+      "value": "0x8010e12c",
+      "signed": -2146377428,
+      "symbol_names": [
+        "cltm_stats_reset_sysctl"
+      ]
+    },
+    {
+      "literal_address": "0x8010dfcc",
+      "value": "0x8055fac4",
+      "signed": -2141848892,
+      "symbol_names": [],
+      "string": "clear_stats_on_read"
+    },
+    {
+      "literal_address": "0x8010dfd4",
+      "value": "0x80563d3c",
+      "signed": -2141831876,
+      "symbol_names": [],
+      "string": "freq"
+    },
+    {
+      "literal_address": "0x8010dfd8",
+      "value": "0x8010e3bc",
+      "signed": -2146376772,
+      "symbol_names": [
+        "cltm_setfreq"
+      ]
+    },
+    {
+      "literal_address": "0x8010dfe0",
+      "value": "0x8055fad8",
+      "signed": -2141848872,
+      "symbol_names": [],
+      "string": "override24"
+    },
+    {
+      "literal_address": "0x8010dfe8",
+      "value": "0x8010e2c4",
+      "signed": -2146377020,
+      "symbol_names": [
+        "cltm_verify_radio_override"
+      ]
+    },
+    {
+      "literal_address": "0x8010dfec",
+      "value": "0x8055fae4",
+      "signed": -2141848860,
+      "symbol_names": [],
+      "string": "override5"
+    },
+    {
+      "literal_address": "0x8010dff4",
+      "value": "0x8055faf0",
+      "signed": -2141848848,
+      "symbol_names": [],
+      "string": "override_fan"
+    },
+    {
+      "literal_address": "0x8010dff8",
+      "value": "0x8010e1fc",
+      "signed": -2146377220,
+      "symbol_names": [
+        "cltm_verify_fan_override"
+      ]
+    },
+    {
+      "literal_address": "0x8010e000",
+      "value": "0x8055fb00",
+      "signed": -2141848832,
+      "symbol_names": [],
+      "string": "force_vT_hdd"
+    },
+    {
+      "literal_address": "0x8010e008",
+      "value": "0x8055fb10",
+      "signed": -2141848816,
+      "symbol_names": [],
+      "string": "force_vT_2G_radio"
+    },
+    {
+      "literal_address": "0x8010e010",
+      "value": "0x8055fb24",
+      "signed": -2141848796,
+      "symbol_names": [],
+      "string": "force_vT_5G_radio"
+    },
+    {
+      "literal_address": "0x8010e018",
+      "value": "0x8055fb38",
+      "signed": -2141848776,
+      "symbol_names": [],
+      "string": "force_vT_skin_top"
+    },
+    {
+      "literal_address": "0x8010e020",
+      "value": "0x8055fb4c",
+      "signed": -2141848756,
+      "symbol_names": [],
+      "string": "force_vT_skin_side3"
+    },
+    {
+      "literal_address": "0x8010e028",
+      "value": "0x8055fb60",
+      "signed": -2141848736,
+      "symbol_names": [],
+      "string": "force_vT_skin_side4"
+    },
+    {
+      "literal_address": "0x8010e030",
+      "value": "0x8055fb74",
+      "signed": -2141848716,
+      "symbol_names": [],
+      "string": "fan_loop_5G_radio_target"
+    },
+    {
+      "literal_address": "0x8010e038",
+      "value": "0x8055fb90",
+      "signed": -2141848688,
+      "symbol_names": [],
+      "string": "radio_loop_5G_radio_target"
+    },
+    {
+      "literal_address": "0x8010e040",
+      "value": "0x8055fbac",
+      "signed": -2141848660,
+      "symbol_names": [],
+      "string": "bad_sensors"
+    },
+    {
+      "literal_address": "0x8010e048",
+      "value": "0x8055fbb8",
+      "signed": -2141848648,
+      "symbol_names": [],
+      "string": "bad_fan"
+    },
+    {
+      "literal_address": "0x8010e050",
+      "value": "0x8055fbc0",
+      "signed": -2141848640,
+      "symbol_names": [],
+      "string": "over_temperature"
+    }
+  ],
+  "80129450_applfanpwm_match.c": [
+    {
+      "literal_address": "0x80129488",
+      "value": "0x80561704",
+      "signed": -2141841660,
+      "symbol_names": [],
+      "string": "applfanpwm_match - name mismatch\n"
+    }
+  ],
+  "801824b8_emc141x_attach.c": [
+    {
+      "literal_address": "0x80182728",
+      "value": "0x80567e88",
+      "signed": -2141815160,
+      "symbol_names": [],
+      "string": ": EMC1413/EMC1414 or compatible environmental sensor\n"
+    },
+    {
+      "literal_address": "0x8018272c",
+      "value": "0x80567ec0",
+      "signed": -2141815104,
+      "symbol_names": [],
+      "string": ": Environmental sensor\n"
+    },
+    {
+      "literal_address": "0x80182730",
+      "value": "0x80567ed8",
+      "signed": -2141815080,
+      "symbol_names": [],
+      "string": "cannot get control register\n"
+    },
+    {
+      "literal_address": "0x80182734",
+      "value": "0x80567ef8",
+      "signed": -2141815048,
+      "symbol_names": [],
+      "string": "read control register: %d.\n"
+    },
+    {
+      "literal_address": "0x80182738",
+      "value": "0x8055fefc",
+      "signed": -2141847812,
+      "symbol_names": [],
+      "string": "T_internal"
+    },
+    {
+      "literal_address": "0x8018273c",
+      "value": "0x8055ff08",
+      "signed": -2141847800,
+      "symbol_names": [],
+      "string": "T_external1"
+    },
+    {
+      "literal_address": "0x80182740",
+      "value": "0x8055ff14",
+      "signed": -2141847788,
+      "symbol_names": [],
+      "string": "T_external2"
+    },
+    {
+      "literal_address": "0x80182744",
+      "value": "0x8055ff20",
+      "signed": -2141847776,
+      "symbol_names": [],
+      "string": "T_external3"
+    },
+    {
+      "literal_address": "0x80182748",
+      "value": "0x80182310",
+      "signed": -2145901808,
+      "symbol_names": [
+        "emc141x_refresh"
+      ]
+    },
+    {
+      "literal_address": "0x8018274c",
+      "value": "0x805616e4",
+      "signed": -2141841692,
+      "symbol_names": [],
+      "string": "unable to register with sysmon\n"
+    },
+    {
+      "literal_address": "0x80182750",
+      "value": "0x80567f14",
+      "signed": -2141815020,
+      "symbol_names": [],
+      "string": "unable to attach T_internal at sysmon\n"
+    },
+    {
+      "literal_address": "0x80182754",
+      "value": "0x80567f8c",
+      "signed": -2141814900,
+      "symbol_names": [],
+      "string": "unable to attach T_external3 at sysmon\n"
+    },
+    {
+      "literal_address": "0x80182758",
+      "value": "0x80567f3c",
+      "signed": -2141814980,
+      "symbol_names": [],
+      "string": "unable to attach T_external1 at sysmon\n"
+    },
+    {
+      "literal_address": "0x8018275c",
+      "value": "0x80567f64",
+      "signed": -2141814940,
+      "symbol_names": [],
+      "string": "unable to attach T_external2 at sysmon\n"
+    }
+  ],
+  "801290f4_applfanpwm_detach.c": [
+    {
+      "literal_address": "0x80129148",
+      "value": "0x80660180",
+      "signed": -2140798592,
+      "symbol_names": [
+        "M_DEVBUF"
+      ]
+    }
+  ]
+}

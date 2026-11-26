@@ -1,0 +1,14 @@
+{
+  "run": "20261125-185712",
+  "runner_exit_code": 0,
+  "kernel_exports": 193,
+  "bank0_exports": 99,
+  "bank1_exports": 94,
+  "device_driver_links": 6,
+  "compiled_locators_per_bank": 23,
+  "fan_duty_settings_checked": 256,
+  "temperature_sentinel_checks": "passed",
+  "instruction_bounds": "passed",
+  "firmware_executed": false,
+  "hardware_accessed": false
+}

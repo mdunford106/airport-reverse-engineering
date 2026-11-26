@@ -1,0 +1,14 @@
+[
+  {
+    "bank": 0,
+    "targets": 99,
+    "successful_exports": 99,
+    "instruction_listing_bounds_checked": true
+  },
+  {
+    "bank": 1,
+    "targets": 94,
+    "successful_exports": 94,
+    "instruction_listing_bounds_checked": true
+  }
+]

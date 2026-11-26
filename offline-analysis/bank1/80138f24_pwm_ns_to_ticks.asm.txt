@@ -1,0 +1,11 @@
+80138f24 cpy r12,sp
+80138f28 stmdb sp!,{r4,r5,r11,r12,lr,pc}
+80138f2c sub r11,r12,#0x4
+80138f30 ldr r12,[r0,#0x4]
+80138f34 ldr r2,[0x80138f50]
+80138f38 umull r4,r5,r12,r1
+80138f3c mov r3,#0x0
+80138f40 cpy r0,r4
+80138f44 cpy r1,r5
+80138f48 bl 0x804c9ce4
+80138f4c ldmia sp,{r4,r5,r11,sp,pc}

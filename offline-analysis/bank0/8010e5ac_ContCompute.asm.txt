@@ -1,0 +1,114 @@
+8010e5ac cpy r12,sp
+8010e5b0 stmdb sp!,{r4,r5,r6,r7,r8,r11,r12,lr,pc}
+8010e5b4 sub r11,r12,#0x4
+8010e5b8 sub sp,sp,#0xc
+8010e5bc ldr r12,[0x8010e774]
+8010e5c0 ldr r3,[r12,#0x0]
+8010e5c4 cpy r8,r2
+8010e5c8 cmp r3,#0x0
+8010e5cc ldrne r3,[r1,#0x1c]
+8010e5d0 movne r2,#0x0
+8010e5d4 strne r3,[r1,#0x28]
+8010e5d8 ldr r3,[0x8010e778]
+8010e5dc strne r2,[r12,#0x0]
+8010e5e0 cpy r4,r1
+8010e5e4 ldr r12,[r1,#0xc]
+8010e5e8 ldr r1,[r3,#0x0]
+8010e5ec cpy r7,r0
+8010e5f0 mul r3,r1,r12
+8010e5f4 ldr r0,[r4,#0x8]
+8010e5f8 mul r12,r3,r8
+8010e5fc mul r2,r0,r8
+8010e600 ldr r3,[0x8010e77c]
+8010e604 ldr r1,[r4,#0x24]
+8010e608 smull lr,r0,r3,r2
+8010e60c ldr lr,[r4,#0x14]
+8010e610 add r1,r1,r12, asr #0xa
+8010e614 mov r2,r2, asr #0x1f
+8010e618 cmp r1,lr
+8010e61c rsb r12,r2,r0, asr #0x5
+8010e620 bgt 0x8010e634
+8010e624 ldr r3,[r4,#0x10]
+8010e628 cmp r1,r3
+8010e62c cpyge lr,r1
+8010e630 cpylt lr,r3
+8010e634 ldr r5,[0x8010e780]
+8010e638 str lr,[r4,#0x24]
+8010e63c ldr r1,[r5,#0x0]
+8010e640 add r6,lr,r12
+8010e644 cmp r1,#0x0
+8010e648 bne 0x8010e740
+8010e64c ldr r5,[r4,#0x1c]
+8010e650 mov r2,r6, asr #0xa
+8010e654 cmp r2,r5
+8010e658 bgt 0x8010e66c
+8010e65c ldr r3,[r4,#0x18]
+8010e660 cmp r2,r3
+8010e664 cpyge r5,r2
+8010e668 cpylt r5,r3
+8010e66c cmp r1,#0x0
+8010e670 bne 0x8010e760
+8010e674 ldr r1,[r4,#0x2c]
+8010e678 str r5,[r4,#0x28]
+8010e67c mov r2,r1, lsl #0x6
+8010e680 mov r3,r1, lsl #0x3
+8010e684 add r3,r3,r2
+8010e688 add r3,r3,r7
+8010e68c ldr r2,[r3,#0x6b8]
+8010e690 cmp r2,r5
+8010e694 strhi r5,[r3,#0x6b8]
+8010e698 ldrhi r1,[r4,#0x2c]
+8010e69c mov r2,r1, lsl #0x6
+8010e6a0 mov r3,r1, lsl #0x3
+8010e6a4 add r3,r3,r2
+8010e6a8 add r3,r3,r7
+8010e6ac ldr r2,[r3,#0x6bc]
+8010e6b0 cmp r5,r2
+8010e6b4 strhi r5,[r3,#0x6bc]
+8010e6b8 ldrhi r1,[r4,#0x2c]
+8010e6bc mov r2,r1, lsl #0x6
+8010e6c0 mov r3,r1, lsl #0x3
+8010e6c4 add r3,r3,r2
+8010e6c8 ldr r1,[r4,#0x24]
+8010e6cc add r3,r3,r7
+8010e6d0 str r1,[r3,#0x6b4]
+8010e6d4 ldr r2,[r4,#0x2c]
+8010e6d8 mov r3,r8, lsl #0x1
+8010e6dc mov r1,r2, lsl #0x6
+8010e6e0 mov r2,r2, lsl #0x3
+8010e6e4 add r2,r2,r1
+8010e6e8 add r3,r3,#0x1800
+8010e6ec ldr r1,[r4,#0x28]
+8010e6f0 add r2,r2,r7
+8010e6f4 movs r12,r3, asr #0xa
+8010e6f8 str r1,[r2,#0x6b0]
+8010e6fc movmi r12,#0x0
+8010e700 bmi 0x8010e70c
+8010e704 cmp r12,#0xd
+8010e708 movge r12,#0xd
+8010e70c ldr r3,[r4,#0x2c]
+8010e710 cpy r0,r5
+8010e714 mov r2,r3, lsl #0x4
+8010e718 mov r3,r3, lsl #0x1
+8010e71c add r3,r3,r2
+8010e720 add r3,r3,r12
+8010e724 mov r3,r3, lsl #0x2
+8010e728 add r3,r3,r7
+8010e72c ldr r2,[r3,#0x6c0]
+8010e730 add r2,r2,#0x1
+8010e734 str r2,[r3,#0x6c0]
+8010e738 sub sp,r11,#0x20
+8010e73c ldmia sp,{r4,r5,r6,r7,r8,r11,sp,pc}
+8010e740 ldr r1,[r4,#0x0]
+8010e744 ldr r0,[0x8010e784]
+8010e748 cpy r2,r6
+8010e74c cpy r3,r8
+8010e750 stmia sp,{r12,lr}
+8010e754 bl 0x802fa2b8
+8010e758 ldr r1,[r5,#0x0]
+8010e75c b 0x8010e64c
+8010e760 ldr r0,[0x8010e788]
+8010e764 ldr r1,[r4,#0x0]
+8010e768 cpy r2,r5
+8010e76c bl 0x802fa2b8
+8010e770 b 0x8010e674

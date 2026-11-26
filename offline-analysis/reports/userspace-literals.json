@@ -1,0 +1,1040 @@
+{
+  "offline-analysis/userspace/00269690.c": [
+    {
+      "literal_address": "0x2696dc",
+      "value": "0x52504d73",
+      "fourcc_be": "RPMs"
+    }
+  ],
+  "offline-analysis/userspace/00268270.c": [
+    {
+      "literal_address": "0x268c1c",
+      "value": "0x4c8"
+    },
+    {
+      "literal_address": "0x268c20",
+      "value": "0x83b698",
+      "pointed_string": "kern.cltm.stats"
+    },
+    {
+      "literal_address": "0x268c24",
+      "value": "0x843734",
+      "pointed_string": "ACPGetCLTMStats: Got stats"
+    },
+    {
+      "literal_address": "0x268c28",
+      "value": "0x8438cc",
+      "pointed_string": "Uptime"
+    },
+    {
+      "literal_address": "0x268c2c",
+      "value": "0x8438d4",
+      "pointed_string": "Bad_Sensor_Mask"
+    },
+    {
+      "literal_address": "0x268c30",
+      "value": "0x8438e4",
+      "pointed_string": "Bad_Fan"
+    },
+    {
+      "literal_address": "0x268c34",
+      "value": "0x8438ec",
+      "pointed_string": "Over_temperature_Mask"
+    },
+    {
+      "literal_address": "0x268c38",
+      "value": "0x843904",
+      "pointed_string": "Bad_Sensor_Mask_latched"
+    },
+    {
+      "literal_address": "0x268c3c",
+      "value": "0x84391c",
+      "pointed_string": "Bad_Fan_latched"
+    },
+    {
+      "literal_address": "0x268c40",
+      "value": "0x84392c",
+      "pointed_string": "Over_temperature_Mask_latched"
+    },
+    {
+      "literal_address": "0x268c44",
+      "value": "0x84394c",
+      "pointed_string": "Fan_Output"
+    },
+    {
+      "literal_address": "0x268c48",
+      "value": "0x843958",
+      "pointed_string": "Throttle_2G_Output"
+    },
+    {
+      "literal_address": "0x268c4c",
+      "value": "0x84396c",
+      "pointed_string": "Throttle_5G_Output"
+    },
+    {
+      "literal_address": "0x268c50",
+      "value": "0x843980",
+      "pointed_string": "Fan_RPM"
+    },
+    {
+      "literal_address": "0x268c54",
+      "value": "0x843988",
+      "pointed_string": "Fan_DCY"
+    },
+    {
+      "literal_address": "0x268c58",
+      "value": "0x843990",
+      "pointed_string": "Fan_Output_min"
+    },
+    {
+      "literal_address": "0x268c5c",
+      "value": "0x8439a0",
+      "pointed_string": "Throttle_2G_Output_min"
+    },
+    {
+      "literal_address": "0x268c60",
+      "value": "0x8439b8",
+      "pointed_string": "Throttle_5G_Output_min"
+    },
+    {
+      "literal_address": "0x268c64",
+      "value": "0x8439d0",
+      "pointed_string": "Fan_RPM_min"
+    },
+    {
+      "literal_address": "0x268c68",
+      "value": "0x8439dc",
+      "pointed_string": "Fan_DCY_min"
+    },
+    {
+      "literal_address": "0x268c6c",
+      "value": "0x8439e8",
+      "pointed_string": "Fan_Output_max"
+    },
+    {
+      "literal_address": "0x268c70",
+      "value": "0x8439f8",
+      "pointed_string": "Throttle_2G_Output_max"
+    },
+    {
+      "literal_address": "0x268c74",
+      "value": "0x843a10",
+      "pointed_string": "Throttle_5G_Output_max"
+    },
+    {
+      "literal_address": "0x268c78",
+      "value": "0x843a28",
+      "pointed_string": "Fan_RPM_max"
+    },
+    {
+      "literal_address": "0x268c7c",
+      "value": "0x843a34",
+      "pointed_string": "Fan_DCY_max"
+    },
+    {
+      "literal_address": "0x268c80",
+      "value": "0x843a40",
+      "pointed_string": "P_system"
+    },
+    {
+      "literal_address": "0x268c84",
+      "value": "0x843a4c",
+      "pointed_string": "P_system_min"
+    },
+    {
+      "literal_address": "0x268c88",
+      "value": "0x843750",
+      "pointed_string": "{%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks"
+    },
+    {
+      "literal_address": "0x268c8c",
+      "value": "0x843a5c",
+      "pointed_string": "P_system_max"
+    },
+    {
+      "literal_address": "0x268c90",
+      "value": "0x8438c0",
+      "pointed_string": "SampleCount"
+    },
+    {
+      "literal_address": "0x268c94",
+      "value": "0x843a6c",
+      "pointed_string": "P_system_sum_x"
+    },
+    {
+      "literal_address": "0x268c98",
+      "value": "0x843a7c",
+      "pointed_string": "P_system_sum_x_squared"
+    },
+    {
+      "literal_address": "0x268cfc",
+      "value": "0x843bb4",
+      "pointed_string": "ACPGetCLTMStats: Created sdict plist"
+    },
+    {
+      "literal_address": "0x268d00",
+      "value": "0x83aa6c",
+      "pointed_string": "Max"
+    },
+    {
+      "literal_address": "0x268d04",
+      "value": "0x843bfc",
+      "pointed_string": "Sum_x"
+    },
+    {
+      "literal_address": "0x268d08",
+      "value": "0x843c04",
+      "pointed_string": "Sum_x_Squared"
+    },
+    {
+      "literal_address": "0x268d0c",
+      "value": "0x843bdc",
+      "pointed_string": "%ks=%i%ks=%i%ks=%lli%ks=%lli"
+    },
+    {
+      "literal_address": "0x268d10",
+      "value": "0x83aa64",
+      "pointed_string": "Min"
+    },
+    {
+      "literal_address": "0x268d14",
+      "value": "0x843c14",
+      "pointed_string": "ACPGetCLTMStats: added tmps"
+    },
+    {
+      "literal_address": "0x268d18",
+      "value": "0x843c30",
+      "pointed_string": "%ks=%i%ks=%i%ks=%i"
+    },
+    {
+      "literal_address": "0x268d1c",
+      "value": "0x843c44",
+      "pointed_string": "value_pmC"
+    },
+    {
+      "literal_address": "0x268d20",
+      "value": "0x843c50",
+      "pointed_string": "ACPGetCLTMStats: added vTs"
+    },
+    {
+      "literal_address": "0x268d24",
+      "value": "0x803788",
+      "pointed_string": "{}"
+    },
+    {
+      "literal_address": "0x268d28",
+      "value": "0x843c6c",
+      "pointed_string": "ACPGetCLTMStats: created accuracy_hist (%d) plist=%p\n"
+    },
+    {
+      "literal_address": "0x268d2c",
+      "value": "0x91ef78",
+      "pointed_string": "1"
+    },
+    {
+      "literal_address": "0x268d30",
+      "value": "0x9646c0",
+      "pointed_string": "2"
+    },
+    {
+      "literal_address": "0x268d34",
+      "value": "0x8b91ac",
+      "pointed_string": "12"
+    },
+    {
+      "literal_address": "0x268d38",
+      "value": "0x7f72e4",
+      "pointed_string": "3"
+    },
+    {
+      "literal_address": "0x268d3c",
+      "value": "0x8c7798",
+      "pointed_string": "4"
+    },
+    {
+      "literal_address": "0x268d40",
+      "value": "0x7e34c4",
+      "pointed_string": "5"
+    },
+    {
+      "literal_address": "0x268d44",
+      "value": "0x870820",
+      "pointed_string": "6"
+    },
+    {
+      "literal_address": "0x268d48",
+      "value": "0x87082c",
+      "pointed_string": "7"
+    },
+    {
+      "literal_address": "0x268d4c",
+      "value": "0x8c7754",
+      "pointed_string": "8"
+    },
+    {
+      "literal_address": "0x268d50",
+      "value": "0x9031dc",
+      "pointed_string": "9"
+    },
+    {
+      "literal_address": "0x268d54",
+      "value": "0x9031e8",
+      "pointed_string": "10"
+    },
+    {
+      "literal_address": "0x268d58",
+      "value": "0x9031f4",
+      "pointed_string": "11"
+    },
+    {
+      "literal_address": "0x268d5c",
+      "value": "0x90320c",
+      "pointed_string": "13"
+    },
+    {
+      "literal_address": "0x268d60",
+      "value": "0x843ca4",
+      "pointed_string": "%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i"
+    },
+    {
+      "literal_address": "0x268d64",
+      "value": "0x805638",
+      "pointed_string": "0"
+    },
+    {
+      "literal_address": "0x268d68",
+      "value": "0x843cfc",
+      "pointed_string": "ACPGetCLTMStats: accuracy_hist (%d)\n"
+    },
+    {
+      "literal_address": "0x268d6c",
+      "value": "0x843d58",
+      "pointed_string": "integrator_state"
+    },
+    {
+      "literal_address": "0x268d70",
+      "value": "0x843d4c",
+      "pointed_string": "last_output"
+    },
+    {
+      "literal_address": "0x268d74",
+      "value": "0x843d6c",
+      "pointed_string": "accuracy_hist"
+    },
+    {
+      "literal_address": "0x268d78",
+      "value": "0x843d24",
+      "pointed_string": "%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%O"
+    },
+    {
+      "literal_address": "0x268d7c",
+      "value": "0x843d7c",
+      "pointed_string": "ACPGetCLTMStats: added loop stuff (%d)\n"
+    },
+    {
+      "literal_address": "0x268d80",
+      "value": "0x843da4",
+      "pointed_string": "ACPGetCLTMStats: added loops"
+    },
+    {
+      "literal_address": "0x268d84",
+      "value": "0x84365c",
+      "pointed_string": "kern.cltm.disabled"
+    },
+    {
+      "literal_address": "0x268d88",
+      "value": "0x843dc4",
+      "pointed_string": "kern.cltm.verbose"
+    },
+    {
+      "literal_address": "0x268d8c",
+      "value": "0x843dd8",
+      "pointed_string": "kern.cltm.freq"
+    },
+    {
+      "literal_address": "0x268d90",
+      "value": "0x843de8",
+      "pointed_string": "kern.cltm.override24"
+    },
+    {
+      "literal_address": "0x268d94",
+      "value": "0x843e00",
+      "pointed_string": "kern.cltm.override5"
+    },
+    {
+      "literal_address": "0x268d98",
+      "value": "0x843e14",
+      "pointed_string": "kern.cltm.override_fan"
+    },
+    {
+      "literal_address": "0x268d9c",
+      "value": "0x843e2c",
+      "pointed_string": "kern.cltm.force_vT_hdd"
+    },
+    {
+      "literal_address": "0x268da0",
+      "value": "0x843e44",
+      "pointed_string": "kern.cltm.force_vT_2G_radio"
+    },
+    {
+      "literal_address": "0x268da4",
+      "value": "0x843e60",
+      "pointed_string": "kern.cltm.force_vT_5G_radio"
+    },
+    {
+      "literal_address": "0x268da8",
+      "value": "0x843e7c",
+      "pointed_string": "kern.cltm.force_vT_skin_top"
+    },
+    {
+      "literal_address": "0x268dac",
+      "value": "0x843e98",
+      "pointed_string": "kern.cltm.force_vT_skin_side3"
+    },
+    {
+      "literal_address": "0x268db0",
+      "value": "0x843eb8",
+      "pointed_string": "kern.cltm.force_vT_skin_side4"
+    },
+    {
+      "literal_address": "0x268db4",
+      "value": "0x8a8554",
+      "pointed_string": "verbose"
+    },
+    {
+      "literal_address": "0x268db8",
+      "value": "0x843ed8",
+      "pointed_string": "{%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i%ks=%i}"
+    },
+    {
+      "literal_address": "0x268dbc",
+      "value": "0x7f157c",
+      "pointed_string": "disabled"
+    },
+    {
+      "literal_address": "0x268dc0",
+      "value": "0x843f24",
+      "pointed_string": "sample_frequency"
+    },
+    {
+      "literal_address": "0x268dc4",
+      "value": "0x843f38",
+      "pointed_string": "override24"
+    },
+    {
+      "literal_address": "0x268dc8",
+      "value": "0x843f44",
+      "pointed_string": "override5"
+    },
+    {
+      "literal_address": "0x268dcc",
+      "value": "0x843f50",
+      "pointed_string": "override_fan"
+    },
+    {
+      "literal_address": "0x268dd0",
+      "value": "0x843f60",
+      "pointed_string": "force_hdd"
+    },
+    {
+      "literal_address": "0x268dd4",
+      "value": "0x843f6c",
+      "pointed_string": "force_2G_radio"
+    },
+    {
+      "literal_address": "0x268dd8",
+      "value": "0x843f7c",
+      "pointed_string": "force_5G_radio"
+    },
+    {
+      "literal_address": "0x268ddc",
+      "value": "0x843f8c",
+      "pointed_string": "force_skin_top"
+    },
+    {
+      "literal_address": "0x268de0",
+      "value": "0x843f9c",
+      "pointed_string": "force_skin_side3"
+    },
+    {
+      "literal_address": "0x268de4",
+      "value": "0x843fb0",
+      "pointed_string": "force_skin_side4"
+    },
+    {
+      "literal_address": "0x268de8",
+      "value": "0x843fc4",
+      "pointed_string": "%ks=%O"
+    },
+    {
+      "literal_address": "0x268dec",
+      "value": "0x843fcc",
+      "pointed_string": "Stats"
+    }
+  ],
+  "offline-analysis/userspace/00269474.c": [
+    {
+      "literal_address": "0x269584",
+      "value": "0x83f320",
+      "inline_constant_string": "reset_stats"
+    },
+    {
+      "literal_address": "0x269588",
+      "value": "0xffffe5b9"
+    },
+    {
+      "literal_address": "0x26958c",
+      "value": "0xffffe59c"
+    },
+    {
+      "literal_address": "0x269590",
+      "value": "0xffffe5a9"
+    },
+    {
+      "literal_address": "0x269594",
+      "value": "0x8440b4",
+      "pointed_string": "kern.cltm.reset_stats"
+    },
+    {
+      "literal_address": "0x269598",
+      "value": "0xffffe5d4"
+    }
+  ],
+  "offline-analysis/userspace/00267bb0.c": [
+    {
+      "literal_address": "0x267c24",
+      "value": "0x84365c",
+      "pointed_string": "kern.cltm.disabled"
+    }
+  ],
+  "offline-analysis/userspace/002731d0.c": [
+    {
+      "literal_address": "0x273528",
+      "value": "0xb00cb8"
+    },
+    {
+      "literal_address": "0x27352c",
+      "value": "0x2743a0"
+    },
+    {
+      "literal_address": "0x273530",
+      "value": "0x4c4c6e6b",
+      "fourcc_be": "LLnk"
+    },
+    {
+      "literal_address": "0x273534",
+      "value": "0x2741e8"
+    },
+    {
+      "literal_address": "0x273538",
+      "value": "0x574c6e6b",
+      "fourcc_be": "WLnk"
+    },
+    {
+      "literal_address": "0x27353c",
+      "value": "0x274254"
+    },
+    {
+      "literal_address": "0x273540",
+      "value": "0x2744a0"
+    },
+    {
+      "literal_address": "0x273544",
+      "value": "0x50485953",
+      "fourcc_be": "PHYS"
+    },
+    {
+      "literal_address": "0x273548",
+      "value": "0x273d08"
+    },
+    {
+      "literal_address": "0x27354c",
+      "value": "0x5048594e",
+      "fourcc_be": "PHYN"
+    },
+    {
+      "literal_address": "0x273550",
+      "value": "0x77614953",
+      "fourcc_be": "waIS"
+    },
+    {
+      "literal_address": "0x273554",
+      "value": "0x6c614953",
+      "fourcc_be": "laIS"
+    },
+    {
+      "literal_address": "0x273558",
+      "value": "0x274518"
+    },
+    {
+      "literal_address": "0x27355c",
+      "value": "0x47504973",
+      "fourcc_be": "GPIs"
+    },
+    {
+      "literal_address": "0x273560",
+      "value": "0x2737bc"
+    },
+    {
+      "literal_address": "0x273564",
+      "value": "0x41504944",
+      "fourcc_be": "APID"
+    },
+    {
+      "literal_address": "0x273568",
+      "value": "0x273764"
+    },
+    {
+      "literal_address": "0x27356c",
+      "value": "0x27418c"
+    },
+    {
+      "literal_address": "0x273570",
+      "value": "0x6d696e56",
+      "fourcc_be": "minV"
+    },
+    {
+      "literal_address": "0x273574",
+      "value": "0x27371c"
+    },
+    {
+      "literal_address": "0x273578",
+      "value": "0x6d61416c",
+      "fourcc_be": "maAl"
+    },
+    {
+      "literal_address": "0x27357c",
+      "value": "0x2736d4"
+    },
+    {
+      "literal_address": "0x273580",
+      "value": "0x6d615072",
+      "fourcc_be": "maPr"
+    },
+    {
+      "literal_address": "0x273584",
+      "value": "0x274140"
+    },
+    {
+      "literal_address": "0x273588",
+      "value": "0x746d7043",
+      "fourcc_be": "tmpC"
+    },
+    {
+      "literal_address": "0x27358c",
+      "value": "0x2736bc"
+    },
+    {
+      "literal_address": "0x273590",
+      "value": "0x64696167",
+      "fourcc_be": "diag"
+    },
+    {
+      "literal_address": "0x273594",
+      "value": "0x2736a0"
+    },
+    {
+      "literal_address": "0x273598",
+      "value": "0x273fc8"
+    },
+    {
+      "literal_address": "0x27359c",
+      "value": "0x4c454463",
+      "fourcc_be": "LEDc"
+    },
+    {
+      "literal_address": "0x2735a0",
+      "value": "0x2740f4"
+    },
+    {
+      "literal_address": "0x2735a4",
+      "value": "0x2740d8"
+    },
+    {
+      "literal_address": "0x2735a8",
+      "value": "0x64697266",
+      "fourcc_be": "dirf"
+    },
+    {
+      "literal_address": "0x2735ac",
+      "value": "0x273ef0"
+    },
+    {
+      "literal_address": "0x2735b0",
+      "value": "0x270838"
+    },
+    {
+      "literal_address": "0x2735b4",
+      "value": "0x64636d64",
+      "fourcc_be": "dcmd"
+    },
+    {
+      "literal_address": "0x2735b8",
+      "value": "0x273f5c"
+    },
+    {
+      "literal_address": "0x2735cc",
+      "value": "0x63686970",
+      "fourcc_be": "chip"
+    },
+    {
+      "literal_address": "0x2735d0",
+      "value": "0x274448"
+    },
+    {
+      "literal_address": "0x2735d4",
+      "value": "0x466c5375",
+      "fourcc_be": "FlSu"
+    },
+    {
+      "literal_address": "0x2735d8",
+      "value": "0x464c5348",
+      "fourcc_be": "FLSH"
+    },
+    {
+      "literal_address": "0x2735dc",
+      "value": "0x273ca8"
+    },
+    {
+      "literal_address": "0x2735e0",
+      "value": "0x64725459",
+      "fourcc_be": "drTY"
+    },
+    {
+      "literal_address": "0x2735e4",
+      "value": "0x273a44"
+    },
+    {
+      "literal_address": "0x2735e8",
+      "value": "0x273bec"
+    },
+    {
+      "literal_address": "0x2735ec",
+      "value": "0x77614950",
+      "fourcc_be": "waIP"
+    },
+    {
+      "literal_address": "0x2735f0",
+      "value": "0x273b20"
+    },
+    {
+      "literal_address": "0x2735f4",
+      "value": "0x36576164",
+      "fourcc_be": "6Wad"
+    },
+    {
+      "literal_address": "0x2735f8",
+      "value": "0x36576777",
+      "fourcc_be": "6Wgw"
+    },
+    {
+      "literal_address": "0x2735fc",
+      "value": "0x36435767",
+      "fourcc_be": "6CWg"
+    },
+    {
+      "literal_address": "0x273600",
+      "value": "0x273804"
+    },
+    {
+      "literal_address": "0x273604",
+      "value": "0x72746549",
+      "fourcc_be": "rteI"
+    },
+    {
+      "literal_address": "0x273608",
+      "value": "0x273610"
+    },
+    {
+      "literal_address": "0x27360c",
+      "value": "0x4f545052",
+      "fourcc_be": "OTPR"
+    }
+  ],
+  "offline-analysis/userspace/0026959c.c": [
+    {
+      "literal_address": "0x269630",
+      "value": "0xffffe5cf"
+    },
+    {
+      "literal_address": "0x269634",
+      "value": "0x84365c",
+      "pointed_string": "kern.cltm.disabled"
+    },
+    {
+      "literal_address": "0x269638",
+      "value": "0xffffe5d4"
+    }
+  ],
+  "offline-analysis/userspace/002912c4.c": [
+    {
+      "literal_address": "0x291360",
+      "value": "0x3fd"
+    },
+    {
+      "literal_address": "0x291364",
+      "value": "0x841d24",
+      "pointed_string": "ACPPropertyHandlerInstallDirect"
+    },
+    {
+      "literal_address": "0x291368",
+      "value": "0xb01010"
+    },
+    {
+      "literal_address": "0x29136c",
+      "value": "0x421"
+    }
+  ],
+  "outputs/airport-followup/callers/0026963c.c": [
+    {
+      "literal_address": "0x26968c",
+      "value": "0x66444359",
+      "fourcc_be": "fDCY"
+    }
+  ],
+  "outputs/airport-followup/callers/00269174.c": [
+    {
+      "literal_address": "0x269418",
+      "value": "0x9d00ac"
+    },
+    {
+      "literal_address": "0x26941c",
+      "value": "0x8440a8",
+      "pointed_string": "mlbserial"
+    },
+    {
+      "literal_address": "0x269420",
+      "value": "0x401c4665"
+    },
+    {
+      "literal_address": "0x269424",
+      "value": "0x9ddd8c"
+    },
+    {
+      "literal_address": "0x269428",
+      "value": "0x73795349",
+      "fourcc_be": "sySI"
+    },
+    {
+      "literal_address": "0x26942c",
+      "value": "0x268df0"
+    },
+    {
+      "literal_address": "0x269430",
+      "value": "0x52504d73",
+      "fourcc_be": "RPMs"
+    },
+    {
+      "literal_address": "0x269434",
+      "value": "0x269690"
+    },
+    {
+      "literal_address": "0x269438",
+      "value": "0x66444359",
+      "fourcc_be": "fDCY"
+    },
+    {
+      "literal_address": "0x26943c",
+      "value": "0x26963c"
+    },
+    {
+      "literal_address": "0x269440",
+      "value": "0x4163636c",
+      "fourcc_be": "Accl"
+    },
+    {
+      "literal_address": "0x269444",
+      "value": "0x26985c"
+    },
+    {
+      "literal_address": "0x269448",
+      "value": "0x2696e0"
+    },
+    {
+      "literal_address": "0x26944c",
+      "value": "0x6453706e",
+      "fourcc_be": "dSpn"
+    },
+    {
+      "literal_address": "0x269450",
+      "value": "0x267dec"
+    },
+    {
+      "literal_address": "0x269454",
+      "value": "0x267bb0"
+    },
+    {
+      "literal_address": "0x269458",
+      "value": "0x26959c"
+    },
+    {
+      "literal_address": "0x26945c",
+      "value": "0x544d456e",
+      "fourcc_be": "TMEn"
+    },
+    {
+      "literal_address": "0x269460",
+      "value": "0x268270"
+    },
+    {
+      "literal_address": "0x269464",
+      "value": "0x269474"
+    },
+    {
+      "literal_address": "0x269468",
+      "value": "0x434c544d",
+      "fourcc_be": "CLTM"
+    },
+    {
+      "literal_address": "0x26946c",
+      "value": "0x70454343",
+      "fourcc_be": "pECC"
+    },
+    {
+      "literal_address": "0x269470",
+      "value": "0x267c28"
+    }
+  ],
+  "outputs/airport-followup/callers/007922c4.c": [],
+  "outputs/airport-followup/callers/00274140.c": [],
+  "outputs/airport-batch/results/00268080.c": [
+    {
+      "literal_address": "0x268160",
+      "value": "0x8436cc",
+      "pointed_string": "/dev/applfan0"
+    },
+    {
+      "literal_address": "0x268164",
+      "value": "0x186a0"
+    },
+    {
+      "literal_address": "0x268168",
+      "value": "0xc0145007"
+    },
+    {
+      "literal_address": "0x26816c",
+      "value": "0xc0145004"
+    },
+    {
+      "literal_address": "0x268170",
+      "value": "0xc0145005"
+    },
+    {
+      "literal_address": "0x268174",
+      "value": "0xc0145006"
+    }
+  ],
+  "outputs/airport-batch/results/00309c2c.c": [
+    {
+      "literal_address": "0x309dd4",
+      "value": "0x868d1c",
+      "pointed_string": "Usage:"
+    },
+    {
+      "literal_address": "0x309dd8",
+      "value": "0x868d24",
+      "pointed_string": "twiddle-gpio  [<pin> <value>] "
+    },
+    {
+      "literal_address": "0x309ddc",
+      "value": "0x868d44",
+      "pointed_string": "twiddle-gpio      (with no parameters) dumps all GPIO values"
+    },
+    {
+      "literal_address": "0x309de0",
+      "value": "0x868d84",
+      "pointed_string": "Wrong number of arguments -- should be gpio-twiddle [<pin> <value>]\n"
+    },
+    {
+      "literal_address": "0x309de4",
+      "value": "0x8436a4",
+      "pointed_string": "/dev/applgpio0"
+    },
+    {
+      "literal_address": "0x309de8",
+      "value": "0x868dcc",
+      "pointed_string": "Failed to open /dev/applgpio0 (%d)\n"
+    },
+    {
+      "literal_address": "0x309dec",
+      "value": "0x868df0",
+      "pointed_string": "Failed read from /dev/applgpio0 (%d)\n"
+    },
+    {
+      "literal_address": "0x309df0",
+      "value": "0x868e18",
+      "pointed_string": "Read 0x%016llx from /dev/applgpio0.\n"
+    },
+    {
+      "literal_address": "0x309df4",
+      "value": "0xc0284700"
+    },
+    {
+      "literal_address": "0x309df8",
+      "value": "0x868e40",
+      "pointed_string": "Failed MAP_OUT ioctl to /dev/applgpio0 (%d)\n"
+    },
+    {
+      "literal_address": "0x309dfc",
+      "value": "0x868e70",
+      "pointed_string": "Failed write to /dev/applgpio0 (%d)\n"
+    }
+  ],
+  "outputs/airport-batch/results/00268178.c": [
+    {
+      "literal_address": "0x268258",
+      "value": "0x8436dc",
+      "pointed_string": "/dev/sysmon"
+    },
+    {
+      "literal_address": "0x26825c",
+      "value": "0x8436e8",
+      "pointed_string": "sysTemperature: Unable to open %s"
+    },
+    {
+      "literal_address": "0x268260",
+      "value": "0xc0204502"
+    },
+    {
+      "literal_address": "0x268264",
+      "value": "0x84370c",
+      "pointed_string": "sysTemperature: Can't get sensor data"
+    },
+    {
+      "literal_address": "0x268268",
+      "value": "0xefb80fd0"
+    },
+    {
+      "literal_address": "0x26826c",
+      "value": "0x186a0"
+    }
+  ],
+  "outputs/airport-batch/results/00267dec.c": [
+    {
+      "literal_address": "0x267f54",
+      "value": "0x8436a4",
+      "pointed_string": "/dev/applgpio0"
+    },
+    {
+      "literal_address": "0x267f58",
+      "value": "0xffffe5d4"
+    },
+    {
+      "literal_address": "0x267f5c",
+      "value": "0x8fa7ec"
+    },
+    {
+      "literal_address": "0x267f60",
+      "value": "0x8fa804"
+    },
+    {
+      "literal_address": "0x267f64",
+      "value": "0xffffe5b8"
+    },
+    {
+      "literal_address": "0x267f68",
+      "value": "0x83f2f4",
+      "inline_constant_string": "DiskHasSpunDown"
+    }
+  ]
+}

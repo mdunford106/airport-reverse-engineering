@@ -1,0 +1,14 @@
+8012a1d4 ldr r3,[0x8012a20c]
+8012a1d8 ldr r2,[r3,#0x0]
+8012a1dc ldr r1,[0x8012a210]
+8012a1e0 cmp r2,#0x0
+8012a1e4 bxeq lr
+8012a1e8 ldr r3,[r1,#0x0]
+8012a1ec cmp r3,#0x0
+8012a1f0 addeq r3,r3,#0x1
+8012a1f4 streq r3,[r1,#0x0]
+8012a1f8 ldr r3,[r1,#0x0]
+8012a1fc cmp r3,#0x3
+8012a200 subeq r3,r3,#0x2
+8012a204 streq r3,[r1,#0x0]
+8012a208 bx lr
