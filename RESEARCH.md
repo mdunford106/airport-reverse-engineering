@@ -1079,3 +1079,8 @@ Global symbol-bounded comparison found 4,897 identical-byte entries, 6,950 diffe
 ### Remaining limits
 
 No bootability, timing, interrupt delivery, fan response, board revision, actual sensor population, connector mapping, or electrical characteristic has been measured. Further offline work remains possible on full boot initialization, flash layout/recovery, Ethernet and wireless integration, calibration data, and complete management-protocol behavior. This pass substantially resolves the fan/temperature/GPIO questions; it does not finish an OpenWrt port or certify a hardware-control implementation.
+
+
+## Bank0 boot-memory follow-up
+
+See [boot-memory findings](offline-analysis/BOOT-MEMORY.md) and the 12 exported routines in `offline-analysis/boot-bank0/`. This pass validates initial memory arithmetic, RAM-cap logic, stack/page allocations, and the aligned L1 table allocation. The full reservation map and bootloader handoff remain open.

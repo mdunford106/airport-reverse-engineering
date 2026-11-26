@@ -1,0 +1,118 @@
+801313c8 cpy r12,sp
+801313cc stmdb sp!,{r4,r5,r6,r7,r8,r9,r10,r11,r12,lr,pc}
+801313d0 ldr r3,[0x801315a0]
+801313d4 sub r11,r12,#0x4
+801313d8 sub sp,sp,#0x14
+801313dc ldr r2,[0x801315a4]
+801313e0 ldr r6,[r3,#0x0]
+801313e4 ldr r7,[r2,#0x0]
+801313e8 ldr r0,[r6,#0x0]
+801313ec cpy r1,r7
+801313f0 ldr r2,[0x801315a8]
+801313f4 mov lr,pc
+801313f8 ldr pc,[r6,#0x2c]
+801313fc cpy r1,r7
+80131400 cpy r10,r0
+80131404 ldr r2,[0x801315ac]
+80131408 ldr r0,[r6,#0x0]
+8013140c mov lr,pc
+80131410 ldr pc,[r6,#0x2c]
+80131414 cpy r1,r7
+80131418 cpy r8,r0
+8013141c ldr r2,[0x801315b0]
+80131420 ldr r0,[r6,#0x0]
+80131424 mov lr,pc
+80131428 ldr pc,[r6,#0x2c]
+8013142c cpy r1,r7
+80131430 cpy r4,r0
+80131434 ldr r2,[0x801315b4]
+80131438 ldr r0,[r6,#0x0]
+8013143c mov lr,pc
+80131440 ldr pc,[r6,#0x2c]
+80131444 and r4,r4,#0xf000000
+80131448 cpy r6,r10
+8013144c mov r7,#0x0
+80131450 cpy r9,r0
+80131454 mov r0,#0x70000
+80131458 mov r1,#0x0
+8013145c and r2,r6,r0
+80131460 mov r5,#0x0
+80131464 and r3,r7,r1
+80131468 mov r2,r2, lsr #0x10
+8013146c mov r4,r4, lsr #0x18
+80131470 orr r2,r2,r3, lsl #0x10
+80131474 orr r4,r4,r5, lsl #0x8
+80131478 cmp r2,#0x0
+8013147c cmpne r4,#0x0
+80131480 cpy r0,r8
+80131484 mov r1,#0x0
+80131488 moveq lr,#0x0
+8013148c movne lr,#0x1
+80131490 strd r0,r1,[r11,#-0x34]
+80131494 cpy r12,r2
+80131498 beq 0x801314d0
+8013149c mov lr,#0x0
+801314a0 cpy r1,lr
+801314a4 and r2,r4,#0x1
+801314a8 movs r4,r4, lsr #0x1
+801314ac moveq r3,#0x0
+801314b0 movne r3,#0x1
+801314b4 add r1,r1,#0x1
+801314b8 cmp r12,r1
+801314bc movls r3,#0x0
+801314c0 andhi r3,r3,#0x1
+801314c4 cmp r3,#0x0
+801314c8 add lr,lr,r2
+801314cc bne 0x801314a4
+801314d0 cpy r4,r9
+801314d4 mov r5,#0x0
+801314d8 mov r0,#0x100
+801314dc mov r1,#0x0
+801314e0 and r2,r4,r0
+801314e4 and r3,r5,r1
+801314e8 mov r0,#0xf00
+801314ec mov r1,#0x0
+801314f0 and r5,r7,r1
+801314f4 and r4,r6,r0
+801314f8 mov r7,#0x0
+801314fc mov r6,#0x300
+80131500 orrs r2,r2,r3
+80131504 ldrd r2,r3,[r11,#-0x34]
+80131508 and r3,r3,r7
+8013150c and r2,r2,r6
+80131510 mov r7,#0x0
+80131514 mov r6,#0x70000
+80131518 ldrd r8,r9,[r11,#-0x34]
+8013151c and r8,r8,r6
+80131520 and r9,r9,r7
+80131524 strd r8,r9,[r11,#-0x3c]
+80131528 ldrd r6,r7,[r11,#-0x34]
+8013152c ldr r1,[r11,#-0x3c]
+80131530 mov r8,#0x7000000
+80131534 mov r9,#0x0
+80131538 and r6,r6,r8
+8013153c mov r8,r1, lsr #0x10
+80131540 ldr r1,[r11,#-0x38]
+80131544 and r7,r7,r9
+80131548 mov r4,r4, lsr #0x8
+8013154c mov r6,r6, lsr #0x18
+80131550 mov r2,r2, lsr #0x8
+80131554 orr r8,r8,r1, lsl #0x10
+80131558 orr r6,r6,r7, lsl #0x8
+8013155c and r0,r10,#0x1f
+80131560 orr r4,r4,r5, lsl #0x18
+80131564 orr r2,r2,r3, lsl #0x18
+80131568 mov r9,r1, lsr #0x10
+8013156c rsb r0,r8,r0
+80131570 rsb r4,r6,r4
+80131574 moveq r1,#0x2
+80131578 movne r1,#0x1
+8013157c rsb r2,r2,#0x3
+80131580 add r0,r0,r4
+80131584 add r1,r1,r2
+80131588 add r0,r0,r1
+8013158c mov r0,lr, lsl r0
+80131590 mov r5,r5, lsr #0x8
+80131594 mov r7,r7, lsr #0x18
+80131598 sub sp,r11,#0x28
+8013159c ldmia sp,{r4,r5,r6,r7,r8,r9,r10,r11,sp,pc}

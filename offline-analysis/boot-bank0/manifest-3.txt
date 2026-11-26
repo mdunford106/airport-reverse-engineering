@@ -1,0 +1,3 @@
+bank0-analysis-only.elf ARM:LE:32:v8
+8012b9d0_valloc_pages completed=true
+8012ba0c_valloc_pages_nozero completed=true

@@ -1,0 +1,9 @@
+bank0-analysis-only.elf ARM:LE:32:v8
+8012b7c4_arm32_bootmem_init completed=true
+80131ef8_bcm53xx_bootstrap completed=true
+80131648_bcm53xx_dma_bootstrap completed=true
+801370c8_consinit completed=true
+801371c0_initarm completed=true
+8012b574_initarm_common completed=true
+8012caf8_parse_mi_bootargs completed=true
+802b7d40_pmap_bootstrap completed=true
